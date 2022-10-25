@@ -4,7 +4,7 @@ date: 2018-09-29T14:41:38+06:00
 designation: Executive Director
 image: /images/team/微信图片_20221024085704.jpg
 description: Mabel Zhuang MZMC team profile
-experience: 1995
+experience: 1992
 hometown: Shanghai
 fav_fruit:
   name: Cherry
