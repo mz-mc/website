@@ -474,6 +474,10 @@ figure.effect-oscar figcaption {
     text-align: center;
 }
 
+.card-body-2::before {
+    display: none;
+}
+
 @media only screen and (max-width: 768px) {
     .swiper-slide .bg-video-wrapper {
         height: 400px;
