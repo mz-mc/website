@@ -25,8 +25,8 @@ bio: >-
   she has worked for a number of industry associations from the United States
   and around the world. Mabel has played an instrumental role in introducing
   China's 1.4-billion-strong population to products previously never seen or
-  tasted products in the country, and she continues to help exporters navigate
-  China's complex and increasingly competitive imported food market landscape.
+  tasted in the country, and she continues to help exporters navigate China's
+  complex and increasingly competitive imported food market landscape.
 
 
   Mabel oversees and leads all MZMC strategy and marketing planning. 
