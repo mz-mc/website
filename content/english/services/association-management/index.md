@@ -9,7 +9,7 @@ weight: 5
 draft: false
 ---
 
-### Strength in numbers
+### Wealth of Experience
 
 MZMC represents food and agriculture industry associations entering or expanding their presence in China.
 

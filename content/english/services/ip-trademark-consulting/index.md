@@ -23,9 +23,11 @@ Protecting trademarks and intellectual property rights remains one of the primar
 
 <i class="fa fa-check"></i> Registration of the trademark with the Chinese trademark agencies
 
-<i class="fa fa-check"></i> Administrative processing through local Administrations of Industry and Commerce
+<i class="fa fa-check"></i> Processing through local Administrations of Industry and Commerce
 
 <i class="fa fa-check"></i> Assistance with lawsuits regarding IP infringements
+
+<i class="fa fa-check"></i> Plant variety protection and IPR consulting
 
 </div>
 <br>

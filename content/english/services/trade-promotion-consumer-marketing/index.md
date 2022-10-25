@@ -1,5 +1,5 @@
 ---
-title: "Consumer & Trade Marketing"
+title: "Trade Promotion & Consumer Marketing"
 date: 2018-09-25T15:51:35+06:00
 description : "Creative, multi-channel campaigns that achieve results"
 image: "images/site/USCran.jpg"
@@ -30,7 +30,7 @@ Chinese consumers make purchasing decisions in increasingly sophisticated and te
 </div>
 <br>
 
-#### Consumer marketing
+#### Consumer Marketing
 
 Traditional in-store and foodservice promotions remain integral components of effective food marketing strategy in China. But the merging of e-commerce, rapid delivery, and social media platforms have given rise to social commerce and new retail models unique to the China market. Online-to-offline, offline-to-online, and gamification of shopping and social sharing have opened the door for viral campaigns previoulsy impossible in China's highly fragmented regional and local marketplaces. Leveraging these tools in the most advantagous way possible requires both know-how and strong relationships with retail, foodservice, e-commerce, and social media leaders.
 

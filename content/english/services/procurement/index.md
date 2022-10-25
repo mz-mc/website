@@ -21,17 +21,17 @@ Our procurement management services are based upon standards and protocols used 
 
 #### What we do
 
-<i class="fa fa-check"></i> Write the RFP and publicly announce it on the MZMC website
+<i class="fa fa-check"></i> Write and publicly announce the RFP
 
-<i class="fa fa-check"></i> Notifiy a number of highly qualified potential bidders 
+<i class="fa fa-check"></i> Notifiy highly qualified potential bidders 
 
-<i class="fa fa-check"></i> Answer bidder questions in publicly posted addendums to the RFP
+<i class="fa fa-check"></i> Reply to bidder questions in publicly posted addendums to the RFP
 
-<i class="fa fa-check"></i> Ensure all bids are delivered sealed and remain unopened until the specified date and time for their review
+<i class="fa fa-check"></i> Ensure all bids are delivered and remain sealed until the review period
 
 <i class="fa fa-check"></i> Hear presentations from shortlisted bidders
 
-<i class="fa fa-check"></i> Collect quantitative and qualitative assessments from the proposal evaluation team
+<i class="fa fa-check"></i> Collect assessments from the proposal evaluation team
 
 <i class="fa fa-check"></i> Tally and summarize results
 

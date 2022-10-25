@@ -2,6 +2,6 @@
 clients:
   enable : true
   title : "Our Clients"
-  subtitle : "Who we work with"
+  subtitle : "Who we have worked with"
   title_icon : "fa-suitcase"
   # client items comes from "content/*/clients" folder

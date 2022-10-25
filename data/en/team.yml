@@ -1,6 +1,6 @@
 title : "It's all about the people"
 subtitle : "Meet the MZMC market development superheros"
-title_icon : "fa-weixin" # fontawesome icon pack 6.1.2
+title_icon : "fa-solid fa-people-group" # fontawesome icon pack 6.1.2
 team_member:
   # team member loop
   - name : "Vosgi Varduhi"

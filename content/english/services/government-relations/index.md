@@ -29,8 +29,10 @@ Mutual trust and understanding is the most effective way to clear regulatory hur
 
 <i class="fa fa-check"></i> Foreign government assistance in China
 
+<i class="fa fa-check"></i> NGO law monitoring and compliance
+
 </div>
 <br>
 
 #### Foreign Governments in China
-MZMC helps businesses and industry associations to work with foreign government commerce and agricultural ministries in China to leverage their resources in cooperative marketing efforts. We also assist agricultural and trade offices of forgign governments in China to effectively collaborate with industry and media to expand awareness and recognition of their country's products. Governments offices in China we've worked closely with over the years include those of the United States, Chile, Peru, Ecuador, and Germany, among others.
+MZMC helps businesses and industry associations work with foreign government commerce and agricultural ministries in China to leverage their resources in cooperative marketing efforts. We also assist agricultural and trade offices of forgign governments in China to effectively collaborate with industry and media to expand awareness of their country's products. Government offices in China we have worked closely with over the years include those of the United States, Chile, Peru, Ecuador, Mexico, South Africa, Italy, and Thailand, among others.
