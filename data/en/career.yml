@@ -1,0 +1,71 @@
+career_item:
+  ########################## career item loop ##########################
+  - enable : true
+    title : "Freelance Business Journalists - Fresh Produce"
+    content : "*Produce Report* is currently seeking freelance journalists with strong research, writing, and editing skills. Successful candidates will be part of a globally distributed, multidisciplinary team. They will have the opportunity to develop expertise in international trade, agriculture, and related policy issues, as well as to establish contacts in these fields. This is a freelance position and candidates must be able to work from their own location and computer."
+    apply_url : "mailto:info@mzmc.com.cn"
+    job_accordion:
+      # job accordion loop item
+      - name : "Background" 
+        bullet_point:
+          - "[*Produce Report*](https://www.producereport.com) is a leading online media platform for international fresh produce trade news and analysis. Through constant interaction with fresh produce professionals across the whole supply chain and in every continent, *Produce Report* is at the forefront of trends and developments in production, trade, logistics, wholesale, retail, policy, and marketing. *Produce Report* is owned and operated by MZMC, a full-service marketing, communications, and public relations firm specialized in China market development for imported agricultural products."
+
+      # job accordion loop item
+      - name : "Responsibilities"
+        bullet_point:
+          - Write articles on assigned topics
+          - Independently research and identify newsworthy topics to cover
+          - Edit articles drafted by non-native speakers of English
+          - Conduct interviews via telephone and email with business, government, and other industry professionals
+
+      # job accordion loop item
+      - name : "Requirements"
+        bullet_point:
+          - Native speaker of English or native-level proficiency
+          - Bachelor’s degree in any relevant discipline
+          - Strong research and writing skills
+          - Comfortable with numbers and able to analyze basic statistics such as growth rates
+
+      # job accordion loop item
+      - name : "Preferred"
+        bullet_point:
+          - Proficient in Mandarin with ability to translate from Chinese to English
+          - Background in fresh produce, international trade, economics, journalism, or related disciplines
+          - Ability to perform basic edits to photos and web graphics, stronger photo/graphic/design skills a plus
+          - Experience with social media platforms and marketing
+          - Familiarity with common website platforms such as WordPress or Drupal
+
+########################## career item loop ##########################
+  - enable : true
+    title : "Freelance Chinese-English Translators"
+    content : "*Produce Report* is currently seeking freelance translators with strong Chinese to English translation and business English writing skills to make regular contributions to the website’s content. Successful candidates will be part of a globally distributed team of writers, editors, and market development professionals. They will have the opportunity to develop expertise in international trade, fruits and vegetables, and related policy issues. This is a freelance position and candidates must be able to work from their own location and computer."
+    job_accordion:
+      # job accordion loop item
+      - name : "Background"
+        apply_url : "#"
+        bullet_point:
+          - "[*Produce Report*](https://www.producereport.com) is a leading online media platform for international fresh produce trade news and analysis. Through constant interaction with fresh produce professionals across the whole supply chain and in every continent, *Produce Report* is at the forefront of trends and developments in production, trade, logistics, wholesale, retail, policy, and marketing. *Produce Report* is owned and operated by MZMC, a full-service marketing, communications, and public relations firm specialized in China market development for imported agricultural products."
+
+      # job accordion loop item
+      - name : "Responsibilities"
+        bullet_point:
+          - Translate Chinese produce news articles based on those from www.guojiguoshu.com as assigned
+          - Strictly follow AP style of writing and keep a database of technical terms for the produce industry
+          - Once the article has been edited, upload to www.procereport.com and categorize appropriately
+          - Select an image for the article if not provided
+
+      # job accordion loop item
+      - name : "Requirements"
+        bullet_point:
+          - Native speaker of English or native-level proficiency
+          - Proficient in Mandarin with strong ability to translate from Chinese to English
+          - Strong business English writing skills
+          - Comfortable for working with a virtual international team
+
+      # job accordion loop item
+      - name : "Preferred"
+        bullet_point:
+          - Background in fresh produce, international trade, economics, journalism, or related disciplines
+          - Ability to perform basic edits to photos and web graphics, stronger photo/graphic/design skills a plus
+          - Experience with social media platforms and marketing
+          - Familiarity with common website platforms such as WordPress or Drupal

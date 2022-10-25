@@ -1,0 +1,20 @@
+<article class="card h-100 wow animate fadeInUp">
+  <div class="card-img-wrapper overlay-rounded-top">
+    {{ $image := resources.Get .Params.image }}
+    {{ $image := $image.Resize "400x jpg" }}
+    <img class="card-img-top" src="{{ $image.RelPermalink }}" alt="{{ .Title }}">
+  </div>
+  <div class="card-body p-0">
+    <div class="d-flex">
+      <div class="py-3 px-4 text-center">
+        <h3 class="text-primary mb-0">{{ .PublishDate.Format "2" }}</h3>
+        <p class="mb-0">{{ .PublishDate.Format "Jan" }}</p>
+        <h4 class="text-primary mb-0">{{ .PublishDate.Format "2006" }}</h4>
+      </div>
+      <div class="p-3 border-left">
+        <h4><a href="{{ .Permalink }}" class="font-primary text-dark">{{ .Title }}</a></h4>
+        <!-- {{with .Params.Author}} by <a class="text-primary" href="{{ `author/` | relLangURL }}{{ . | urlize }}">{{ . | title }}</a>{{end}} -->
+      </div>
+    </div>
+  </div>
+</article>

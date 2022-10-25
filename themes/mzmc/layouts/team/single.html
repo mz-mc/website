@@ -1,0 +1,86 @@
+{{ define "main" }}
+
+{{ $currentYear := now.Format "2006" | int }}
+{{ $startYear := .Params.Experience | int }}
+
+{{ $image := resources.Get .Params.image }}
+{{ $image := $image.Resize "600x jpg" }}
+
+{{ "<!-- team single -->" | safeHTML }}
+<section class="section team-member">
+  <div class="container">
+    <div class="row">
+      {{ "<!-- sidebar -->" | safeHTML }}
+      <aside class="col-lg-4">
+        {{ "<!-- team member info -->" | safeHTML }}
+        <div class="bg-gray rounded mb-50">
+          <img class="img-fluid w-100 rounded-top" src="{{ $image.RelPermalink }}" alt="team member">
+          <div class="py-2 px-4 pb-3">
+            <div class="py-3 border-bottom-not-last">
+              <p class="d-inline-block font-primary m-0">
+                <i class="mr-2 fa-solid fa-file-lines"></i>Experience</p>
+              <span class="font-weight-bold text-dark float-right">{{ sub $currentYear $startYear }} years</span>
+            </div>
+            <div class="py-3 border-bottom-not-last">
+              <p class="d-inline-block font-primary m-0">
+                <i class="mr-2 fa-solid fa-house"></i>Hometown</p>
+              <span class="font-weight-bold text-dark float-right">{{ .Params.Hometown }}</span>
+            </div>
+            <div class="py-3 border-bottom-not-last">
+              <p class="d-inline-block font-primary m-0">
+                <i class="mr-2 fa-solid fa-leaf"></i>Favorite fruit</p>
+              <span class="font-weight-bold text-dark float-right"><a href="{{ .Params.Fav_fruit.link }}" target="_blank">{{ .Params.Fav_fruit.name }}</a></span>
+            </div>
+          </div>
+        </div>
+        {{ "<!-- cv -->" | safeHTML }}
+        {{ if .Params.Cv }}
+        <div class="rounded border py-3 px-4 mb-50">
+          <i class="d-inline-block mr-1 text-dark ti-files" style="font-size: 20px;"></i>
+          <h4 class="mb-1 d-inline-block">{{ i18n "cv" }}</h4>
+          <a class="font-secondary text-color d-block ml-4" href="{{ .Params.Cv | absURL }}">{{ i18n "download_pdf" }}</a>
+        </div>
+        {{ end }}
+      </aside>
+      {{ "<!-- /sidebar -->" | safeHTML }}
+
+      {{ "<!-- team member details -->" | safeHTML }}
+      <div class="col-lg-8">
+        <h2>{{ .Title }}</h2>
+        <h6 class="text-primary mb-30">{{ .Params.Designation }}</h6>
+        <p class="mb-40">{{ .Params.Bio | markdownify }}</p>
+        <div class="row">
+          {{ if .Params.Social }}
+          {{ "<!-- social icon -->" | safeHTML }}
+          <div class="col-md-6 mb-4 mb-md-0">
+            <h4 class="mb-20">{{ i18n "follow_on_social" }}</h4>
+            <ul class="list-inline">
+              {{ range .Params.Social }}
+              <li class="list-inline-item mr-2">
+                <a class="team-social-icon social-icon-lg bg-gray text-dark" href="{{ .link | safeURL }}" target="_blank"><i class="{{ .icon }}"></i></a>
+              </li>
+              {{ end }}
+            </ul>
+          </div>
+          {{ end }}
+        </div>
+        <div class="post-content">
+          {{ .Content }}
+        </div>
+        {{ range .Params.Skill }}
+        <div class="progressbar">
+          <h5 class="progressbar-title">{{ .label }}</h5>
+          <div class="progress">
+            <div class="progress-bar progress-bar-striped" style="width: {{ .percentage }};">
+              <div class="progress-bar-value">{{ .percentage }}</div>
+            </div>
+          </div>
+        </div>
+        {{ end }}
+      </div>
+    </div>
+  </div>
+</section>
+{{ "<!-- /team single -->" | safeHTML }}
+
+{{ end }}

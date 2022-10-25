@@ -1,0 +1,56 @@
+- id: recent_post
+  translation: Recent Posts
+
+- id: latest_news
+  translation: Latest News
+
+- id: blog_categories
+  translation: Blog Categories
+
+- id: news_categories
+  translation: News Categories
+
+- id: categories
+  translation: Categories
+
+- id: popular_tags
+  translation: Popular Tags
+
+- id: tags
+  translation: Tags
+
+- id: flickr_photos
+  translation: Flickr Photos
+
+- id: about_us
+  translation: About Us
+
+- id: continue_reading
+  translation: Continue Reading
+
+- id: name
+  translation: Name
+
+- id: email
+  translation: Email
+
+- id: subject
+  translation: Subject
+
+- id: message
+  translation: Message
+
+- id: send_message
+  translation: Send Message
+
+- id: contact_details
+  translation: Contact Details
+
+- id: read_more
+  translation: Read more
+
+- id: follow_on_social
+  translation: Follow on Social
+
+- id: explore
+  translation: Explore

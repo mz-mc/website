@@ -1,0 +1,77 @@
+{{ define "main" }}
+
+{{ "<!-- service single -->" | safeHTML }}
+<section class="section">
+	<div class="container">
+		<div class="row">
+			{{ "<!-- sidebar -->" | safeHTML }}
+			<aside class="col-lg-4 order-lg-2 order-2">
+				<ul class="service-menu pl-0 border rounded mb-50 overflow-hidden">
+					{{ range (where site.RegularPages "Type" "services")}}
+					<li class="border-bottom-not-last">
+						<a class="d-block font-primary text-dark p-4" href="{{ .Permalink }}">{{ .Title | markdownify }}</a>
+					</li>
+					{{ end }}
+				</ul>
+
+				<script>
+					(function () {
+						const links = document.getElementsByTagName('a')
+						const currentUrl = location.href
+						for (const link of links) {
+							if (link.href === currentUrl) {
+								link.classList.add('active')
+							}
+						}
+					}())
+				</script>
+			</aside>
+			{{ "<!-- service single content -->" | safeHTML }}
+			<div class="col-lg-8 order-lg-1 order-1">
+				<!--
+				{{ if .Params.image }}
+				<img class="img-fluid w-100 mb-60 rounded-top" src="{{ .RelPermalink }}{{ .Params.image }}" alt="service">
+				{{ end }}
+				-->
+				<div class="post-content">
+					{{ .Content }}
+				</div>
+
+				<!-- Image block start -->
+				{{ if .Params.image_block }}
+				<section id="image-block" class="image-block p-0">
+				<div class="container-fluid">
+					<div class="row">
+					<div class="col-md-6 ts-padding">
+						{{ if .Params.image }}
+						{{ $image := resources.Get .Params.image }}
+      					{{ $image := $image.Resize "800x jpg" }}
+						<img src="{{ $image.RelPermalink }}">
+						{{ end }}
+					</div>
+					<div class="col-md-6 ts-padding img-block-right">
+						<div class="gap-30"></div>
+						{{ if .Params.image_block_items }}
+						{{ range .Params.image_block_items }}
+						<div class="image-block-content">
+						<span class="feature-icon float-left"><i class="fa fa-check"></i></span>
+						<div class="feature-content">
+							<p>{{ .item }}</p>
+						</div>
+						</div>
+						{{ end }}
+						{{ end }}
+					</div>
+					</div>
+				</div>
+				</section>
+				{{ end }}
+				<!--/ Image block end -->
+
+			</div>
+		</div>
+	</div>
+</section>
+{{ "<!-- /service single -->" | safeHTML }}
+
+{{ end }}

@@ -1,0 +1,59 @@
+{{ $data := index .Site.Data .Site.Language.Lang }}
+<section id="clients_pr" class="clients_list portfolio">
+  <div class="container">
+    {{ with $data.produce_report.clients }}
+    <div class="row">
+      <div class="col-md-12 heading">
+        {{ with .title_icon }} <span class="title-icon float-left"><i class="fa {{ . }}"></i></span> {{ end }}
+        <h2 class="title">{{ .title | markdownify }} <span class="title-desc">{{ .subtitle | markdownify }}</span></h2>
+      </div>
+    </div> <!-- Title row end -->
+    {{ end }}
+
+    <!--Isotope filter start -->
+    <div class="row text-right">
+      <div class="col-12">
+        <div class="isotope-nav" data-isotope-nav="isotope">
+          <ul>
+            <li><a href="#" class="active" data-filter="*">All</a></li>
+            {{ $categories := slice }}
+            {{ range (where .Site.RegularPages "Section" "clients") }}
+            {{ if in .Params.client_type "Produce Report" }}
+            {{ range .Params.region }}
+            {{ $categories = $categories | append . }}
+            {{ end }}
+            {{ end }}
+            {{ end }}
+            {{ range ( $categories | uniq ) }}
+            <li><a href="#" data-filter=".{{ . | urlize }}">{{ . }}</a></li>
+            {{ end }}
+          </ul>
+        </div>
+      </div>
+    </div><!-- Isotope filter end -->
+  </div>
+
+  <div class="container-fluid">
+    <div class="row isotope" id="isotope">
+      {{ range (where .Site.RegularPages "Section" "clients") }}
+      {{ if in .Params.client_type "Produce Report" }}
+      {{ $image := resources.Get .Params.image }}
+      {{ $image := $image.Resize "600x" }}
+      <div class="col-sm-2 {{ range .Params.region }}{{ . | urlize}} {{ end }} isotope-item">
+        <div class="grid">
+          <figure class="m-0 effect-oscar">
+            <img src="{{ $image.RelPermalink }}" alt="client image">
+            <figcaption>
+              <h3>{{ .Title | markdownify }}</h3>
+              <a class="link icon-pentagon" href="{{ .RelPermalink }}"><i class="fa fa-link"></i></a>
+              <a class="view icon-pentagon" data-rel="prettyPhoto" href="{{ . | absURL }}"><i
+                class="fa fa-search"></i></a>
+            </figcaption>
+          </figure>
+        </div>
+      </div><!-- Isotope item end -->
+      {{ end }}
+      {{ end }}
+    </div><!-- Content row end -->
+  </div><!-- Container end -->
+</section>

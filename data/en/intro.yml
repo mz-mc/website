@@ -1,0 +1,38 @@
+############################### Services #############################
+introboxes:
+  title : "Explore"
+  subtitle : "Who we are and what we do"
+  title_icon : "fa-cogs" # fontawesome icon pack 6.1.2
+  intro_item:
+    # service item loop
+    - name : "Services"
+      link : "services"
+      image : "images/pages/services.jpg"
+      icon : "fa-solid fa-globe" # fontawesome icon pack 6.1.2
+      content : "Comprehensive solutions to establish or grow your presence in China"
+      
+    # service item loop
+    - name : "Company"
+      link : "about"
+      image : "images/pages/about.jpg"
+      icon : "fa-solid fa-address-card" # fontawesome icon pack 6.1.2
+      content : "More than a marketing firm⁠—learn about who we are, what we do, and why we do it"
+      
+    # service item loop
+    - name : "Media"
+      link : "produce-report"
+      image : "images/pages/media.jpg"
+      icon : "fa-solid fa-diagram-project" # fontawesome icon pack 6.1.2
+      content : "Our media arm: an industry-leading fresh produce trade publication"
+
+
+############################### testimonial ####################################
+testimonial:
+  enable : true
+  # testimonail content comes from "data/homepage.yml" file
+
+
+############################### pricing ####################################
+pricing:
+  enable : true
+  # pricing content comes from "data/pricing.yml" file

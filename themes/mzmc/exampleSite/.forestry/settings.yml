@@ -1,0 +1,204 @@
+---
+new_page_extension: md
+auto_deploy: false
+admin_path: ''
+webhook_url: 
+sections:
+- type: heading
+  label: Blog Post
+- type: document
+  path: exampleSite/content/english/blog/_index.md
+  label: Blog Page (en)
+- type: directory
+  path: exampleSite/content/english/blog
+  label: All Post (en)
+  create: documents
+  match: "**/*"
+  exclude: _index.md
+  templates:
+  - post
+- type: document
+  path: exampleSite/content/french/blog/_index.md
+  label: Blog Page (fr)
+- type: directory
+  path: exampleSite/content/french/blog
+  label: All Post (fr)
+  create: documents
+  match: "**/*"
+  exclude: _index.md
+  templates:
+  - post
+
+- type: heading
+  label: Author
+- type: directory
+  path: exampleSite/content/english/author
+  label: Author (en)
+  create: documents
+  match: "**/*"
+  templates:
+  - author
+- type: directory
+  path: exampleSite/content/french/author
+  label: Author (fr)
+  create: documents
+  match: "**/*"
+  templates:
+  - author
+
+- type: heading
+  label: Services
+- type: document
+  path: exampleSite/content/english/service/_index.md
+  label: Service Page (en)
+- type: document
+  path: exampleSite/data/en/service.yml
+  label: Service Data (en)
+- type: document
+  path: exampleSite/content/french/service/_index.md
+  label: Service Page (fr)
+- type: document
+  path: exampleSite/data/fr/service.yml
+  label: Service Data (fr)
+
+- type: heading
+  label: Portfolio
+- type: document
+  path: exampleSite/content/english/portfolio/_index.md
+  label: Portfolio Page (en)
+- type: directory
+  path: exampleSite/content/english/portfolio
+  label: Portfolio Items (en)
+  create: documents
+  match: "**/*"
+  exclude: _index.md
+  templates:
+  - portfolio
+- type: document
+  path: exampleSite/content/french/portfolio/_index.md
+  label: Portfolio Page (fr)
+- type: directory
+  path: exampleSite/content/french/portfolio
+  label: Portfolio Items (fr)
+  create: documents
+  match: "**/*"
+  exclude: _index.md
+  templates:
+  - portfolio
+
+- type: heading
+  label: Career
+- type: document
+  path: exampleSite/content/english/career/_index.md
+  label: Career Page (en)
+- type: document
+  path: exampleSite/data/en/career.yml
+  label: Career Content (en)
+- type: document
+  path: exampleSite/content/french/career/_index.md
+  label: Career Page (fr)
+- type: document
+  path: exampleSite/data/fr/career.yml
+  label: Career Content (fr)
+
+- type: heading
+  label: About
+- type: document
+  path: exampleSite/data/en/about.yml
+  label: About Content (en)
+- type: document
+  path: exampleSite/content/english/about/_index.md
+  label: About Page (en)
+- type: document
+  path: exampleSite/data/fr/about.yml
+  label: About Content (fr)
+- type: document
+  path: exampleSite/content/french/about/_index.md
+  label: About Page (fr)
+
+- type: heading
+  label: Pricing
+- type: document
+  path: exampleSite/content/english/pricing/_index.md
+  label: Pricing Page (en)
+- type: document
+  path: exampleSite/data/en/pricing.yml
+  label: Pricing Table (en)
+- type: document
+  path: exampleSite/content/french/pricing/_index.md
+  label: Pricing Page (fr)
+- type: document
+  path: exampleSite/data/fr/pricing.yml
+  label: Pricing Table (fr)
+
+- type: heading
+  label: Team
+- type: document
+  path: exampleSite/content/english/team/_index.md
+  label: Team Page (en)
+- type: document
+  path: exampleSite/data/en/team.yml
+  label: Team Members (en)
+- type: document
+  path: exampleSite/content/french/team/_index.md
+  label: Team Page (fr)
+- type: document
+  path: exampleSite/data/fr/team.yml
+  label: Team Members (fr)
+  
+- type: heading
+  label: FAQ
+- type: document
+  path: exampleSite/content/english/faq/_index.md
+  label: FAQ Page (en)
+- type: document
+  path: exampleSite/content/french/faq/_index.md
+  label: FAQ Page (fr)
+
+- type: heading
+  label: Contact
+- type: document
+  path: exampleSite/content/english/contact/_index.md
+  label: Contact Page (en)
+- type: document
+  path: exampleSite/content/french/contact/_index.md
+  label: Contact Page (fr)
+
+- type: heading
+  label: All Page Content & Data
+- type: directory
+  path: exampleSite/content
+  label: All Page
+  create: all
+  match: "**/*"
+
+- type: directory
+  path: exampleSite/data
+  label: All Data
+  create: all
+  match: "**/*"
+
+- type: heading
+  label: Configuration
+- type: directory
+  path: exampleSite
+  label: Configuration
+  create: all
+  match: "*.toml"
+  new_doc_ext: toml
+upload_dir: exampleSite/static/images
+public_path: "/images"
+front_matter_path: ''
+use_front_matter_path: false
+file_template: ":filename:"
+build:
+  preview_env:
+  - HUGO_ENV=staging
+  - HUGO_VERSION=0.58.2
+  preview_output_directory: public
+  preview_docker_image: forestryio/hugo:latest
+  mount_path: "/srv"
+  working_dir: "/srv"
+  instant_preview_command: hugo server -D -E -F --port 8080 --bind 0.0.0.0 --renderToDisk
+    -d public
+version: 0.58.2

@@ -1,0 +1,26 @@
+<div id="banner-area">
+  {{ if .Params.page_header_bg }}
+  {{ $page_header_bg := resources.Get .Params.page_header_bg }}
+  {{ $page_header_bg := $page_header_bg.Resize "600x jpg" }}
+  <img src="{{ $page_header_bg.RelPermalink }}" onerror="this.src='{{`images/site/home-about.jpg` | absURL}}'" alt="" />
+  {{ end }}
+  <div class="parallax-overlay"></div>
+  <!-- Subpage title start -->
+  <div class="banner-title-content">
+    <div class="text-center">
+      <h2>{{ .Title }}</h2>
+    </div>
+    <!-- Comment out theme original breadcrumbs
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb justify-content-center">
+        <li class="breadcrumb-item"><a href="{{ .Site.BaseURL | relLangURL }}">MZMC</a></li>
+        <li class="breadcrumb-item text-white" aria-current="page">{{ title .Section }}</li>
+        <li class="breadcrumb-item text-white" aria-current="page">{{ .Title }}</li>
+      </ol>
+    </nav>
+    -->
+    {{ partial "breadcrumbs.html" . }}  
+  </div>
+  
+</div>
+

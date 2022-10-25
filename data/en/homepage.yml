@@ -1,0 +1,370 @@
+############################ Slider ##########################
+slider:
+  enable : true
+  slider_item:
+    ################# Slider item loop
+    - title : "Market<br>Development"
+      subtitle : "MZMC is the China market development partner for leading global food and agricultural producers"
+      video : "images/slider/vid1.mp4" 
+      bg_image : "images/slider/association-management.jpg"
+      image : 
+      image_position :
+      # slider navigator
+      navigator:
+        label : "Invent"
+        icon : "fa-bicycle" # fontawesome icon pack 6.1.2
+
+      # slider buttons
+      buttons:
+        # button loop
+        - label : "Our services"
+          style : "white"
+          link : "services"
+          
+        # button loop
+        - label : "About Us"
+          style : "solid"
+          link : "about"
+
+    ############### Slider item loop
+    - title : "Public<br>Relations"
+      subtitle : "Communication strategies to build and maintain brands synonymous with excellence"
+      video : # "images/slider/vid6.mp4"
+      bg_image : "images/slider/public-relations.jpg"
+      image : 
+      image_position : 
+      # slider navigator
+      navigator:
+        label : "Dream"
+        icon : "fa-hotel" # fontawesome icon pack 6.1.2
+
+      # slider buttons
+      buttons:
+        # button loop
+        - label : "Learn more"
+          style : "white"
+          link : "services/public-relations"
+
+    ############### Slider item loop
+    - title : "Research & Intelligence"
+      subtitle : "Market research and intelligence reporting to support creative, evidence-based campaigns that achieve real impact"
+      video : "images/slider/fruitmarket.mp4"
+      bg_image : "images/slider/consumer-marketing3.jpg"
+      image : 
+      image_position : 
+      # slider navigator
+      navigator:
+        label : "Dream"
+        icon : "fa-hotel" # fontawesome icon pack 6.1.2
+
+      # slider buttons
+      buttons:
+        # button loop
+        - label : "Learn more"
+          style : "white"
+          link : "services/research-intelligence"
+
+
+    ############### Slider item loop
+    - title : "Consumer<br>Marketing"
+      subtitle : "Combining innovative and traditional marketing tools to win hearts, minds, and habits"
+      video : # "images/slider/vid3.mp4"
+      bg_image : "images/slider/consumer-marketing2.jpg"
+      image : 
+      image_position :
+      # slider navigator
+      navigator:
+        label : "Tech"
+        icon : "fa-android" # fontawesome icon pack 6.1.2
+
+      # slider buttons
+      buttons:
+        # button loop
+        - label : "Learn more"
+          style : "white"
+          link : "services/consumer-marketing"
+
+    ############### Slider item loop
+    - title : "IP & Trademark<br> Consulting"
+      subtitle : "Protect intellectual property and brand assets from unauthorized use"
+      video :  "images/slider/vid2.mp4"
+      bg_image : "images/slider/government-relations.jpg"
+      image : 
+      image_position :
+      # slider navigator
+      navigator:
+        label : "Tech"
+        icon : "fa-android" # fontawesome icon pack 6.1.2
+
+      # slider buttons
+      buttons:
+        # button loop
+        - label : "Learn more"
+          style : "white"
+          link : "services/ip-trademark-consulting"
+
+    ############### Slider item loop
+    - title : "Association<br>Management"
+      subtitle : "Establish and build your organization’s presence in China"
+      video : # "images/slider/vid4.mp4"
+      bg_image : "images/slider/association-management.jpg"
+      image : 
+      image_position :
+      # slider navigator
+      navigator:
+        label : "Tech"
+        icon : "fa-android" # fontawesome icon pack 6.1.2
+
+      # slider buttons
+      buttons:
+        # button loop
+        - label : "Learn more"
+          style : "white"
+          link : "services/association-management"
+
+    ############### Slider item loop
+    - title : "Government<br>Relations"
+      subtitle : "Harmonize standards and cut through regulatory red tape"
+      video : 
+      bg_image : "images/slider/government-relations.jpg"
+      image : 
+      image_position :
+      # slider navigator
+      navigator:
+        label : "Tech"
+        icon : "fa-android" # fontawesome icon pack 6.1.2
+
+      # slider buttons
+      buttons:
+        # button loop
+        - label : "Learn more"
+          style : "white"
+          link : "services/government-relations"
+
+    ############### Slider item loop
+    - title : "Event<br>Management"
+      subtitle : "Uncompromising attention to detail to create immediate and lasting impact"
+      video : # "images/slider/vid5.mp4"
+      bg_image : "images/slider/event-management.jpg"
+      image : 
+      image_position :
+      # slider navigator
+      navigator:
+        label : "Tech"
+        icon : "fa-android" # fontawesome icon pack 6.1.2
+
+      # slider buttons
+      buttons:
+        # button loop
+        - label : "Learn more"
+          style : "white"
+          link : "services/event-management"
+
+
+
+
+
+############################### Service ####################################
+service:
+  enable : true
+  # service content comes from "data/*/service.yml" file
+
+
+############################### Intro ####################################
+intro:
+  enable : true
+  # intro content comes from "data/*/intro.yml" file
+
+  
+############################### portfolio ##################################
+portfolio:
+  enable : false
+  title : "Our Clients"
+  subtitle : "We have served food and agriculture industry associations and internationally recognized brands from all five continents."
+  title_icon : "fa-suitcase"
+  # portfolio items comes from "content/*/portfolio" folder
+
+  
+############################### funfact ##################################
+funfact:
+  enable : false
+  funfact_item:
+    # funfact item loop
+    - name : "Clients"
+      icon : "fa-user" # fontawesome icon pack 6.1.2
+      count : "1200"
+      
+    # funfact item loop
+    - name : "Item Sold"
+      icon : "fa-institution" # fontawesome icon pack 6.1.2
+      count : "1277"
+      
+    # funfact item loop
+    - name : "Projects"
+      icon : "fa-suitcase" # fontawesome icon pack 6.1.2
+      count : "857"
+      
+    # funfact item loop
+    - name : "Awwards"
+      icon : "fa-trophy" # fontawesome icon pack 6.1.2
+      count : "78"
+
+  
+############################### feature ##################################
+feature:
+  enable : true
+  title : "What we do"
+  subtitle : "<a href='/services'>See all services</a>"
+  title_icon : "" # fontawesome icon pack 6.1.2
+  feature_item:
+    # feature item loop
+    - name : "Market Development"
+      icon : "fa-solid fa-arrow-up-right-dots" # fontawesome icon pack 6.1.2
+      content : "Comprehensive solutions for long-term, sustainable growth"
+      link: "/services/market-development"
+      
+    # feature item loop
+    - name : "Research & Intelligence"
+      icon : "fa-solid fa-magnifying-glass-chart" # fontawesome icon pack 6.1.2
+      content : "Market intelligence reporting for informed, evidence-based strategies"
+      link: "/services/research-intelligence"
+      
+    # feature item loop
+    - name : "Public Relations"
+      icon : "fa-solid fa-bullhorn" # fontawesome icon pack 6.1.2
+      content : "Optimize and maintain a brand image synonymous with excellence"
+      link: "/services/public-relations"
+      
+    # feature item loop
+    - name : "Consumer Marketing"
+      icon : "fa-regular fa-lightbulb" # fontawesome icon pack 6.1.2
+      content : "Creative, multi-channel campaigns that achieve results"
+      link: "/services/consumer-trade-marketing"
+      
+    # feature item loop
+    - name : "Association Management"
+      icon : "fa-solid fa-cubes" # fontawesome icon pack 6.1.2
+      content : "Establish and build your organization's presence in China"
+      link: "/services/association-management"
+      
+    # feature item loop
+    - name : "Event Management"
+      icon : "fa-solid fa-list-check" # fontawesome icon pack 6.1.2
+      content : "Uncompromising attention to detail to achieve immediate and lasting impact"
+      link: "/services/event-management"
+      
+    # feature item loop
+    - name : "IP & TM Consulting"
+      icon : "fa-solid fa-scale-balanced" # fontawesome icon pack 6.1.2
+      content : "Protect your intellection property and brand assets from unauthorized use"
+      link: "/services/ip-trademark-consulting"
+      
+    # feature item loop
+    - name : "Procurement"
+      icon : "fa-solid fa-money-check-dollar" # fontawesome icon pack 6.1.2
+      content : "Transparency and accountability for when it matters most"
+      link: "/services/procurement"
+      
+    # feature item loop
+    - name : "Government Relations"
+      icon : "fa-solid fa-landmark-flag" # fontawesome icon pack 6.1.2
+      content : "Effective relationships to help cut through regulatory red tape"
+      link: "/services/government-relations"
+
+
+  
+############################### about ##################################
+about:
+  enable : true
+  title : "Get to know our"
+  subtitle : "Agri-food experts"
+  bg_image : "images/site/home-about.jpg"
+  content : "MZMC is the China market development partner trusted by leading agri-food producers, globally recognized brands, and governmental trade agencies"
+  about_item:
+    # about item loop
+    - name : "Food and beverage"
+      icon : "fa-check" # fontawesome icon pack 6.1.2
+      content : "Exclusive focus on optimizing strategies for each specific product and market"
+      
+    # about item loop
+    - name : "Fresh produce"
+      icon : "fa-check" # fontawesome icon pack 6.1.2
+      content : "Unparalleled expertise in fresh produce supply chains, regulatory issues, and marketing tools"
+      
+    # about item loop
+    - name : "Multidisiplinary"
+      icon : "fa-check" # fontawesome icon pack 6.1.2
+      content : "Uniquely creative and evidence-based approach by a multi-talented, international team"
+
+
+############################### team ####################################
+team:
+  enable : false
+  # team content comes from "data/*/team.yml" file
+
+############################ Call to action #############################
+call_to_action:
+  enable : true
+  title : "Let's talk"
+  subtitle : "Get in touch with our market development team"
+  bg_image : "images/site/footer-cta.jpg"
+  buttons:
+    # button loop
+  #  - label : "Purchase Now"
+  #    style : "white"
+  #   link : "#"
+      
+    # button loop
+    - label : "Send us a message"
+      style : "solid"
+      link : "/contact"
+
+
+############################### pricing ####################################
+pricing:
+  enable : false
+  # pricing content comes from "data/*/pricing.yml" file
+
+
+############################### testimonial ####################################
+testimonial:
+  enable : false
+  bg_image : "images/parallax/parallax2.jpg"
+  testimonial_item:
+    # testimonial item loop
+    - name : "Sarah Arevik"
+      image : "images/team/testimonial1.jpg"
+      designation : "Chief Executive"
+      content : " Lorem Ipsum as their default model text, and a search for ‘lorem ipsum’ will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose. Lorem Ipsum is that it as opposed to using."
+      
+    # testimonial item loop
+    - name : "Narek Bedros"
+      image : "images/team/testimonial2.jpg"
+      designation : "Chief Executive"
+      content : " Lorem Ipsum as their default model text, and a search for ‘lorem ipsum’ will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose. Lorem Ipsum is that it as opposed to using."
+      
+    # testimonial item loop
+    - name : "Taline Lucine"
+      image : "images/team/testimonial3.jpg"
+      designation : "Sales Manager"
+      content : " Lorem Ipsum as their default model text, and a search for ‘lorem ipsum’ will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose. Lorem Ipsum is that it as opposed to using."
+
+
+############################ Clients logo slider ##########################
+clients_logo_slider:
+  enable : true
+  title : "Who we work with"
+  subtitle : "<a href='clients'>See all clients</a>"
+  title_icon : "" # fontawesome icon pack 6.1.2
+  # below slider items not in use
+  slider_item:
+    # slider item loop
+    - name : ""
+      logo : "images/image.png"
+      link : "#"
+      
+    # slider item loop
+    - name : "CMC"
+      logo : "images/image.png"
+      link : "#"
+      

@@ -1,0 +1,28 @@
+{{ define "main" }}
+
+{{ "<!-- service -->" | safeHTML }}
+<section class="section">
+  <div class="container">
+    <div class="row justify-content-center wow fadeInUp">
+      <div class="col-lg-12">
+        <div class="post-content">
+          {{ .Content }}
+        </div>
+      </div>
+      {{ range .Data.Pages }}
+      {{ .Render "services" }}
+      {{ end }}
+    </div>
+  </div>
+
+<!-- SVG animation start -->
+<div class="svg-animation">
+  <div id="trigger1"></div>
+  <img data-src="{{ .Site.BaseURL }}images/vectors/lightbulb-airplane.svg" class="inject-me">
+</div>
+<!--/ SVG animation end -->
+
+</section>
+{{ "<!-- /service -->" | safeHTML }}
+{{ end }}
+

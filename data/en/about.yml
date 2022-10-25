@@ -1,0 +1,67 @@
+############################ Company Profile ########################
+company_profile:
+  enable : true
+  title : "MZMC"
+  title_icon : "fa-solid fa-leaf" # fontawesome icon pack 6.1.2
+  profile_tab:
+
+    # profile tab item loop
+    - name : "Our Company"
+      icon : "fa-solid fa-briefcase" # fontawesome icon pack 6.1.2
+      title : "A boutique market development firm"
+      content : "Since 2005, we have been forging partnerships, building bridges, and helping facilitate growth.
+      <br><br>
+      MZMC is unique. We focus exclusively on food and agriculture, working at the intersection of the public, private, and nonprofit sectors. We combine cutting-edge marketing tools, rigorous research methodologies, journalism, diplomacy, and policy analysis⁠—with a spark of creative inspiration—to do what others can't. Our multitalented, multilingual team is what sets us apart, and is the secret to our success.
+      <br><br>
+      MZMC is also the only China market development firm with a media arm. Read about our industry-renowned digital publication, [*Produce Report*](/produce-report)."
+
+    # profile tab item loop
+    - name : "Who Are We"
+      icon : "fa-solid fa-people-group" # fontawesome icon pack 6.1.2
+      title : "More than the sum of our parts"
+      content : "MZMC is a diverse team of market development experts. We're marketers, researchers, journalists, and entrepreneurs. We're diplomats, scientists, and artists. We're also just good people who like doing work we can feel proud of.
+      <br><br>
+      MZMC was founded by [Mabel Zhuang](/team/mabel-zhuang). After serving for five years with the USDA Foreign Agricultural Service, she decided to use her skills and resources to build a company that would meet critical industry needs, while reflecting her vision and values: business as platform to support a fairer, healthier, and more connected world. Originally MZ Marketing Communications, MZMC is now much more than a marketing communications firm. While the company headquarters remains in Shanghai, our global experts span Asia, Europe, and the Americas, with an extended network in all five continents.
+      <br><br>
+      Learn more about who's on <a href='/team'>our team</a>.
+      <br><br>
+      "
+
+    # profile tab item loop
+    - name : "What We Do"
+      icon : "fa-solid fa-seedling" # fontawesome icon pack 6.1.2
+      title : "Appetite for excellence"
+      content : "We help foreign food and beverage producers build long-term, sustainable business in China.
+      <br><br>
+      MZMC consults on all aspects of trade at the national association, government, and corporate levels. We carry out in-depth market research that takes us to the frontier to learn first hand what's happening on the ground, where there are bottlenecks---and where there are untapped opportunities. We organize events and lead trade delegations that set benchmarks for excellence and move markets. We design and execute marketing campaigns that win hearts, minds, and habits.
+      <br><br>
+      Over the years, we have helped 
+      <ul>
+      <li>Introduce cranberries to Chinese consumers</li>
+      <li>Introduce pecans to China's bakery and snack food sector</li>
+      <li>Promote Chile's $1 billion cherry trade with China</li>
+      <li>Develop China's awareness of and thirst for craft beer</li>
+      <li>Launch one of the leading global [fresh produce trade publications](/produce-report)</li>
+      <li>And so much more...</li>
+      </ul>
+      "
+      
+    # profile tab item loop
+    - name : "Why We Do It"
+      icon : "fa-solid fa-heart" # fontawesome icon pack 6.1.2
+      title : "Because we care"
+      content : "We're passionate about food and agriculture and belive in the possibility of a better world---one in which everyone can coexisit in health and harmony.
+      <br><br>
+      In practice, that means building integrity, trust, and excellence into everything we do. We like to think of MZMC as a little oasis in the midst of a chaotic world of international business often characterized by distrust, short-term aims, and mismatched priorities. MZMC is different. We take pride in what we do and how well we do it. Our clients often become our friends. For us, business is a platform for cooperation with the potential to bring out our best---and that is how we approach our partnerships."
+      
+    
+############################### funfact ##################################
+funfact:
+  enable : true
+  # funfacts content comes from "data/homepage.yml" file
+
+
+############################### team ####################################
+team:
+  enable : true
+  # team content comes from "data/team.yml" file

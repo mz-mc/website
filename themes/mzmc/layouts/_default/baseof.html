@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
+{{- partial "head.html" . -}}
+
+{{ if not .IsHome }}
+<body class="{{ if .IsPage }}single{{ else }}list{{ end }} {{ .Kind }} {{ .Section }} {{ .Title | anchorize }}">
+	{{- partial "header.html" . -}}
+	{{ if or (.IsSection) (eq .Type "services") }}
+	{{ partial "page-header.html" . }}
+	{{ else }}
+	<div style="margin-top:85px;"></div>
+	{{ partial "breadcrumbs.html" . }}
+	{{ end }}
+	{{- block "main" . }}{{- end }}
+	{{- partial "footer.html" . -}}
+</body>
+{{ end }}
+
+{{ if .IsHome }}
+<body class="homepage">
+	{{- partial "header.html" . -}}
+	{{- block "main" . }}{{- end }}
+	{{- partial "footer.html" . -}}
+</body>
+{{ end }}
+
+</html>

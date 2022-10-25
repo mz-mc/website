@@ -1,0 +1,121 @@
+backend:
+  name: git-gateway
+  branch: master # Branch to update (optional; defaults to master)
+
+# These lines should *not* be indented
+media_folder: "static/images/uploads" # Media files will be stored in the repo under static/images/uploads
+public_folder: "/images/uploads" # The src attribute for uploaded media will begin with /images/uploads
+
+collections:
+  ########## clients
+  - name: "clients" # Used in routes, e.g., /admin/collections/blog
+    media_folder: "/assets/images/clients"
+    public_folder: "/images/clients"
+    label: "Client" # Used in the UI
+    folder: "content/english/clients" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime", required: false}
+      - {label: "Logo", name: "image", widget: "image"}
+      - {label: "Link", name: "link", widget: "string"}
+      - label: "Client type"
+        name: "client_type"
+        widget: "select"
+        multiple: true
+        options: ["MZMC", "Produce Report"]  
+      - label: "Region"
+        name: "region"
+        widget: "select"
+        multiple: true
+        options: ["Africa", "Asia", "Latin America & Caribbean", "Middle East", "Oceania", "US & Canada"]
+      - label: "Country"
+        name: "country"
+        widget: "select"
+        multiple: true
+        options: ["Afghanistan","Åland Islands","Albania","Algeria","American Samoa","Andorra","Angola","Anguilla","Antarctica","Antigua and Barbuda","Argentina","Armenia","Aruba","Australia","Austria","Azerbaijan","Bahamas","Bahrain","Bangladesh","Barbados","Belarus","Belgium","Belize","Benin","Bermuda","Bhutan","Bolivia (Plurinational State of)","Bonaire, Sint Eustatius and Saba","Bosnia and Herzegovina","Botswana","Bouvet Island","Brazil","British Indian Ocean Territory","Brunei Darussalam","Bulgaria","Burkina Faso","Burundi","Cabo Verde","Cambodia","Cameroon","Canada","Cayman Islands","Central African Republic","Chad","Chile","China","Christmas Island","Cocos (Keeling) Islands","Colombia","Comoros","Congo","Congo, Democratic Republic of the","Cook Islands","Costa Rica","Côte d'Ivoire","Croatia","Cuba","Curaçao","Cyprus","Czechia","Denmark","Djibouti","Dominica","Dominican Republic","Ecuador","Egypt","El Salvador","Equatorial Guinea","Eritrea","Estonia","Eswatini","Ethiopia","Falkland Islands (Malvinas)","Faroe Islands","Fiji","Finland","France","French Guiana","French Polynesia","French Southern Territories","Gabon","Gambia","Georgia","Germany","Ghana","Gibraltar","Greece","Greenland","Grenada","Guadeloupe","Guam","Guatemala","Guernsey","Guinea","Guinea-Bissau","Guyana","Haiti","Heard Island and McDonald Islands","Holy See","Honduras","Hong Kong","Hungary","Iceland","India","Indonesia","Iran (Islamic Republic of)","Iraq","Ireland","Isle of Man","Israel","Italy","Jamaica","Japan","Jersey","Jordan","Kazakhstan","Kenya","Kiribati","Korea (Democratic People's Republic of)","Korea, Republic of","Kuwait","Kyrgyzstan","Lao People's Democratic Republic","Latvia","Lebanon","Lesotho","Liberia","Libya","Liechtenstein","Lithuania","Luxembourg","Macao","Madagascar","Malawi","Malaysia","Maldives","Mali","Malta","Marshall Islands","Martinique","Mauritania","Mauritius","Mayotte","Mexico","Micronesia (Federated States of)","Moldova, Republic of","Monaco","Mongolia","Montenegro","Montserrat","Morocco","Mozambique","Myanmar","Namibia","Nauru","Nepal","Netherlands","New Caledonia","New Zealand","Nicaragua","Niger","Nigeria","Niue","Norfolk Island","North Macedonia","Northern Mariana Islands","Norway","Oman","Pakistan","Palau","Palestine, State of","Panama","Papua New Guinea","Paraguay","Peru","Philippines","Pitcairn","Poland","Portugal","Puerto Rico","Qatar","Réunion","Romania","Russian Federation","Rwanda","Saint Barthélemy","Saint Helena, Ascension and Tristan da Cunha","Saint Kitts and Nevis","Saint Lucia","Saint Martin (French part)","Saint Pierre and Miquelon","Saint Vincent and the Grenadines","Samoa","San Marino","Sao Tome and Principe","Saudi Arabia","Senegal","Serbia","Seychelles","Sierra Leone","Singapore","Sint Maarten (Dutch part)","Slovakia","Slovenia","Solomon Islands","Somalia","South Africa","South Georgia and the South Sandwich Islands","South Sudan","Spain","Sri Lanka","Sudan","Suriname","Svalbard and Jan Mayen","Sweden","Switzerland","Syrian Arab Republic","Taiwan, Province of China","Tajikistan","Tanzania, United Republic of","Thailand","Timor-Leste","Togo","Tokelau","Tonga","Trinidad and Tobago","Tunisia","Turkey","Turkmenistan","Turks and Caicos Islands","Tuvalu","Uganda","Ukraine","United Arab Emirates","United Kingdom of Great Britain and Northern Ireland","United States of America","United States Minor Outlying Islands","Uruguay","Uzbekistan","Vanuatu","Venezuela (Bolivarian Republic of)","Viet Nam","Virgin Islands (British)","Virgin Islands (U.S.)","Wallis and Futuna","Western Sahara","Yemen","Zambia","Zimbabwe"]
+      - label: "Flags"
+        name: "flags"
+        widget: "select"
+        required: false
+        multiple: true
+        hint: "Select Feature to include logo on home page"
+        options: ["Feature"]
+      - {label: "Weight", name: "weight", widget: "number", required: false, hint: "Order in which logos are displayed"}
+      - {label: "Draft", name: "draft", widget: "boolean", default: false, required: false}
+      - label: "_build"
+        name: "_build"
+        widget: "object"
+        collapsed: true
+        hint: "Do NOT change anything here."
+        # default: [list: true, publishResources: true, render: false]
+        fields:
+          - {label: "list", name: "list", widget: "boolean", default: true}
+          - {label: "publishResources", name: "publishResources", widget: "boolean", default: true}
+          - {label: "render", name: "render", widget: "boolean", default: false}
+  ########## news
+  - name: "news"
+    media_folder: "/assets/images/news"
+    public_folder: "/images/news"
+    label: "News" # Used in the UI
+    folder: "content/english/news" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime", required: false}
+      - {label: "Image", name: "image", widget: "image"}
+      - {label: "Description", name: "description", widget: "text"}
+      - label: "Additional images"
+        name: "images"
+        widget: "list"
+        summary: '{{fields.image}}'
+        field: {label: Image, name: image, widget: image}
+      - {label: "Content", name: "body", widget: "markdown"}
+      - label: "Tags"
+        name: "tags"
+        widget: "list"
+      - label: "Categories"
+        name: "categories"
+        widget: "list"
+  ########## team
+  - name: "team"
+    media_folder: "/assets/images/team"
+    public_folder: "/images/team"
+    label: "Team" # Used in the UI
+    folder: "content/english/team" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime", required: false}
+      - {label: "Designation", name: "designation", hint: "Job title"}
+      - {label: "Image", name: "image", widget: "image"}
+      - {label: "Description", name: "description", widget: "text", default: "MZMC team profile for NAME"}
+      - {label: "Experience", name: "experience", widget: "number", hint: "Enter start year of professional work experience"}
+      - {label: "Hometown", name: "hometown", widget: "string"}
+      - label: "Favorite fruit"
+        name: "fav_fruit"
+        widget: "object"
+        fields:
+          - {label: "Fruit name", name: "name", widget: "string"}
+          - {label: "Link", name: "link", widget: "string", hint: "Full link to fruit page on producereport.com"}
+      - label: "Social"
+        name: "social"
+        widget: "list"
+        fields:
+          - label: "Icon"
+            name: "icon"
+            widget: "select"
+            options:
+              - {label: "LinkedIn", value: "fa-brands fa-linkedin"}
+              - {label: "Twitter", value: "fa-brands fa-twitter"}
+              - {label: "Instagram", value: "fa-brands fa-instagram"}
+              - {label: "Facebook", value: "fa-brands fa-facebook"}
+              - {label: "Weixin", value: "fa-brands fa-weixin"}
+              - {label: "Weibo", value: "fa-brands fa-weibo"}
+          - {label: "Link", name: "link", widget: "string", hint: "Enter full URL including https://"}
+      - {label: "Bio", name: "bio", widget: "markdown"}
+      - {label: "Weight", name: "weight", widget: "number", required: false}
+      - {label: "Draft", name: "draft", widget: "boolean", default: false, required: false}

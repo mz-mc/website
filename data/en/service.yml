@@ -1,0 +1,35 @@
+############################### Services #############################
+services:
+  title : "Explore"
+  subtitle : "Who we are and what we do"
+  title_icon : "fa-cogs" # fontawesome icon pack 6.1.2
+  service_item:
+    # service item loop
+    - name : "Services"
+      link : "service"
+      icon : "fa-tachometer" # fontawesome icon pack 6.1.2
+      content : "Comprehensive market development solutions"
+      
+    # service item loop
+    - name : "About Us"
+      link : "about"
+      icon : "fa-android" # fontawesome icon pack 6.1.2
+      content : "An unparallelled team of experts"
+      
+    # service item loop
+    - name : "Media"
+      link : "produce-report"
+      icon : "fa-shopping-cart" # fontawesome icon pack 6.1.2
+      content : "The only market development firm with a media arm"
+
+
+############################### testimonial ####################################
+testimonial:
+  enable : true
+  # testimonail content comes from "data/homepage.yml" file
+
+
+############################### pricing ####################################
+pricing:
+  enable : true
+  # pricing content comes from "data/pricing.yml" file

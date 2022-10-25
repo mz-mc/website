@@ -1,0 +1,7 @@
+############################### clients ##################################
+clients:
+  enable : true
+  title : "Our Clients"
+  subtitle : "Who we work with"
+  title_icon : "fa-suitcase"
+  # client items comes from "content/*/clients" folder
