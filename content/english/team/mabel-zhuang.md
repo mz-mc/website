@@ -15,9 +15,20 @@ social:
   - icon: fa-brands fa-twitter
     link: https://twitter.com/ProduceReport
 bio: >-
-  Mabel Zhuang has over 30 years of experience in food marketing, trade promotion, and association management. Since 1997, she has worked exclusively in the food, agriculture, and forestry product sectors, helping globally recognized brands and industry associations overcome challenges and sieze opportunities in the China market. After five years of service with the US Department of Agriculture's Foreign Agricultural Service, Mabel spent three years consulting for USDA partners before launching MZMC in 2005. Since then, she has worked for a number of industry associations from the United States and around the world. Mabel has played an instrumental role in introducing China's 1.4-billion-strong population to previously never before seen or tasted products, and she continues to help exporters navigate China's complex and increasinlgy competitive imported food market landscape.
+  Mabel Zhuang has over 30 years of experience in food marketing, trade
+  promotion, and association management. Since 1997, she has worked exclusively
+  in the food, agriculture, and forestry product sectors, helping globally
+  recognized brands and industry associations overcome challenges and seize
+  opportunities in the China market. After five years of service with the US
+  Department of Agriculture's Foreign Agricultural Service, Mabel spent three
+  years consulting for USDA partners before launching MZMC in 2005. Since then,
+  she has worked for a number of industry associations from the United States
+  and around the world. Mabel has played an instrumental role in introducing
+  China's 1.4-billion-strong population to products previously never seen or
+  tasted products in the country, and she continues to help exporters navigate
+  China's complex and increasingly competitive imported food market landscape.
 
-  
+
   Mabel oversees and leads all MZMC strategy and marketing planning. 
 
 
