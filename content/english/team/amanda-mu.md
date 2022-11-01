@@ -13,10 +13,9 @@ bio: Amanda Mu leads business cooperation activities for Produce Report as well
   as provides financial and administrative management to support efficiency
   across all MZMC workflows. Since joining MZMC in 2019, Amanda has helped
   coordinate marketing promotions and organize webinars for key clients in
-  government, industry associations, and the technology service provider
-  sectors. Her communication skills and attention to detail inspire confidence
-  and never fail to uphold MZMC's high standards for excellence. Amanda received
-  her bachelor’s degree in Social and Labor Security from Shanghai Sanda
-  University.
+  government, industry associations, and the fresh produce technology sectors.
+  Her communication skills and attention to detail inspire confidence and never
+  fail to uphold MZMC's high standards for excellence. Amanda received her
+  bachelor’s degree in Social and Labor Security from Shanghai Sanda University.
 weight: 20
 ---
