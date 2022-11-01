@@ -14,7 +14,7 @@ introboxes:
     # service item loop
     - name : "Company"
       link : "about"
-      image : "images/pages/about.jpg"
+      image : "images/pages/about1.jpg"
       icon : "fa-solid fa-address-card" # fontawesome icon pack 6.1.2
       content : "More than a marketing firm⁠—learn about who we are, what we do, and why we do it"
       
