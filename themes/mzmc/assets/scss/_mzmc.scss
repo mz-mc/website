@@ -353,6 +353,8 @@
 
 .clients_list figure img {
     margin: auto;
+    aspect-ratio: 550/500;
+    object-fit: contain;
 }
 
 #clients_mzmc {
