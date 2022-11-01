@@ -21,7 +21,7 @@ bio: Naropa Love is a social-scientist-turned-entrepreneur in communications and
   operations, business development, and project management. Originally from
   Philadelphia where he earned a bachelor's degree in mathematics and economics
   from Temple University, Naropa also spent seven years in China, during which
-  he  and a master's degree in population, resources, and environmental
+  he  earned a master's degree in population, resources, and environmental
   economics from Chongqing University.
 cv: ""
 weight: 40
