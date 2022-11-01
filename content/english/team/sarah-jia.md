@@ -3,7 +3,7 @@ title: Sarah Jia
 date: 2018-09-29T14:41:38+06:00
 designation: Program Supervisor
 image: /images/team/微信图片_202211010925251.jpg
-description: This is meta description
+description: MZMC team profile for Sarah Jia
 experience: 2008
 hometown: Shanghai
 fav_fruit:
