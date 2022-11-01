@@ -2,7 +2,7 @@
 title: Christina Chen
 date: 2018-09-29T14:41:38+06:00
 designation: Project Manager
-image: images/team/christina_chen.jpg
+image: /images/team/微信图片_202211010925252.jpg
 description: This is meta description
 experience: 2013
 hometown: Shanghai
