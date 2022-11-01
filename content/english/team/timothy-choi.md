@@ -3,7 +3,7 @@ title: Timothy Choi
 date: 2018-09-29T14:41:38+06:00
 designation: Marketing Consultant
 image: images/team/timothy_choi.jpg
-description: This is meta description
+description: MZMC team profile for Timothy Choi
 experience: 1995
 hometown: Shanghai
 fav_fruit:
