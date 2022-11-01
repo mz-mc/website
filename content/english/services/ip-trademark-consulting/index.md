@@ -13,7 +13,9 @@ draft: false
 
 MZMC helps international clients prevent and resolve intellectual property disputes in China.
 
-Protecting trademarks and intellectual property rights remains one of the primary challenges for overseas businesses and organizations. China’s trademark registration system operates on a first-to-file rather than a first-to-use basis and does not require intent to use by the registrant. This incentivizes blanket filings by unscrupulous parties who then “squat” on the trademark hoping to cash in when the brand moves to formally enter the market. China's legal framework for intellectual property protection related to plant varieties is also relatively new and markedly different from other countries, demanding special consideration for those interesting in licencing varieties to China-based growers.
+Protecting trademarks and intellectual property rights remains one of the primary challenges for overseas businesses and organizations. China’s trademark registration system operates on a first-to-file rather than a first-to-use basis and does not require intent to use by the registrant. This incentivizes blanket filings by unscrupulous parties who then “squat” on the trademark hoping to cash in when the brand moves to formally enter the market.
+
+China's legal framework for intellectual property protection related to plant varieties is also relatively new and markedly different from other countries, demanding special consideration for those interesting in licencing varieties to China-based growers.
 
 <div class="service-checklist">
 
