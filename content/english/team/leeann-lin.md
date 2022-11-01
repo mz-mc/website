@@ -19,7 +19,8 @@ bio: Leeann Lin is an experienced market development professional with over 10
   unlock new market opportunities. She has organized and guided multiple trade
   delegations between China and the United States to build relationships and
   understanding between producers, importers, retailers, regulators, and service
-  providers--with significant and lasting impact. Leeann received her bachelor's
-  degree in English Literature from Shanghai University of Electric Power.
+  providers--with significant and lasting market impact. Leeann received her
+  bachelor's degree in English Literature from Shanghai University of Electric
+  Power.
 weight: 10
 ---
