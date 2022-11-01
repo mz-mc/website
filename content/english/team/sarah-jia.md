@@ -19,7 +19,7 @@ bio: Sarah Jia is a veteran market development specialist with more than 10
   media platforms to take our clients' messaging to the next level--beyond what
   can be achieved through conventional marketing and promotional strategies.
   Among her many skills and talents, Sarah is also a key contributor to MZMC's
-  analytical work, contributing to market research reports and upholding
+  analytical work, adding value to market research reports and helping upholding
   rigorous standards for KPI tracking. Sarah received her bachelor's degree in
   Electronic Information Engineering from the University of Shanghai for Science
   and Technology.
