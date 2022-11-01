@@ -29,7 +29,7 @@ collections:
         name: "region"
         widget: "select"
         multiple: true
-        options: ["Africa", "Asia", "Latin America & Caribbean", "Middle East", "Oceania", "US & Canada"]
+        options: ["Africa", "Asia", "Europe", "Latin America & Caribbean", "Middle East", "Oceania", "US & Canada"]
       - label: "Country"
         name: "country"
         widget: "select"
