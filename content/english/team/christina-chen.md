@@ -17,7 +17,7 @@ bio: Christina Chen joined MZMC in 2013 and is one of the company's core account
   impact on consumer awareness, perceptions, and habits. She also liaises with
   traders, regulators, and industry organizations to expand our clients' product
   applications in China's bakery and food manufacturing sectors. Christina holds
-  an MA in English Literature from Nantong University Foreign Language School
+  an MA in English literature from Nantong University Foreign Language School
   and has spent three months at the University of Queensland as a visiting
   scholar.
 weight: 15
