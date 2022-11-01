@@ -1,25 +1,25 @@
 ---
-title: "Timothy Choi"
+title: Timothy Choi
 date: 2018-09-29T14:41:38+06:00
-description : "This is meta description"
 designation: Marketing Consultant
-image : images/team/timothy_choi.jpg
-weight: 35
-bio : Timothy Choi , has 30+ years of marketing and general management experience in Greater China and SE Asia. He has previously worked for major regional and multinational companies including Hutchison Whampoa, Gillette, Kraft, and Nestle. Timothy holds BA and BCom (Windsor), MBA (McMaster), MSc (Strathclyde) and MSS (HK Shue Yan). He is an accredited mediator in Hong Kong SAR and also provides consulting services to nonprofit organizations.
-
-# Experience: enter the start year of work experience
+image: images/team/timothy_choi.jpg
+description: This is meta description
 experience: 1995
-
-# Hometown
 hometown: Shanghai
-
-# Favorite fruit
 fav_fruit:
-  name: "Avocado"
-  link: "https://www.producereport.com/produce/fresh-fruits/avocados"
-
-# social links
+  name: Avocado
+  link: https://www.producereport.com/produce/fresh-fruits/avocados
 social:
-  - icon : fa-brands fa-linkedin
-    link : "#"
+  - icon: fa-brands fa-linkedin
+    link: "#"
+bio: Timothy Choi has over 30 years of marketing and general management
+  experience in Greater China and Southeast Asia. Since 2013, he has worked with
+  MZMC on strategic planning and project oversight for key clients. Previously,
+  Tim worked for major regional and multinational companies including Hutchison
+  Whampoa, Gillette, Kraft, and Nestle. Timothy holds a BA and BCom from the
+  University of Windsor, an MBA from McMaster University, an MSc from the
+  University of Strathclyde, and an MSS from Hong Kong Shue Yan University. He
+  is an accredited mediator in Hong Kong and also provides consulting services
+  to nonprofit organizations.
+weight: 35
 ---
