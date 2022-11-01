@@ -2,7 +2,7 @@
 title: Leeann Lin
 date: 2018-09-29T14:41:38+06:00
 designation: Project Manager
-image: images/team/leeann_lin.jpg
+image: /images/team/微信图片_20221101092806.jpg
 description: This is meta description
 experience: 2012
 hometown: Shanghai
