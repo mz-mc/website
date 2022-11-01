@@ -16,7 +16,7 @@ bio: Sarah Jia is a veteran market development specialist with more than 10
   public relations guru with extensive experience building and maintaining
   collaborations with KOLs in health and nutrition, culinary leadership, and
   online influencers. She works closely with China's largest media and social
-  media platforms to take our client's messaging to the next level--beyond what
+  media platforms to take our clients' messaging to the next level--beyond what
   can be achieved through conventional marketing and promotional strategies.
   Among her many skills and talents, Sarah is also a key contributor to MZMC's
   analytical work, contributing to market research reports and upholding
