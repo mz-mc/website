@@ -2,7 +2,7 @@
 title: Christina Chen
 date: 2018-09-29T14:41:38+06:00
 designation: Project Manager
-image: /images/team/fb97e555c9deacbbd7473f522d27c35.jpg
+image: /images/team/9cef05665f942f9e3a6b39c73263cca.jpg
 description: MZMC team profile for Christina Chen
 experience: 2013
 hometown: Shanghai
