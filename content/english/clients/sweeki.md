@@ -10,6 +10,8 @@ region:
   - Europe
 country:
   - Italy
+flags:
+  - Feature
 draft: false
 _build:
   list: true
