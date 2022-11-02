@@ -1,7 +1,7 @@
 ---
 title: USHBC
 date: 2022-10-24T03:57:07.428Z
-image: /images/clients/ushbc中.png
+image: /images/clients/ushbc-英.png
 link: https://usblueberry.cn
 client_type:
   - MZMC
