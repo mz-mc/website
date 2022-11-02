@@ -10,8 +10,7 @@ region:
   - Latin America & Caribbean
 country:
   - Chile
-flags:
-  - Feature
+flags: null
 draft: false
 _build:
   list: true
