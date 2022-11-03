@@ -11,7 +11,7 @@ country:
   - China
 flags:
   - Feature
-weight: 1
+weight: 5000
 draft: false
 _build:
   list: true
