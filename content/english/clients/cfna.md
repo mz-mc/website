@@ -4,7 +4,7 @@ date: 2022-11-02T05:50:18.798Z
 image: /images/clients/cfna.png
 link: http://www.cccfna.org.cn/
 client_type:
-  - MZMC
+  - Produce Report
 region:
   - Asia
 country:
