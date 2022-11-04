@@ -119,18 +119,23 @@ collections:
       - {label: "Bio", name: "bio", widget: "markdown"}
       - {label: "Weight", name: "weight", widget: "number", required: false}
       - {label: "Draft", name: "draft", widget: "boolean", default: false, required: false}
+  ########## produce report metrics
   - name: "pr_data"
     label: "Produce Report Data (testing)"
     files:
       - label: "Metrics"
-        name: "funfact"
+        name: "metrics"
         file: "data/en/produce_report.yml"
         fields:
-          - {label: "Enable", name: "enable", widget: boolean, default: true }
-          - label: "Item"
-            name: "funfact_item"
+          - label: "funfact"
+            name: "funfact"
             widget: list
-            fields:
-              - {label: "Name", name: "name", widget: string}
-              - {label: "Icon", name: "icon", widget: string}
-              - {label: "Count", name: "count", widget: number}
+            fields: 
+              - {label: "Enable", name: "enable", widget: boolean, default: true }
+              - label: "Item"
+                name: "funfact_item"
+                widget: list
+                fields:
+                  - {label: "Name", name: "name", widget: string}
+                  - {label: "Icon", name: "icon", widget: string}
+                  - {label: "Count", name: "count", widget: number}
