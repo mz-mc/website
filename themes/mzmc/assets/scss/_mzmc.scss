@@ -480,6 +480,10 @@ figure.effect-oscar figcaption {
     display: none;
 }
 
+.facts-num .counter::after {
+    content: "+";
+}
+
 @media only screen and (max-width: 768px) {
     .swiper-slide .bg-video-wrapper {
         height: 400px;
