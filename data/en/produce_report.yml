@@ -3,13 +3,13 @@ funfact:
   funfact_item:
     - name: Monthly Users
       icon: fa-user
-      count: "1200"
+      count: 100000
     - name: Social Followers
       icon: fa-brands fa-weixin
       count: 67000
     - name: Newsletter Subscribers
       icon: fa-solid fa-at
-      count: "857"
+      count: 5600
     - name: Articles
       icon: fa-solid fa-newspaper
       count: "78"
