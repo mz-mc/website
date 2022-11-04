@@ -41,15 +41,19 @@
       {{ $image := $image.Resize "600x" }}
       <div class="col-sm-2 {{ range .Params.region }}{{ . | urlize}} {{ end }} isotope-item">
         <div class="grid">
-          <figure class="m-0 effect-oscar">
+          <a href="{{ .Params.link }}" target="_blank">
+          <figure class="m-0 effect-oscar">  
             <img src="{{ $image.RelPermalink }}" alt="client image">
+            <!--
             <figcaption>
               <h3>{{ .Title | markdownify }}</h3>
               <a class="link icon-pentagon" href="{{ .RelPermalink }}"><i class="fa fa-link"></i></a>
               <a class="view icon-pentagon" data-rel="prettyPhoto" href="{{ . | absURL }}"><i
                 class="fa fa-search"></i></a>
             </figcaption>
+            -->
           </figure>
+          </a>
         </div>
       </div><!-- Isotope item end -->
       {{ end }}
