@@ -11,7 +11,7 @@ funfact:
       icon: fa-solid fa-at
       count: 5600
     - name: Articles
-      icon: fa-solid fa-lightbulb-on
+      icon: fa-solid fa-lightbulb
       count: 8800
 about:
   enable: true
