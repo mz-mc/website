@@ -5,6 +5,7 @@ image: /images/clients/cfna.png
 link: http://www.cccfna.org.cn/
 client_type:
   - Produce Report
+  - MZMC
 region:
   - Asia
 country:
