@@ -1,116 +1,95 @@
-############################### funfact ##################################
 funfact:
-  enable : true
+  enable: true
   funfact_item:
-    # funfact item loop
-    - name : "Monthly users"
-      icon : "fa-user" # fontawesome icon pack 6.1.2
-      count : "1200"
-      
-    # funfact item loop
-    - name : "Social Followers"
-      icon : "fa-brands fa-weixin" # fontawesome icon pack 6.1.2
-      count : "60000"
-      
-    # funfact item loop
-    - name : "Newsletter Subscribers"
-      icon : "fa-solid fa-at" # fontawesome icon pack 6.1.2
-      count : "857"
-      
-    # funfact item loop
-    - name : "Articles"
-      icon : "fa-solid fa-newspaper" # fontawesome icon pack 6.1.2
-      count : "78"
-
-############################### about ##################################
+    - name: Monthly Users
+      icon: fa-user
+      count: "1200"
+    - name: Social Followers
+      icon: fa-brands fa-weixin
+      count: "60000"
+    - name: Newsletter Subscribers
+      icon: fa-solid fa-at
+      count: "857"
+    - name: Articles
+      icon: fa-solid fa-newspaper
+      count: "78"
 about:
-  enable : true
-  title : "We Know"
-  subtitle : "Fresh Produce"
-  bg_image : "images/site/prcapture.jpg"
-  content : "MZMC is the owner and operator of <em>Produce Report</em>, the leading digital trade publication for fresh produce professionals from around the world---with a focus on China"
+  enable: true
+  title: We Know
+  subtitle: Fresh Produce
+  bg_image: images/site/prcapture.jpg
+  content: MZMC is the owner and operator of <em>Produce Report</em>, the leading
+    digital trade publication for fresh produce professionals from around the
+    world---with a focus on China
   about_item:
-    # about item loop
-    - name : "Global Reach"
-      icon : "fa-check" # fontawesome icon pack 6.1.2
-      content : "Extensive global network providing behind-the-scenes insight from all five continents"
-      
-    # about item loop
-    - name : "China Roots"
-      icon : "fa-check" # fontawesome icon pack 6.1.2
-      content : "Unsurpassed expertise in China's fresh produce supply chains, marketing, policy, retail, and consumer trends"
-      
-    # about item loop
-    - name : "Multilingual"
-      icon : "fa-check" # fontawesome icon pack 6.1.2
-      content : "Available in both English and Chinese"
-
-############################### feature ##################################
+    - name: Global Reach
+      icon: fa-check
+      content: Extensive global network providing behind-the-scenes insight from all
+        five continents
+    - name: China Roots
+      icon: fa-check
+      content: Unsurpassed expertise in China's fresh produce supply chains,
+        marketing, policy, retail, and consumer trends
+    - name: Multilingual
+      icon: fa-check
+      content: Available in both English and Chinese
 feature:
-  enable : true
-  title : "What we cover"
-  subtitle : ""
-  title_icon : "" # fontawesome icon pack 6.1.2
+  enable: true
+  title: What we cover
+  subtitle: ""
+  title_icon: ""
   feature_item:
-    # feature item loop
-    - name : "Production"
-      icon : "fa-solid fa-seedling" # fontawesome icon pack 6.1.2
-      content : ""
-      
-    # feature item loop
-    - name : "Trade"
-      icon : "fa-solid fa-handshake" # fontawesome icon pack 6.1.2
-      content : ""
-      
-    # feature item loop
-    - name : "Retail"
-      icon : "fa-solid fa-basket-shopping" # fontawesome icon pack 6.1.2
-      content : ""
-      
-    # feature item loop
-    - name : "Policy"
-      icon : "fa-solid fa-scale-balanced" # fontawesome icon pack 6.1.2
-      content : ""
-      
-    # feature item loop
-    - name : "Markets"
-      icon : "fa-solid fa-chart-column" # fontawesome icon pack 6.1.2
-      content : ""
-      
-    # feature item loop
-    - name : "Logistics"
-      icon : "fa-solid fa-ship" # fontawesome icon pack 6.1.2
-      content : ""
-      
-    # feature item loop
-    - name : "Food Safety"
-      icon : "fa-solid fa-bacteria" # fontawesome icon pack 6.1.2
-      content : ""
-      
-    # feature item loop
-    - name : "Organics"
-      icon : "fa-solid fa-arrows-spin" # fontawesome icon pack 6.1.2
-      content : ""
-      
-    # feature item loop
-    - name : "Wholsale Markets"
-      icon : "fa-solid fa-maximize" # fontawesome icon pack 6.1.2
-      content : ""
-
-############################### En-Zh Intro ##################################
+    - name: Production
+      icon: fa-solid fa-seedling
+      content: ""
+    - name: Trade
+      icon: fa-solid fa-handshake
+      content: ""
+    - name: Retail
+      icon: fa-solid fa-basket-shopping
+      content: ""
+    - name: Policy
+      icon: fa-solid fa-scale-balanced
+      content: ""
+    - name: Markets
+      icon: fa-solid fa-chart-column
+      content: ""
+    - name: Logistics
+      icon: fa-solid fa-ship
+      content: ""
+    - name: Food Safety
+      icon: fa-solid fa-bacteria
+      content: ""
+    - name: Organics
+      icon: fa-solid fa-arrows-spin
+      content: ""
+    - name: Wholsale Markets
+      icon: fa-solid fa-maximize
+      content: ""
 enzh_intro:
-  enable : true
-  en_image : "images/pr_en.png"
-  en_header : "For global readers with a China focus"
-  en_text : "Launched in 2016, <em>Produce Report</em> is the leading English-language trade publications for global fresh produce professionals with an interest in China. Growers, marketers, technology providers, researchers, executives, and policy makers in all five continents rely on <em>Produce Report</em> to stay informed, find insight, and gain a competitive market advantage.<br><a href='https://www.producereport.com' target='_blank'>www.producereport.com</a>"
-  zh_image : "images/pr_zh.png"
-  zh_header : "For China readers with a global focus"
-  zh_text : "Launched in 2014, <em>Produce Report's (国际果树报道)</em> Chinese-language edition is the leading trade publication informing China's fresh produce professionals about trends and developments in global markets. Importes, distributors, retailers, purchasing managers, and government regulators rely on <em>Produce Report</em> to optimize their stratgies and expand their knowlege base.<br><a href='https://www.guojiguoshu.com' target='_blank'>www.guojiguoshu.com</a>"
-
-############################### clients ##################################
+  enable: true
+  en_image: images/pr_en.png
+  en_header: For global readers with a China focus
+  en_text: Launched in 2016, <em>Produce Report</em> is the leading
+    English-language trade publications for global fresh produce professionals
+    with an interest in China. Growers, marketers, technology providers,
+    researchers, executives, and policy makers in all five continents rely on
+    <em>Produce Report</em> to stay informed, find insight, and gain a
+    competitive market advantage.<br><a href='https://www.producereport.com'
+    target='_blank'>www.producereport.com</a>
+  zh_image: images/pr_zh.png
+  zh_header: For China readers with a global focus
+  zh_text: Launched in 2014, <em>Produce Report's (国际果树报道)</em> Chinese-language
+    edition is the leading trade publication informing China's fresh produce
+    professionals about trends and developments in global markets. Importes,
+    distributors, retailers, purchasing managers, and government regulators rely
+    on <em>Produce Report</em> to optimize their stratgies and expand their
+    knowlege base.<br><a href='https://www.guojiguoshu.com'
+    target='_blank'>www.guojiguoshu.com</a>
 clients:
-  enable : true
-  title : "Our Clients"
-  subtitle : "International brands leverage <em>Produce Report's</em> industry leadership<br> to grow their business with ad placements and sponsored articles"
-  title_icon : "fa-suitcase"
-  # client items comes from "content/*/clients" folder
+  enable: true
+  title: Our Clients
+  subtitle: International brands leverage <em>Produce Report's</em> industry
+    leadership<br> to grow their business with ad placements and sponsored
+    articles
+  title_icon: fa-suitcase
