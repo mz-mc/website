@@ -71,7 +71,7 @@ collections:
         name: "images"
         widget: "list"
         summary: '{{fields.image}}'
-        field: {label: Image, name: image, widget: image}
+        field: {label: "Image", name: "image", widget: "image"}
       - {label: "Content", name: "body", widget: "markdown"}
       - label: "Tags"
         name: "tags"
@@ -129,13 +129,13 @@ collections:
         fields:
           - label: "funfact"
             name: "funfact"
-            widget: list
+            widget: "list"
             fields: 
-              - {label: "Enable", name: "enable", widget: boolean, default: true }
+              - {label: "Enable", name: "enable", widget: "boolean", default: true }
               - label: "Item"
                 name: "funfact_item"
-                widget: list
+                widget: "list"
                 fields:
-                  - {label: "Name", name: "name", widget: string}
-                  - {label: "Icon", name: "icon", widget: string}
-                  - {label: "Count", name: "count", widget: number}
+                  - {label: "Name", name: "name", widget: "string"}
+                  - {label: "Icon", name: "icon", widget: "string"}
+                  - {label: "Count", name: "count", widget: "number"}
