@@ -128,10 +128,14 @@ collections:
         file: "data/en/produce_report.yml"
         extension: "yml"
         fields:
-          - label: "Item"
-            name: "funfact_item"
-            widget: "list"
+          - label: "Produce Report Data"
+            name: "funfact"
+            widget: "object"
             fields:
-              - {label: "Name", name: "name", widget: "string"}
-              - {label: "Icon", name: "icon", widget: "string"}
-              - {label: "Count", name: "count", widget: "number"}
+              - label: "Item"
+                name: "funfact_item"
+                widget: "list"
+                fields:
+                  - {label: "Name", name: "name", widget: "string"}
+                  - {label: "Icon", name: "icon", widget: "string"}
+                  - {label: "Count", name: "count", widget: "number"}
