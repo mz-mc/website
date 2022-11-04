@@ -120,7 +120,7 @@ collections:
       - {label: "Weight", name: "weight", widget: "number", required: false}
       - {label: "Draft", name: "draft", widget: "boolean", default: false, required: false}
   - name: "pr_data"
-    label: "Produce Report Data"
+    label: "Produce Report Data (testing)"
     files:
       - label: "Metrics"
         name: "funfacts"
