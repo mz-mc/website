@@ -11,8 +11,8 @@ funfact:
       icon: fa-solid fa-at
       count: 5600
     - name: Articles
-      icon: fa-solid fa-newspaper
-      count: "78"
+      icon: fa-solid fa-lightbulb-on
+      count: 8800
 about:
   enable: true
   title: We Know
