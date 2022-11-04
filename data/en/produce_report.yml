@@ -10,7 +10,7 @@ funfact:
     # funfact item loop
     - name : "Social Followers"
       icon : "fa-brands fa-weixin" # fontawesome icon pack 6.1.2
-      count : "60,000"
+      count : "60000"
       
     # funfact item loop
     - name : "Newsletter Subscribers"
