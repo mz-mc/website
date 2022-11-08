@@ -1,7 +1,7 @@
 <div id="banner-area">
   {{ if .Params.page_header_bg }}
   {{ $page_header_bg := resources.Get .Params.page_header_bg }}
-  {{ $page_header_bg := $page_header_bg.Resize "600x jpg" }}
+  <!-- {{ $page_header_bg := $page_header_bg.Resize "600x jpg" }} -->
   <img src="{{ $page_header_bg.RelPermalink }}" onerror="this.src='{{`images/site/home-about.jpg` | absURL}}'" alt="" />
   {{ end }}
   <div class="parallax-overlay"></div>
