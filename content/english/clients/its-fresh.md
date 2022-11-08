@@ -2,7 +2,7 @@
 title: It's Fresh
 date: 2022-11-02T05:18:19.281Z
 image: /images/clients/it-s-fresh.png
-link: www.itsfresh.com
+link: https://itsfresh.com/
 client_type:
   - MZMC
   - Produce Report
