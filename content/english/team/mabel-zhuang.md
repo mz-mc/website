@@ -7,8 +7,8 @@ description: Mabel Zhuang MZMC team profile
 experience: 1992
 hometown: Shanghai
 fav_fruit:
-  name: Cherry
-  link: https://www.producereport.com/produce/fresh-fruits/cherries
+  name: Blueberries
+  link: https://www.producereport.com/produce/fresh-fruits/blueberries
 social:
   - icon: fa-brands fa-linkedin
     link: https://www.linkedin.com/in/mabel-zhuang-41696213/
