@@ -1,7 +1,7 @@
 ---
 title: Sun World International, LLC
 date: 2022-10-24T04:02:28.600Z
-image: /images/clients/sunworld.png
+image: /images/clients/1.png
 link: https://www.sun-world.com/
 client_type:
   - MZMC
