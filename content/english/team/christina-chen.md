@@ -7,8 +7,8 @@ description: MZMC team profile for Christina Chen
 experience: 2013
 hometown: Shanghai
 fav_fruit:
-  name: Table Grapes
-  link: https://www.producereport.com/produce/fresh-fruits/grapefruits
+  name: Pears
+  link: https://www.producereport.com/produce/fresh-fruits/pears
 bio: Christina Chen joined MZMC in 2013 and is one of the company's core account
   managers and market development experts. She has extensive experience
   organizing trade promotions and consumer marketing activities for a wide range
