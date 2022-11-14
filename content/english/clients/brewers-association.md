@@ -1,8 +1,8 @@
 ---
 _schema: default
 title: Brewers Association
-date:
-image: /images/clients/ba.png
+date: null
+image: /images/clients/ba.jpg
 link: https://www.brewersassociation.org/
 client_type:
   - MZMC
@@ -10,9 +10,9 @@ region:
   - US & Canada
 country:
   - United States of America
-weight: 20
 flags:
   - Feature
+weight: 20
 _build:
   list: true
   publishResources: true
