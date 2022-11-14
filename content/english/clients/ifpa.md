@@ -1,8 +1,8 @@
 ---
 _schema: default
 title: IFPA
-date:
-image: /images/clients/ifpa.png
+date: null
+image: /images/clients/ifpa.jpg
 link: https://www.freshproduce.com/
 client_type:
   - MZMC
@@ -10,12 +10,12 @@ region:
   - US & Canada
 country:
   - United States of America
-weight: 1
 flags:
   - Feature
+weight: 1
+draft: false
 _build:
   list: true
   publishResources: true
   render: false
-draft: false
 ---
