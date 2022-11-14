@@ -1,7 +1,7 @@
 ---
 title: Flash Gala
 date: 2022-10-24T03:43:18.893Z
-image: /images/clients/微信图片_20221114104935.jpg
+image: /images/clients/flash.jpg
 link: https://www.bigbucksapples.com/
 client_type:
   - MZMC
