@@ -1,7 +1,7 @@
 ---
 title: Chilean Cherry Committee
 date: 2022-11-02T01:25:05.287Z
-image: /images/clients/微信图片_20221102092902.jpg
+image: /images/clients/微信图片_20221114111955.png
 link: https://comitedecerezas.cl/
 client_type:
   - MZMC
