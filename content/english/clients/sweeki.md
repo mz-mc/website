@@ -1,7 +1,7 @@
 ---
 title: Sweeki
 date: 2022-11-08T02:40:02.113Z
-image: /images/clients/微信图片_202211091428443.png
+image: /images/clients/f0a509936e3a0574cd51d8a92f4f338.jpg
 link: https://www.sweeki.co/zh/sweeki
 client_type:
   - MZMC
