@@ -4,11 +4,11 @@ date: 2018-09-29T14:41:38+06:00
 designation: Marketing Consultant
 image: images/team/timothy_choi.jpg
 description: MZMC team profile for Timothy Choi
-experience: 1995
+experience: 1981
 hometown: Shanghai
 fav_fruit:
-  name: Avocado
-  link: https://www.producereport.com/produce/fresh-fruits/avocados
+  name: Orange, Mango, Banana, Strawberry
+  link: https://www.producereport.com/produce/fresh-fruits/citrus
 social:
   - icon: fa-brands fa-linkedin
     link: "#"
