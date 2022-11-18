@@ -1,7 +1,7 @@
 ---
 title: SAMAC
 date: 2022-10-24T03:47:32.243Z
-image: /images/clients/samac.jpg
+image: /images/clients/samac.png
 link: https://www.samac.org.za/
 client_type:
   - MZMC

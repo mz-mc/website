@@ -93,6 +93,8 @@
 
 .client_logo img {
     max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
 }
 
 .swiper-slide video {
@@ -355,6 +357,7 @@
     margin: auto;
     aspect-ratio: 550/500;
     object-fit: contain;
+    max-height: 100%;
 }
 
 #clients_mzmc {
