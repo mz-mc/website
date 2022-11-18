@@ -2,7 +2,7 @@
 _schema: default
 title: IFPA
 date: null
-image: /images/clients/微信图片_20221118113927.jpg
+image: /images/clients/ifpa.jpg
 link: https://www.freshproduce.com/
 client_type:
   - MZMC
