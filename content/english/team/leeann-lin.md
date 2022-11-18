@@ -5,7 +5,7 @@ designation: Project Manager
 image: /images/team/9fbff81dde22a1aae56e574b7b7cc9b.jpg
 description: MZMC team profile for Leeann Lin
 experience: 2012
-hometown: Shanghai
+hometown: Jiang Xi
 fav_fruit:
   name: Kiwi
   link: https://www.producereport.com/produce/fresh-fruits/kiwifruit
