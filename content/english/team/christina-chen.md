@@ -5,7 +5,7 @@ designation: Project Manager
 image: /images/team/微信图片_20221102083922.jpg
 description: MZMC team profile for Christina Chen
 experience: 2013
-hometown: Jiangsu
+hometown: Jiang Su
 fav_fruit:
   name: Pears
   link: https://www.producereport.com/produce/fresh-fruits/pears
