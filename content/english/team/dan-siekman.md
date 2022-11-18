@@ -4,11 +4,11 @@ date: 2018-09-29T14:41:38+06:00
 designation: Researcher & Operations Consultant
 image: images/team/dan_siekman.jpg
 description: MZMC team profile for Dan Siekman
-experience: 2010
+experience: 2016
 hometown: Boston
 fav_fruit:
-  name: Avocado
-  link: https://www.producereport.com/produce/fresh-fruits/avocados
+  name: Mangosteen
+  link: https://www.producereport.com/produce/fresh-fruits/mangosteens
 social:
   - icon: fa-brands fa-linkedin
     link: https://www.linkedin.com/in/siekman
