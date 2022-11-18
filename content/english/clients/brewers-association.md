@@ -2,7 +2,7 @@
 _schema: default
 title: Brewers Association
 date: null
-image: /images/clients/ba.jpg
+image: /images/clients/微信图片_202211181139272.jpg
 link: https://www.brewersassociation.org/
 client_type:
   - MZMC
