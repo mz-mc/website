@@ -1,7 +1,7 @@
 ---
 title: Cherry Growers Australia Inc.
 date: 2022-11-08T02:47:07.310Z
-image: /images/clients/cherry-growers-australia-inc..png
+image: /images/clients/cherry-growers-au.jpg
 link: https://www.cherrygrowers.org.au/
 client_type:
   - Produce Report
