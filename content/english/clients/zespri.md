@@ -1,7 +1,7 @@
 ---
 title: Zespri
 date: 2022-10-24T04:03:55.237Z
-image: /images/clients/zespri.jpg
+image: /images/clients/zespri.png
 link: http://www.zespri.com.cn/zh-CN/
 client_type:
   - Produce Report
