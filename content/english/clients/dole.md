@@ -1,7 +1,7 @@
 ---
 title: Dole
 date: 2022-10-24T04:19:27.332Z
-image: /images/clients/dole.jpg
+image: /images/clients/dole-logo.png
 link: https://www.dole.cn/
 client_type:
   - Produce Report
