@@ -1,8 +1,8 @@
 ---
 _schema: default
 title: NHLA
-date:
-image: /images/clients/nhla.png
+date: null
+image: /images/clients/nhlalogo_50x61-1.png
 link: https://www.nhla.com/
 client_type:
   - MZMC
@@ -10,11 +10,11 @@ region:
   - US & Canada
 country:
   - United States of America
-weight:
-flags:
+flags: null
+weight: null
+draft: false
 _build:
   list: true
   publishResources: true
   render: false
-draft: false
 ---
