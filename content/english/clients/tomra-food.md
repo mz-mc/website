@@ -1,7 +1,7 @@
 ---
 title: TOMRA Food
 date: 2022-11-02T05:33:48.151Z
-image: /images/clients/tomra.png
+image: /images/clients/tomra-logo-horizontal-full-color3312.png
 link: https://www.tomra.com/en
 client_type:
   - Produce Report
