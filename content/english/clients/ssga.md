@@ -1,7 +1,7 @@
 ---
 title: SSGA
 date: 2022-10-24T03:44:28.324Z
-image: /images/clients/ssga.png
+image: /images/clients/ssga-web-logo-300x118.png
 link: https://soyagrainsalliance.org/
 client_type:
   - MZMC
