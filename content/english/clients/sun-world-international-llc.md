@@ -1,7 +1,7 @@
 ---
 title: Sun World
 date: 2022-10-24T04:02:28.600Z
-image: /images/clients/微信图片_20221114104501.jpg
+image: /images/clients/logo-sunworld.png
 link: https://www.sun-world.com/
 client_type:
   - MZMC
