@@ -1,8 +1,8 @@
 ---
-title: Chilean Table Grape Committee
+title: Chilean Table Grapes
 date: 2022-11-02T01:36:01.337Z
-image: /images/clients/微信图片_202211020929031.png
-link: https://fruitsfromchile.com/
+image: /images/clients/logos_grapes-510x200.jpg
+link: https://fruitsfromchile.com/fruit/grapes/
 client_type:
   - Produce Report
 region:
