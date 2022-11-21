@@ -1,7 +1,7 @@
 ---
 title: HORTGRO
 date: 2022-10-24T04:00:11.255Z
-image: /images/clients/hortgro.jpg
+image: /images/clients/hortgro-logo.png
 link: https://www.hortgro.co.za/
 client_type:
   - MZMC
