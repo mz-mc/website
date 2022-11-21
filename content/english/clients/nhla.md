@@ -2,7 +2,7 @@
 _schema: default
 title: NHLA
 date: null
-image: /images/clients/nhlalogo_50x61-1.png
+image: /images/clients/nhla.png
 link: https://www.nhla.com/
 client_type:
   - MZMC
