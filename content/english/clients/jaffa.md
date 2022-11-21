@@ -1,7 +1,7 @@
 ---
 title: JAFFA
 date: 2022-11-02T05:56:15.887Z
-image: /images/clients/jaffa.jpeg
+image: /images/clients/jaffa-fruit-logo.png
 link: https://www.jaffa.co.uk/
 client_type:
   - Produce Report
