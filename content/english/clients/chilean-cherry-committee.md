@@ -1,8 +1,8 @@
 ---
 title: Chilean Cherry Committee
 date: 2022-11-02T01:25:05.287Z
-image: /images/clients/微信图片_20221114111955.png
-link: https://comitedecerezas.cl/
+image: /images/clients/cherries.png
+link: https://fruitsfromchile.com/fruit/cherries/
 client_type:
   - MZMC
   - Produce Report
