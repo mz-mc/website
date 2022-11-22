@@ -1,7 +1,7 @@
 ---
 title: JOY WING MAU
 date: 2022-10-24T04:20:30.677Z
-image: /images/clients/jwm.jpg
+image: /images/clients/jwm.webp
 link: http://joywingmau.com/
 client_type:
   - Produce Report
