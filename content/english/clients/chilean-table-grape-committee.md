@@ -1,7 +1,7 @@
 ---
 title: Chilean Table Grapes
 date: 2022-11-02T01:36:01.337Z
-image: /images/clients/grapes-from-chile.png
+image: /images/clients/logos_grapes-510x200.jpg
 link: https://fruitsfromchile.com/fruit/grapes/
 client_type:
   - Produce Report
