@@ -1,7 +1,7 @@
 ---
 title: Chilean Stone Fruits and Plums
 date: 2022-11-02T01:36:33.648Z
-image: /images/clients/stone-fruit-from-chile.png
+image: /images/clients/stone-fruit.png
 link: https://fruitsfromchile.com/fruit/plums/
 client_type:
   - Produce Report
