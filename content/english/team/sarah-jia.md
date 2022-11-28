@@ -1,7 +1,7 @@
 ---
 title: Sarah Jia
 date: 2018-09-29T14:41:38+06:00
-designation: Program Supervisor
+designation: Program Manager
 image: /images/team/1c308d956d6686e9539bbc209323b96.jpg
 description: MZMC team profile for Sarah Jia
 experience: 2008
