@@ -5,7 +5,7 @@ designation: Editor, Produce Report
 image: images/team/sunsa_jing.jpg
 description: MZMC team profile for Sunsa Jing
 experience: 2012
-hometown: Shanghai
+hometown: Shandong
 fav_fruit:
   name: Peach
   link: https://www.producereport.com/produce/fresh-fruits/peaches
