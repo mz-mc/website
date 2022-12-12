@@ -4,11 +4,12 @@ slider:
   slider_item:
     ################# Slider item loop
     - title : "Market<br>Development"
-      subtitle : "MZMC is the China market development partner for leading global food and agricultural producers"
-      video : "images/slider/vid1.mp4" 
+      subtitle : "For leading global food and agricultural producers"
+      #video : "images/slider/vid1.mp4"
+      video : "images/slider/fruitmarket.mp4"
       bg_image : "images/slider/association-management.jpg"
       image : 
-      image_position :
+      image_position : 
       # slider navigator
       navigator:
         label : "Invent"
@@ -27,138 +28,138 @@ slider:
           link : "about"
 
     ############### Slider item loop
-    - title : "Public<br>Relations"
-      subtitle : "Communication strategies to build and maintain brands synonymous with excellence"
-      video : # "images/slider/vid6.mp4"
-      bg_image : "images/slider/public-relations.jpg"
-      image : 
-      image_position : 
-      # slider navigator
-      navigator:
-        label : "Dream"
-        icon : "fa-hotel" # fontawesome icon pack 6.1.2
+    # - title : "Public<br>Relations"
+    #   subtitle : "Communication strategies to build and maintain brands synonymous with excellence"
+    #   video : # "images/slider/vid6.mp4"
+    #   bg_image : "images/slider/public-relations.jpg"
+    #   image : 
+    #   image_position : 
+    #   # slider navigator
+    #   navigator:
+    #     label : "Dream"
+    #     icon : "fa-hotel" # fontawesome icon pack 6.1.2
 
-      # slider buttons
-      buttons:
-        # button loop
-        - label : "Learn more"
-          style : "white"
-          link : "services/public-relations"
+    #   # slider buttons
+    #   buttons:
+    #     # button loop
+    #     - label : "Learn more"
+    #       style : "white"
+    #       link : "services/public-relations"
 
-    ############### Slider item loop
-    - title : "Research & Intelligence"
-      subtitle : "Market research and intelligence reporting to support creative, evidence-based campaigns that achieve real impact"
-      video : "images/slider/fruitmarket.mp4"
-      bg_image : "images/slider/consumer-marketing3.jpg"
-      image : 
-      image_position : 
-      # slider navigator
-      navigator:
-        label : "Dream"
-        icon : "fa-hotel" # fontawesome icon pack 6.1.2
+    # ############### Slider item loop
+    # - title : "Research & Intelligence"
+    #   subtitle : "Market research and intelligence reporting to support creative, evidence-based campaigns that achieve real impact"
+    #   video : "images/slider/fruitmarket.mp4"
+    #   bg_image : "images/slider/consumer-marketing3.jpg"
+    #   image : 
+    #   image_position : 
+    #   # slider navigator
+    #   navigator:
+    #     label : "Dream"
+    #     icon : "fa-hotel" # fontawesome icon pack 6.1.2
 
-      # slider buttons
-      buttons:
-        # button loop
-        - label : "Learn more"
-          style : "white"
-          link : "services/research-intelligence"
+    #   # slider buttons
+    #   buttons:
+    #     # button loop
+    #     - label : "Learn more"
+    #       style : "white"
+    #       link : "services/research-intelligence"
 
 
-    ############### Slider item loop
-    - title : "Consumer<br>Marketing"
-      subtitle : "Combining innovative and traditional marketing tools to win hearts, minds, and habits"
-      video : # "images/slider/vid3.mp4"
-      bg_image : "images/slider/consumer-marketing2.jpg"
-      image : 
-      image_position :
-      # slider navigator
-      navigator:
-        label : "Tech"
-        icon : "fa-android" # fontawesome icon pack 6.1.2
+    # ############### Slider item loop
+    # - title : "Consumer<br>Marketing"
+    #   subtitle : "Combining innovative and traditional marketing tools to win hearts, minds, and habits"
+    #   video : # "images/slider/vid3.mp4"
+    #   bg_image : "images/slider/consumer-marketing2.jpg"
+    #   image : 
+    #   image_position :
+    #   # slider navigator
+    #   navigator:
+    #     label : "Tech"
+    #     icon : "fa-android" # fontawesome icon pack 6.1.2
 
-      # slider buttons
-      buttons:
-        # button loop
-        - label : "Learn more"
-          style : "white"
-          link : "services/consumer-marketing"
+    #   # slider buttons
+    #   buttons:
+    #     # button loop
+    #     - label : "Learn more"
+    #       style : "white"
+    #       link : "services/consumer-marketing"
 
-    ############### Slider item loop
-    - title : "IP & Trademark<br> Consulting"
-      subtitle : "Protect intellectual property and brand assets from unauthorized use"
-      video :  "images/slider/vid2.mp4"
-      bg_image : "images/slider/government-relations.jpg"
-      image : 
-      image_position :
-      # slider navigator
-      navigator:
-        label : "Tech"
-        icon : "fa-android" # fontawesome icon pack 6.1.2
+    # ############### Slider item loop
+    # - title : "IP & Trademark<br> Consulting"
+    #   subtitle : "Protect intellectual property and brand assets from unauthorized use"
+    #   video :  "images/slider/vid2.mp4"
+    #   bg_image : "images/slider/government-relations.jpg"
+    #   image : 
+    #   image_position :
+    #   # slider navigator
+    #   navigator:
+    #     label : "Tech"
+    #     icon : "fa-android" # fontawesome icon pack 6.1.2
 
-      # slider buttons
-      buttons:
-        # button loop
-        - label : "Learn more"
-          style : "white"
-          link : "services/ip-trademark-consulting"
+    #   # slider buttons
+    #   buttons:
+    #     # button loop
+    #     - label : "Learn more"
+    #       style : "white"
+    #       link : "services/ip-trademark-consulting"
 
-    ############### Slider item loop
-    - title : "Association<br>Management"
-      subtitle : "Establish and build your organization’s presence in China"
-      video : # "images/slider/vid4.mp4"
-      bg_image : "images/slider/association-management.jpg"
-      image : 
-      image_position :
-      # slider navigator
-      navigator:
-        label : "Tech"
-        icon : "fa-android" # fontawesome icon pack 6.1.2
+    # ############### Slider item loop
+    # - title : "Association<br>Management"
+    #   subtitle : "Establish and build your organization’s presence in China"
+    #   video : # "images/slider/vid4.mp4"
+    #   bg_image : "images/slider/association-management.jpg"
+    #   image : 
+    #   image_position :
+    #   # slider navigator
+    #   navigator:
+    #     label : "Tech"
+    #     icon : "fa-android" # fontawesome icon pack 6.1.2
 
-      # slider buttons
-      buttons:
-        # button loop
-        - label : "Learn more"
-          style : "white"
-          link : "services/association-management"
+    #   # slider buttons
+    #   buttons:
+    #     # button loop
+    #     - label : "Learn more"
+    #       style : "white"
+    #       link : "services/association-management"
 
-    ############### Slider item loop
-    - title : "Government<br>Relations"
-      subtitle : "Harmonize standards and cut through regulatory red tape"
-      video : 
-      bg_image : "images/slider/government-relations.jpg"
-      image : 
-      image_position :
-      # slider navigator
-      navigator:
-        label : "Tech"
-        icon : "fa-android" # fontawesome icon pack 6.1.2
+    # ############### Slider item loop
+    # - title : "Government<br>Relations"
+    #   subtitle : "Harmonize standards and cut through regulatory red tape"
+    #   video : 
+    #   bg_image : "images/slider/government-relations.jpg"
+    #   image : 
+    #   image_position :
+    #   # slider navigator
+    #   navigator:
+    #     label : "Tech"
+    #     icon : "fa-android" # fontawesome icon pack 6.1.2
 
-      # slider buttons
-      buttons:
-        # button loop
-        - label : "Learn more"
-          style : "white"
-          link : "services/government-relations"
+    #   # slider buttons
+    #   buttons:
+    #     # button loop
+    #     - label : "Learn more"
+    #       style : "white"
+    #       link : "services/government-relations"
 
-    ############### Slider item loop
-    - title : "Event<br>Management"
-      subtitle : "Uncompromising attention to detail to create immediate and lasting impact"
-      video : # "images/slider/vid5.mp4"
-      bg_image : "images/slider/event-management.jpg"
-      image : 
-      image_position :
-      # slider navigator
-      navigator:
-        label : "Tech"
-        icon : "fa-android" # fontawesome icon pack 6.1.2
+    # ############### Slider item loop
+    # - title : "Event<br>Management"
+    #   subtitle : "Uncompromising attention to detail to create immediate and lasting impact"
+    #   video : # "images/slider/vid5.mp4"
+    #   bg_image : "images/slider/event-management.jpg"
+    #   image : 
+    #   image_position :
+    #   # slider navigator
+    #   navigator:
+    #     label : "Tech"
+    #     icon : "fa-android" # fontawesome icon pack 6.1.2
 
-      # slider buttons
-      buttons:
-        # button loop
-        - label : "Learn more"
-          style : "white"
-          link : "services/event-management"
+    #   # slider buttons
+    #   buttons:
+    #     # button loop
+    #     - label : "Learn more"
+    #       style : "white"
+    #       link : "services/event-management"
 
 
 
