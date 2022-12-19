@@ -1,3 +1,5 @@
+{{ $data := index .Site.Data .Site.Language.Lang }}
+
 <div class="body-inner">
 
 <!-- Header start -->
@@ -36,6 +38,11 @@
             <a class="nav-link" href="{{ .URL | relLangURL }}">{{ .Name }}</a></a>
           </li>
           {{ end }}
+          {{ end }}
+          {{ with $data.produce_report.enzh_intro }}
+          <li class="nav-item">
+            <a class="nav-link" href="/produce-report"><span class="pr-logo-menu"><img src="{{ .en_image | absURL }}" alt="Produce Report logo (en)"></span></a>
+          </li>
           {{ end }}
         </ul>
         

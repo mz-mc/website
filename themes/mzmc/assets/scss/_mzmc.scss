@@ -300,6 +300,11 @@
     font-size: 1.3rem;
 }
 
+.pr-logo-menu img {
+    max-width: 100%;
+    max-height: 30px;
+}
+
 .pr-logo-col {
     text-align: center;
 }
@@ -557,5 +562,11 @@ figure.effect-oscar figcaption {
     }
     .cd-hero-slider h2 {
         font-size: 6vw;
+    }
+    .nav-item {
+        display: flex;
+    }
+    .nav-item .nav-link {
+        margin: auto;
     }
 }

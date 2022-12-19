@@ -139,10 +139,10 @@ name = "Clients"
 URL = "clients"
 weight = 10
 
-[[Languages.en.menu.main]]
-name = "Media"
-URL = "produce-report"
-weight = 20
+# [[Languages.en.menu.main]]
+# name = "Media"
+# URL = "produce-report"
+# weight = 20
 
 # [[Languages.en.menu.main]]
 # weight = 5
