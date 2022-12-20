@@ -7,7 +7,7 @@ description: MZMC team profile for Timothy Choi
 experience: 1981
 hometown: Hong Kong
 fav_fruit:
-  name: Orange, Mango, Banana, Strawberry
+  name: Orange
   link: https://www.producereport.com/produce/fresh-fruits/citrus
 social:
   - icon: fa-brands fa-linkedin
