@@ -3,6 +3,7 @@ title: Mabel Zhuang
 date: 2018-09-29T14:41:38+06:00
 designation: Executive Director
 image: /images/team/微信图片_20221024085704.jpg
+vector: /images/vectors/blueberries.svg
 description: Mabel Zhuang MZMC team profile
 experience: 1992
 hometown: Shanghai

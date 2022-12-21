@@ -3,6 +3,7 @@ title: Sunsa Jing
 date: 2018-09-29T14:41:38+06:00
 designation: Editor, Produce Report
 image: images/team/sunsa_jing.jpg
+vector: /images/vectors/peach.svg
 description: MZMC team profile for Sunsa Jing
 experience: 2012
 hometown: Shandong

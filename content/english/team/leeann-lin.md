@@ -3,6 +3,7 @@ title: Leeann Lin
 date: 2018-09-29T14:41:38+06:00
 designation: Project Manager
 image: /images/team/9fbff81dde22a1aae56e574b7b7cc9b.jpg
+vector: /images/vectors/kiwi.svg
 description: MZMC team profile for Leeann Lin
 experience: 2012
 hometown: Jiang Xi

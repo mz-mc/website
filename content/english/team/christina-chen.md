@@ -3,11 +3,12 @@ title: Christina Chen
 date: 2018-09-29T14:41:38+06:00
 designation: Project Manager
 image: /images/team/微信图片_20221102083922.jpg
+vector: /images/vectors/pear.svg
 description: MZMC team profile for Christina Chen
 experience: 2013
 hometown: Jiang Su
 fav_fruit:
-  name: Pears
+  name: Pear
   link: https://www.producereport.com/produce/fresh-fruits/pears
 bio: Christina Chen joined MZMC in 2013 and is one of the company's core account
   managers and market development experts. She has extensive experience

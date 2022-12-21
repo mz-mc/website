@@ -3,6 +3,7 @@ title: Amanda Mu
 date: 2018-09-29T14:41:38+06:00
 designation: Commercial Manager
 image: /images/team/微信图片_20221101092525.jpg
+vector: /images/vectors/grapes.svg
 description: MZMC team profile for Amanda Mu
 experience: 2008
 hometown: Shanghai

@@ -3,6 +3,7 @@ title: Dan Siekman
 date: 2018-09-29T14:41:38+06:00
 designation: Researcher & Operations Consultant
 image: images/team/dan_siekman.jpg
+vector: /images/vectors/mangosteen.svg
 description: MZMC team profile for Dan Siekman
 experience: 2016
 hometown: Boston
