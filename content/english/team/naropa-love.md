@@ -4,6 +4,7 @@ title: Naropa Love
 date: 2018-09-29T14:41:38+06:00
 designation: Operations Consultant
 image: images/team/naropa_love.jpg
+vector: /images/vectors/avocado.svg
 description: This is meta description
 experience: 2006
 hometown: Philadelphia

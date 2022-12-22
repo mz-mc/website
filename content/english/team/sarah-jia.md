@@ -3,7 +3,7 @@ title: Sarah Jia
 date: 2018-09-29T14:41:38+06:00
 designation: Program Manager
 image: /images/team/1c308d956d6686e9539bbc209323b96.jpg
-vector: /images/vectors/cherries.svg
+vector: /images/vectors/cherriesmax.svg
 description: MZMC team profile for Sarah Jia
 experience: 2008
 hometown: Shanghai
