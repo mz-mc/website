@@ -28,23 +28,23 @@ slider:
           link : "about"
 
     ############### Slider item loop
-    - title : "Public<br>Relations"
-      subtitle : "To build and maintain brands synonymous with excellence"
-      video : # "images/slider/vid6.mp4"
-      bg_image : "images/slider/public-relations.jpg"
-      image : 
-      image_position : 
-      # slider navigator
-      navigator:
-        label : "Dream"
-        icon : "fa-hotel" # fontawesome icon pack 6.1.2
+    # - title : "Public<br>Relations"
+    #   subtitle : "To build and maintain brands synonymous with excellence"
+    #   video : # "images/slider/vid6.mp4"
+    #   bg_image : "images/slider/public-relations.jpg"
+    #   image : 
+    #   image_position : 
+    #   # slider navigator
+    #   navigator:
+    #     label : "Dream"
+    #     icon : "fa-hotel" # fontawesome icon pack 6.1.2
 
-      # slider buttons
-      buttons:
-        # button loop
-        - label : "Learn more"
-          style : "white"
-          link : "services/public-relations"
+    #   # slider buttons
+    #   buttons:
+    #     # button loop
+    #     - label : "Learn more"
+    #       style : "white"
+    #       link : "services/public-relations"
 
     # ############### Slider item loop
     # - title : "Research & Intelligence"
