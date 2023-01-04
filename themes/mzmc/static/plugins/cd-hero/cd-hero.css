@@ -27,7 +27,7 @@ Slider
   }
 
   .cd-hero-slider h2 {
-    font-size: 2.5em !important;
+    font-size: 2em !important;
   }
 
   .cd-hero-slider h3,
@@ -228,7 +228,7 @@ Single slide style
   }
 
   .cd-hero-slider h2 {
-    font-size: 4em;
+    font-size: 2.5em;
   }
 
   .cd-hero-slider .cd-btn {
@@ -240,7 +240,7 @@ Single slide style
 
   .cd-hero-slider .cd-full-width,
   .cd-hero-slider .cd-half-width {
-    padding-top: 125px;
+    padding-top: 165px;
     text-align: left;
   }
 
@@ -250,7 +250,7 @@ Single slide style
   }
 
   .cd-hero-slider h2 {
-    font-size: 5em;
+    font-size: 3em;
     margin-left: 0;
   }
 
@@ -267,7 +267,7 @@ Single slide style
 
   .cd-hero-slider .cd-full-width,
   .cd-hero-slider .cd-half-width {
-    padding-top: 145px;
+    padding-top: 175px;
     text-align: left;
   }
 
@@ -277,7 +277,7 @@ Single slide style
   }
 
   .cd-hero-slider h2 {
-    font-size: 5em;
+    font-size: 3em;
     margin-left: 0;
   }
 
