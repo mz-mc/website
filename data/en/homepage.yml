@@ -3,11 +3,12 @@ slider:
   enable : true
   slider_item:
     ################# Slider item loop
-    - title : "Market<br>Development"
-      subtitle : "For leading global food and agricultural producers"
+    - title : "Market Development, Research, and Public Relations"
+      subtitle : "MZMC is the China market development partner for global food and agriculture leaders"
       #video : "images/slider/vid1.mp4"
       video : "images/slider/fruitmarket.mp4"
-      bg_image : "images/slider/association-management.jpg"
+      #bg_image : "images/slider/association-management.jpg"
+      #bg_image : "images/slider/fruitmarket.jpg"
       image : 
       image_position : 
       # slider navigator
@@ -181,7 +182,7 @@ intro:
 portfolio:
   enable : false
   title : "Our Clients"
-  subtitle : "We have served food and agriculture industry associations and internationally recognized brands from all five continents."
+  subtitle : "We have served food and agriculture industry associations and internationally recognized brands from all continents."
   title_icon : "fa-suitcase"
   # portfolio items comes from "content/*/portfolio" folder
 
@@ -280,7 +281,7 @@ about:
   title : "Get to know our"
   subtitle : "Agri-food experts"
   bg_image : "images/site/home-about.jpg"
-  content : "MZMC is the China market development partner trusted by leading agri-food producers, globally recognized brands, and governmental trade agencies"
+  content : "MZMC is the China market development partner trusted by leading agri-food producers, globally recognized brands, and government trade agencies"
   about_item:
     # about item loop
     - name : "Food and beverage"
