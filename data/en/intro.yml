@@ -19,7 +19,7 @@ introboxes:
       content : "More than a marketing firm⁠—learn about who we are, what we do, and why we do it"
       
     # service item loop
-    - name : "Media"
+    - name : "Digital Media"
       link : "produce-report"
       image : "images/pages/media.jpg"
       icon : "fa-solid fa-diagram-project" # fontawesome icon pack 6.1.2

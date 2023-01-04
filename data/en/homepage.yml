@@ -8,7 +8,7 @@ slider:
       #video : "images/slider/vid1.mp4"
       video : "images/slider/fruitmarket.mp4"
       #bg_image : "images/slider/association-management.jpg"
-      #bg_image : "images/slider/fruitmarket.jpg"
+      bg_image : "images/slider/fruitmarket.jpg"
       image : 
       image_position : 
       # slider navigator
