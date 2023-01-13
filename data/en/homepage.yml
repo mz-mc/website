@@ -3,7 +3,7 @@ slider:
   enable : true
   slider_item:
     ################# Slider item loop
-    - title : "Market Development, Research, and Public Relations"
+    - title : "Marketing, Research, and Public Relations"
       subtitle : "MZMC is the China market development partner for global food and agriculture leaders"
       #video : "images/slider/vid1.mp4"
       video : "images/slider/fruitmarket.mp4"
