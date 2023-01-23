@@ -18,7 +18,7 @@ draft: false
 
 MZMC conducts in-depth research and intelligence reporting to support evidence-based marketing, track KPIs, and help clients optimize for impact.
 
-We combine extensive knowledge of China's food and agriculture markets with rigorous research methodologies and a passion to understand. The result is better returns for our clients and strategies designed for long-term success.
+We combine extensive knowledge of China’s food and agriculture markets with rigorous research methodologies and a passion to understand. The end result is better returns for our clients and strategies designed to ensure long-term success.
 
 <div class="service-checklist">
 
@@ -28,20 +28,20 @@ We combine extensive knowledge of China's food and agriculture markets with rigo
 
 <i class="fa fa-check"></i> Supply chain bottlenecks and pain points
 
-<i class="fa fa-check"></i> Retail and consumer trends across regions and demographics
+<i class="fa fa-check"></i> Retail and consumer trends across regions and demographics  
 
 <i class="fa fa-check"></i> Competing products and suppliers
 
 <i class="fa fa-check"></i> Economic and price trends
 
-<i class="fa fa-check"></i> Label requirements and permissible claims
+<i class="fa fa-check"></i> Labeling requirements and permissible claims
 
 </div>
 <br>
 
 #### How we do it
 
-Our research services employ quantitative and qualitative analyses informed by desk research, expert interviews, and field visits to critical points in the supply chain. We use manual search and tech-enabled tools to extract metrics for products, prices, and sellers from popular e-commerce platforms. We identify and interview leading importers, distributors, retailers, industry associations, and government regulators. We conduct field visits to border ports, free trade zones, logistics hubs, retailers, and foodservice outlets. We work with global leaders in consumer survey research to understand the habits and preferences of China's consumers relevant to specific products.
+Our market specialists employ quantitative and qualitative analyses informed by desk research, expert interviews, and field visits to critical points in the supply chain. We apply both manual searching and tech-enabled tools to extract metrics for products, prices, and sellers from popular e-commerce platforms. We identify and interview leading importers, distributors, retailers, industry associations, and government regulators. We conduct field visits to border ports, free-trade zones, logistics hubs, retailers, and foodservice outlets. We work with global leaders in consumer survey research to understand the habits and preferences of China’s consumers in relation to specific products.
 
 #### Recent reports
 

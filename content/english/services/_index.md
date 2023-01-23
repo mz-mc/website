@@ -9,5 +9,5 @@ draft: false
 ---
 
 <div class="services-intro">
-Optimize for impact with the right strategy, tools, and execution. We're here to help.
+Optimize for impact with the right strategy, tools, and execution. We’re  here to help.
 </div>

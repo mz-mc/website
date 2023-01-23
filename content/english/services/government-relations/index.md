@@ -11,9 +11,9 @@ draft: false
 
 ### Progress at the highest levels
 
-MZMC assists food and agriculture producers from around the globe to build collaborative, win-win relationships with Chinese regulators.
+MZMC assists food and agriculture producers from around the globe to build collaborative, win–win relationships with Chinese regulators.
 
-Mutual trust and understanding is the most effective way to clear regulatory hurdles and safeguard trade flows. In China, strong government relationships are built over time by demonstrating respect, flexibility, and good will. We keep our finger on the pulse of regulatory developments and enforecment trends that may affect our clients' business. We work with government officials to harmonize Chinese import and labeling requirements with foreign product standards.
+Establishing mutual trust and understanding is the most effective way to clear regulatory hurdles and safeguard trade flows. In China, strong government relationships are built over time by demonstrating respect, flexibility, and good will. We keep our finger on the pulse of regulatory developments and enforcement trends that may affect our clients’ business. We work with government officials to harmonize Chinese import and labeling requirements with foreign product standards.
 
 <div class="service-checklist">
 
@@ -35,4 +35,4 @@ Mutual trust and understanding is the most effective way to clear regulatory hur
 <br>
 
 #### Foreign Governments in China
-MZMC helps businesses and industry associations work with foreign government commerce and agricultural ministries in China to leverage their resources in cooperative marketing efforts. We also assist agricultural and trade offices of forgign governments in China to effectively collaborate with industry and media to expand awareness of their country's products. Government offices in China we have worked closely with over the years include those of the United States, Chile, Peru, Ecuador, Mexico, South Africa, Italy, and Thailand, among others.
+MZMC helps businesses and industry associations work with foreign government commerce and agricultural ministries in China to leverage their resources in cooperative marketing efforts. We also assist agricultural and trade offices of foreign governments in China to effectively collaborate with industry and media to expand awareness of their country’s products. Government offices in China we have worked closely with over the years include those of the United States, Chile, Peru, Ecuador, Mexico, South Africa, Italy, and Thailand, among others.

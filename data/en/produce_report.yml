@@ -18,17 +18,14 @@ about:
   title: We Know
   subtitle: Fresh Produce
   bg_image: images/site/prcapture.jpg
-  content: MZMC is the owner and operator of <em>Produce Report</em>, the leading
-    digital trade publication for fresh produce professionals from around the
-    world---with a focus on China
+  content: MZMC is the owner and operator of *Produce Report*, the leading digital trade publication for fresh produce professionals from around the world — with a focus on China
   about_item:
     - name: Global Reach
       icon: fa-check
       content: Extensive global network providing behind-the-scenes insight from every continent
     - name: China Roots
       icon: fa-check
-      content: Unsurpassed expertise in China's fresh produce supply chains,
-        marketing, policy, retail, and consumer trends
+      content: Unsurpassed expertise in China’s fresh produce supply chains, marketing, policy, retail, and consumer trends
     - name: Multilingual
       icon: fa-check
       content: Available in both English and Chinese
@@ -69,26 +66,14 @@ enzh_intro:
   enable: true
   en_image: images/pr_en.png
   en_header: For global readers with a China focus
-  en_text: Launched in 2016, <em>Produce Report</em> is the leading
-    English-language trade publications for global fresh produce professionals
-    with an interest in China. Growers, marketers, technology providers,
-    researchers, executives, and policy makers in every continent rely on
-    <em>Produce Report</em> to stay informed, find insight, and gain a
-    competitive market advantage.<br><a href='https://www.producereport.com'
+  en_text: Launched in 2016, *Produce Report* is the leading English-language trade publication for global fresh produce professionals with an interest in China. Growers, marketers, technology providers, researchers, executives, and policymakers on every continent rely on *Produce Report* to stay informed, gain insights, and realize a competitive market advantage.<br><a href='https://www.producereport.com'
     target='_blank'>www.producereport.com</a>
   zh_image: images/pr_zh.png
   zh_header: For China readers with a global focus
-  zh_text: Launched in 2014, <em>Produce Report's (国际果蔬报道)</em> Chinese-language
-    edition is the leading trade publication informing China's fresh produce
-    professionals about trends and developments in global markets. Importes,
-    distributors, retailers, purchasing managers, and government regulators rely
-    on <em>Produce Report</em> to optimize their stratgies and expand their
-    knowlege base.<br><a href='https://www.guojiguoshu.com'
+  zh_text: Launched in 2014, *Produce Report*’s (国际果蔬报道) Chinese-language edition is the leading trade publication informing China’s fresh produce professionals about trends and developments in global markets. Importers, distributors, retailers, purchasing managers, and government regulators rely on *Produce Report* to optimize their strategies and expand their knowledge base.<br><a href='https://www.guojiguoshu.com'
     target='_blank'>www.guojiguoshu.com</a>
 clients:
   enable: true
   title: Our Clients
-  subtitle: International brands leverage <em>Produce Report's</em> industry
-    leadership<br> to grow their business with ad placements and sponsored
-    articles
+  subtitle: International brands leverage *Produce Report*’s industry leadership<br> to grow their business with ad placements, sponsored articles, press releases, and market and product updates.
   title_icon: fa-suitcase

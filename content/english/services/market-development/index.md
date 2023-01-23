@@ -17,9 +17,9 @@ MZMC is a full-service market development partner for industry associations and 
 
 #### What we do
 
-<i class="fa fa-check"></i> Plan and execute multi-year marketing campaigns
+<i class="fa fa-check"></i> Plan and execute one-off and multiyear marketing campaigns
 
-<i class="fa fa-check"></i> Carry out in-depth research, reporting, and KPI tracking
+<i class="fa fa-check"></i> Perform in-depth research, reporting, and KPI tracking
 
 <i class="fa fa-check"></i> Conduct online and offline retail and social media campaigns
 

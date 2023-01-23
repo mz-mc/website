@@ -8,15 +8,8 @@ description: MZMC team profile for Amanda Mu
 experience: 2008
 hometown: Shanghai
 fav_fruit:
-  name: Table Grapes
-  link: https://www.producereport.com/produce/fresh-fruits/grapefruits
-bio: Amanda Mu leads business cooperation activities for Produce Report as well
-  as provides financial and administrative management to support efficiency
-  across all MZMC workflows. Since joining MZMC in 2019, Amanda has helped
-  coordinate marketing promotions and organize webinars for key clients in
-  government, industry associations, and the fresh produce technology sectors.
-  Her communication skills and attention to detail inspire confidence and never
-  fail to uphold MZMC's high standards for excellence. Amanda received her
-  bachelor’s degree in Social and Labor Security from Shanghai Sanda University.
+  name: Grapes
+  link: https://www.producereport.com/produce/fresh-fruits/grapes
+bio: Amanda Mu leads business cooperation activities for Produce Report as well as providing financial and administrative management to support efficiency across all MZMC workflows. Since joining MZMC in 2019, Amanda has helped coordinate marketing promotions and organize webinars for key clients in government, industry associations, and fresh produce technology sectors. Her communication skills and attention to detail inspire confidence and never fail to uphold MZMC’s high standards for excellence. Amanda received her bachelor’s degree in Social and Labor Security from Shanghai Sanda University.
 weight: 20
 ---

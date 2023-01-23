@@ -222,31 +222,31 @@ feature:
     # feature item loop
     - name : "Market Development"
       icon : "fa-solid fa-arrow-up-right-dots" # fontawesome icon pack 6.1.2
-      content : "Comprehensive solutions for long-term, sustainable growth"
+      content : "Full-service solutions for associations, agencies, and corporate entities in China"
       link: "/services/market-development"
       
     # feature item loop
     - name : "Research & Intelligence"
       icon : "fa-solid fa-magnifying-glass-chart" # fontawesome icon pack 6.1.2
-      content : "Market intelligence reporting for informed, evidence-based strategies"
+      content : "Market research and intelligence reporting for informed, evidence-based strategies"
       link: "/services/research-intelligence"
       
     # feature item loop
     - name : "Public Relations"
       icon : "fa-solid fa-bullhorn" # fontawesome icon pack 6.1.2
-      content : "Optimize and maintain a brand image synonymous with excellence"
+      content : "Communication strategies to build and maintain brands synonymous with excellence"
       link: "/services/public-relations"
       
     # feature item loop
     - name : "Consumer Marketing"
       icon : "fa-regular fa-lightbulb" # fontawesome icon pack 6.1.2
-      content : "Creative, multi-channel campaigns that achieve results"
+      content : "Creative, multichannel campaigns that achieve results"
       link: "/services/consumer-trade-marketing"
       
     # feature item loop
     - name : "Association Management"
       icon : "fa-solid fa-cubes" # fontawesome icon pack 6.1.2
-      content : "Establish and build your organization's presence in China"
+      content : "Establish and build your organization’s presence in China"
       link: "/services/association-management"
       
     # feature item loop
@@ -258,7 +258,7 @@ feature:
     # feature item loop
     - name : "IP & TM Consulting"
       icon : "fa-solid fa-scale-balanced" # fontawesome icon pack 6.1.2
-      content : "Protect your intellection property and brand assets from unauthorized use"
+      content : "Protect your intellectual property and brand assets from unauthorized use"
       link: "/services/ip-trademark-consulting"
       
     # feature item loop
@@ -270,7 +270,7 @@ feature:
     # feature item loop
     - name : "Government Relations"
       icon : "fa-solid fa-landmark-flag" # fontawesome icon pack 6.1.2
-      content : "Effective relationships to help cut through regulatory red tape"
+      content : "Harmonize standards and cut through regulatory red tape"
       link: "/services/government-relations"
 
 
@@ -281,12 +281,12 @@ about:
   title : "Get to know our"
   subtitle : "Agri-food experts"
   bg_image : "images/site/home-about.jpg"
-  content : "MZMC is the China market development partner trusted by leading agri-food producers, globally recognized brands, and government trade agencies"
+  content : "MZMC is the China market development partner trusted by leading agri-food producers, globally recognized brands, and governmental trade agencies"
   about_item:
     # about item loop
     - name : "Food and beverage"
       icon : "fa-check" # fontawesome icon pack 6.1.2
-      content : "Exclusive focus on optimizing strategies for each specific product and market"
+      content : "Exclusive focus on optimizing growth strategies for each specific product and market"
       
     # about item loop
     - name : "Fresh produce"
@@ -296,7 +296,7 @@ about:
     # about item loop
     - name : "Multidisiplinary"
       icon : "fa-check" # fontawesome icon pack 6.1.2
-      content : "Uniquely creative and evidence-based approach by a multi-talented, international team"
+      content : "Uniquely creative and evidence-based approach by a multitalented international team"
 
 
 ############################### team ####################################

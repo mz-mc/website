@@ -9,14 +9,14 @@ introboxes:
       link : "services"
       image : "images/pages/services.jpg"
       icon : "fa-solid fa-globe" # fontawesome icon pack 6.1.2
-      content : "Comprehensive solutions to establish or grow your presence in China"
+      content : "Comprehensive solutions to establish or expand your presence in China"
       
     # service item loop
     - name : "Company"
       link : "about"
       image : "images/pages/about1.jpg"
       icon : "fa-solid fa-address-card" # fontawesome icon pack 6.1.2
-      content : "More than a marketing firm⁠—learn about who we are, what we do, and why we do it"
+      content : "More than a marketing firm ⁠— learn who we are, what we do, and why we do it"
       
     # service item loop
     - name : "Digital Media"

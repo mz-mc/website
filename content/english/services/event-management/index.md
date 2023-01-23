@@ -23,7 +23,7 @@ Highly effective events with immediate and lasting impact require dedicated mana
 
 <i class="fa fa-check"></i> Agenda development and speaker invitations
 
-<i class="fa fa-check"></i> Venue selction and reservation
+<i class="fa fa-check"></i> Venue selection and reservation
 
 <i class="fa fa-check"></i> Sponsor recruitment and coordination
 

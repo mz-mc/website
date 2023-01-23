@@ -11,9 +11,9 @@ draft: false
 
 ### Wealth of Experience
 
-MZMC represents food and agriculture industry associations entering or expanding their presence in China.
+MZMC represents food and agriculture industry associations aiming to enter or expand their presence in China.
 
-Country- and region-branded marketing campaigns have proven highly successful in China for raising consumer awareness and increasing trade. Chinese regulators also often require trade issues to be addressed by national-level industry representatives following strict protocols. We have specialized expertise in building strong country brands recognized throughout China, as well as developing and maintaining collaborative relationships with regulators that foster favorable policies and harmonized standards for our clients.
+Country- and region-branded marketing campaigns have proven highly successful in China for raising consumer awareness and increasing sales. Chinese regulators also often require trade issues to be addressed by national-level industry representatives according to strict protocols. We have specialized expertise in building strong country brands recognized throughout China, as well as developing and maintaining collaborative relationships with regulators that foster favorable policies and harmonized standards for our clients.
 
 <div class="service-checklist">
 
@@ -21,11 +21,11 @@ Country- and region-branded marketing campaigns have proven highly successful in
 
 <i class="fa fa-check"></i> Strategic planning and professional representation
 
-<i class="fa fa-check"></i> Administrative management and membership recruitment
+<i class="fa fa-check"></i> Administrative management and member recruitment
 
-<i class="fa fa-check"></i> Public and government relations
+<i class="fa fa-check"></i> Public and governmental relations
 
-<i class="fa fa-check"></i> Conferences, technical seminars, and trade show exhibition
+<i class="fa fa-check"></i> Conferences, technical seminars, and trade show exhibitions
 
 <i class="fa fa-check"></i> Matchmaking and trade servicing
 
