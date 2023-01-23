@@ -49,6 +49,7 @@
         <h2>{{ .Title }}</h2>
         <h6 class="text-primary mb-30">{{ .Params.Designation }}</h6>
         <p class="mb-40">{{ .Params.Bio | markdownify }}</p>
+        <div id="trigger1"></div>
         <div class="row">
           {{ if .Params.Social }}
           {{ "<!-- social icon -->" | safeHTML }}
@@ -64,6 +65,12 @@
           </div>
           {{ end }}
         </div>
+        <!-- SVG animation start -->
+        <div class="svg-animation">
+          
+            <img data-src="{{ .Params.Vector }}" class="inject-me">
+        </div>
+        <!--/ SVG animation end -->
         <div class="post-content">
           {{ .Content }}
         </div>
@@ -77,12 +84,6 @@
           </div>
         </div>
         {{ end }}
-        <!-- SVG animation start -->
-        <div class="svg-animation">
-          <div id="trigger1"></div>
-            <img data-src="{{ .Params.Vector }}" class="inject-me">
-        </div>
-        <!--/ SVG animation end -->
       </div>
     </div>
   </div>

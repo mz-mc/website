@@ -422,6 +422,8 @@ figure.effect-oscar figcaption {
 #mySVG {
     max-width: 80%;
     height: auto;
+    max-height: 200px;
+    margin-top: 40px;
 }
 
 .news .post-content img {
@@ -523,8 +525,10 @@ figure.effect-oscar figcaption {
         margin-top: 0;
     }
     #mySVG {
-        width: 33%;
+        width: 50%;
         height: auto;
+        max-height: 200px;
+        margin-top: 40px;
     }
     .swiper-slide .bg-video-wrapper {
         height: 580px;
