@@ -1,7 +1,11 @@
-############################### clients ##################################
 clients:
-  enable : true
-  title : "Our Clients"
-  subtitle : "Who we have worked with"
-  title_icon : "fa-suitcase"
-  # client items comes from "content/*/clients" folder
+  enable: true
+  title: Our Clients
+  subtitle: Who we have worked with
+  title_icon: fa-suitcase
+testimonial:
+  testimonial_item:
+    - name: testing
+      designation: test designation
+      content: test content
+      image: /images/uploads/mzmc_logo_horizontal_rgb.png
