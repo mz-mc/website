@@ -146,6 +146,7 @@ collections:
   ########## client testimonials
   - name: "mzmc_testimonials"
     label: "MZMC Testimonials"
+    media_folder: "/assets/images/clients"
     files:
       - label: "Client Testimonials"
         name: "client_testimonials"
