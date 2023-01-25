@@ -43,7 +43,7 @@ collections:
         multiple: true
         hint: "Select Feature to include logo on home page"
         options: ["Feature"]
-      - {label: "Weight", name: "weight", widget: "number", required: false, hint: "Order in which logos are displayed"}
+      - {label: "Weight", name: "weight", widget: "number", default: 5000, required: false, hint: "Order in which logos are displayed"}
       - {label: "Draft", name: "draft", widget: "boolean", default: false, required: false}
       - label: "_build"
         name: "_build"
