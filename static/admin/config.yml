@@ -161,7 +161,7 @@ collections:
             - label: "Testimonial Item"
               name: "testimonial_item"
               widget: "list"
-              allow_add: false
+              allow_add: true
               fields:
                 - {label: "Name", name: "name", widget: "string"}
                 - {label: "Image", name: "image", widget: "image"}
