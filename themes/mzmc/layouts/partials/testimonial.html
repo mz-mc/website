@@ -6,7 +6,7 @@
       <div id="testimonial-carousel" class="owl-carousel owl-theme text-center testimonial-slide">
         {{ range .testimonial_item }}
         {{ $image := resources.Get .image }}
-        {{ $image := $image.Resize "600x" }}
+        {{ $image := $image.Resize "100x" }}
         <div class="item">
           <div class="testimonial-thumb">
             <img src="{{ $image.RelPermalink }}" alt="testimonial">
