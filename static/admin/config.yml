@@ -143,13 +143,33 @@ collections:
                   - {label: "Name", name: "name", widget: "string"}
                   - {label: "Icon", name: "icon", widget: "string"}
                   - {label: "Count", name: "count", widget: "number"}
+  ########## produce report metrics
+  - name: "pr_data_test"
+    label: "Produce Report Data Test"
+    files:
+      - label: "Metrics Test"
+        name: "metrics_test"
+        file: "data/en/metrics_test.yml"
+        fields:
+          - label: "Produce Report Data Test"
+            name: "funfact"
+            widget: "object"
+            fields:
+              - label: "Item"
+                name: "funfact_item"
+                widget: "list"
+                allow_add: false
+                fields:
+                  - {label: "Name", name: "name", widget: "string"}
+                  - {label: "Icon", name: "icon", widget: "string"}
+                  - {label: "Count", name: "count", widget: "number"}
   ########## client testimonials
   - name: "mzmc_testimonials"
     label: "MZMC Testimonials"
     files:
       - label: "Client Testimonials"
-        name: "client_testimonials"
-        file: "data/en/mzmc_clients.yml"
+        name: "test"
+        file: "data/en/test.yml"
         extension: "yml"
         fields:
           - label: "Testimonials"
@@ -159,9 +179,9 @@ collections:
               - label: "Testimonial Item"
                 name: "testimonial_item"
                 widget: "list"
-                allow_add: true
+                allow_add: false
                 fields:
                   - {label: "Name", name: "name", widget: "string"}
-                  # - {label: "Image", name: "image", widget: "image"}
-                  # - {label: "Designation", name: "designation", widget: "string"}
+                  - {label: "Image", name: "image", widget: "image"}
+                  - {label: "Designation", name: "designation", widget: "string"}
                   - {label: "Content", name: "content", widget: "text"}
