@@ -1,23 +1,28 @@
 clients:
-  enable : true
-  title : "Our Clients"
-  subtitle : "Who we have worked with"
-  title_icon : "fa-suitcase"
-  # client items comes from "content/*/clients" folder
-
-############################### testimonial ####################################
+  enable: true
+  title: Our Clients
+  subtitle: Who we have worked with
+  title_icon: fa-suitcase
 testimonial:
   enable: true
   testimonial_item:
-    - name: "SCOTT J. SOARES"
+    - name: SCOTT J. SOARES
       image: images/clients/uscranberries.png
-      designation: "EXECUTIVE DIRECTOR, U.S. CRANBERRY MARKETING COMMITTEE"
-      content: "From our recent experience working with MZMC for our efforts in mainland China, it has become clear that we couldn’t be working with a stronger or more effective partner. Their work is exceptional, of the highest quality and has certainly contributed to our successes in the China market!"
-    - name: "BUTCH WEEGE"
+      designation: EXECUTIVE DIRECTOR, U.S. CRANBERRY MARKETING COMMITTEE
+      content: From our recent experience working with MZMC for our efforts in
+        mainland China, it has become clear that we couldn’t be working with a
+        stronger or more effective partner. Their work is exceptional, of the
+        highest quality and has certainly contributed to our successes in the
+        China market!
+    - name: BUTCH WEEGE
       image: images/clients/uscranberries.png
-      designation: "EXECUTIVE DIRECTOR, GINSENG BOARD OF WISCONSIN"
-      content: "MZMC is the best thing that has happened to our industry in China. We are writing a new chapter in the history of our industry and MZMC is the primary author."
-    - name: "NATIONAL PECAN GROWERS COUNCIL"
-      image: images/clients/uscranberries.png
-      designation: "test"
-      content: "MZMC has provided exceptional support for the U.S. pecan industry’s successful marketing efforts in China... This is a professional organization which has the full confidence of the U.S. industry."
+      designation: EXECUTIVE DIRECTOR, GINSENG BOARD OF WISCONSIN
+      content: MZMC is the best thing that has happened to our industry in China. We
+        are writing a new chapter in the history of our industry and MZMC is the
+        primary author.
+    - name: NATIONAL PECAN GROWERS COUNCIL
+      image: /images/uploads/uspecans.jpg
+      designation: ""
+      content: MZMC has provided exceptional support for the U.S. pecan industry’s
+        successful marketing efforts in China... This is a professional
+        organization which has the full confidence of the U.S. industry.
