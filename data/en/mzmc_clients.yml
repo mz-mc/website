@@ -4,8 +4,4 @@ clients:
   subtitle: Who we have worked with
   title_icon: fa-suitcase
 testimonial:
-  testimonial_item:
-    - name: testing
-      designation: test designation
-      content: test content
-      image: /images/uploads/mzmc_logo_horizontal_rgb.png
+  testimonial_item: []
