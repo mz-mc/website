@@ -61,8 +61,13 @@
     </div><!-- Content row end -->
   </div><!-- Container end -->
 
+<!-- Testimonial start-->
+{{ if $data.mzmc_clients.testimonial.enable }}
+{{ partial "testimonial.html" . }}
+{{ end }}
+<!--/ Testimonial end-->
+
 <!-- SVG animation start -->
-<div class="gap-60"></div>
 <div class="svg-animation">
   <div id="trigger1"></div>
   <img data-src="{{ .Site.BaseURL }}images/vectors/world2.svg" class="inject-me">

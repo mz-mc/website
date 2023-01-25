@@ -202,7 +202,7 @@ swiper.on('slideChange', function () {
     navigation: false, // Show next and prev buttons
     slideSpeed: 600,
     pagination: true,
-    singleItem: true
+    items: 1
 
   });
 

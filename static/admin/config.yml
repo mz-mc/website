@@ -11,7 +11,8 @@ collections:
   - name: "clients" # Used in routes, e.g., /admin/collections/blog
     media_folder: "/assets/images/clients"
     public_folder: "/images/clients"
-    label: "Client" # Used in the UI
+    label: "Clients" # Used in the UI
+    label_singular: "Client"
     folder: "content/english/clients" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
@@ -59,6 +60,7 @@ collections:
     media_folder: "/assets/images/news"
     public_folder: "/images/news"
     label: "News" # Used in the UI
+    label_singular: "News Item"
     folder: "content/english/news" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
@@ -84,6 +86,7 @@ collections:
     media_folder: "/assets/images/team"
     public_folder: "/images/team"
     label: "Team" # Used in the UI
+    label_singular: "Team Member"
     folder: "content/english/team" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
@@ -140,3 +143,25 @@ collections:
                   - {label: "Name", name: "name", widget: "string"}
                   - {label: "Icon", name: "icon", widget: "string"}
                   - {label: "Count", name: "count", widget: "number"}
+  ########## client testimonials
+  - name: "mzmc_testimonials"
+    label: "MZMC Testimonials"
+    files:
+      - label: "Client Testimonials"
+        name: "client_testimonials"
+        file: "data/en/mzmc_clients.yml"
+        extension: "yml"
+        fields:
+          - label: "Testimonials"
+            name: "testimonials"
+            widget: "object"
+            fields:
+              - label: "Testimonial Item"
+                name: "testimonial_item"
+                widget: "list"
+                allow_add: true
+                fields:
+                  - {label: "Name", name: "name", widget: "string"}
+                  # - {label: "Image", name: "image", widget: "image"}
+                  # - {label: "Designation", name: "designation", widget: "string"}
+                  - {label: "Content", name: "content", widget: "text"}

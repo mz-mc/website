@@ -1,7 +1,6 @@
 {{ $data := index .Site.Data .Site.Language.Lang }}
-{{ with $data.homepage.testimonial }}
-<section class="testimonial parallax" style="background-image: url('{{ .bg_image | absURL}}');">
-  <div class="parallax-overlay"></div>
+{{ with $data.mzmc_clients.testimonial }}
+<section class="testimonial">
   <div class="container">
     <div class="row">
       <div id="testimonial-carousel" class="owl-carousel owl-theme text-center testimonial-slide">

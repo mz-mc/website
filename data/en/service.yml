@@ -25,7 +25,7 @@ services:
 
 ############################### testimonial ####################################
 testimonial:
-  enable : true
+  enable : false
   # testimonail content comes from "data/homepage.yml" file
 
 
