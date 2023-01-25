@@ -9,6 +9,7 @@ region:
   - US & Canada
 country:
   - United States of America
+weight: 5500
 draft: false
 _build:
   list: true
