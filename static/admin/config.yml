@@ -152,12 +152,16 @@ collections:
         file: "data/en/mzmc_clients.yml"
         extension: "yml"
         fields:
-          - label: "Testimonial Item"
-            name: "testimonial_item"
-            widget: "list"
-            allow_add: false
+          - label: "Testimonials"
+            name: "testimonial"
+            widget: "object"
             fields:
-              - {label: "Name", name: "name", widget: "string"}
-              - {label: "Image", name: "image", widget: "image"}
-              - {label: "Designation", name: "designation", widget: "string"}
-              - {label: "Content", name: "content", widget: "text"}
+            - label: "Testimonial Item"
+              name: "testimonial_item"
+              widget: "list"
+              allow_add: false
+              fields:
+                - {label: "Name", name: "name", widget: "string"}
+                - {label: "Image", name: "image", widget: "image"}
+                - {label: "Designation", name: "designation", widget: "string"}
+                - {label: "Content", name: "content", widget: "text"}
