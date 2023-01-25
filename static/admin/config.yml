@@ -169,11 +169,11 @@ collections:
     files:
       - label: "Client Testimonials"
         name: "test"
-        file: "data/en/test.yml"
+        file: "data/en/mzmc_clients.yml"
         extension: "yml"
         fields:
           - label: "Testimonials"
-            name: "testimonials"
+            name: "testimonial"
             widget: "object"
             fields:
               - label: "Testimonial Item"
