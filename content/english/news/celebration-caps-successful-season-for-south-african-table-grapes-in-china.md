@@ -10,9 +10,9 @@ description: South Africa’s range of high-quality table grapes was in the
   China through an event held with importer Joywoo and distributor Yibo at the
   Shanghai Huizhan Fruit and Vegetable Wholesale Market.
 images:
-  - /images/news/微信图片_20230201134213.jpg
   - /images/news/微信图片_20230201134226.jpg
   - /images/news/微信图片_20230201134235.jpg
+  - /images/news/微信图片_20230201134213.jpg
 tags:
   - SATI
 categories:
