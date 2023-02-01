@@ -155,6 +155,7 @@ Single slide style
 
 .cd-hero-slider h2 {
   font-size: 48px;
+  text-shadow: 1px 1px 1px #555, 1px 1px 1px #555, 1px 1px 7px #555 !important;
 }
 
 .cd-hero-slider h3 {
