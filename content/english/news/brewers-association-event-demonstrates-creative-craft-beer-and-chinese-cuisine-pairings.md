@@ -17,6 +17,8 @@ images:
   - /images/news/img_42202-large.jpeg
   - /images/news/img_43502-2-large.jpeg
   - /images/news/wechatimg45-large.jpeg
+categories:
+  - Marketing Activities
 ---
 Last month in Guangzhou, China, the Brewers Association, an organization representing over 5,300 U.S. craft beer breweries, hosted a reception for more than 50 representatives from high-end bars, restaurants and hotels, followed by a U.S. craft beer-themed pairing dinner for 20 food service managers and chefs from five-star hotels. The gathering took place at the American-run The River House restaurant. Participants learned about contemporary U.S. craft beer offerings and tasted firsthand how these beers can be deliciously paired with Chinese cuisine.
 
