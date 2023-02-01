@@ -3,14 +3,14 @@ title: Brewers Association Event Demonstrates Creative Craft Beer and Chinese
   Cuisine Pairings
 date: 2022-09-13T06:53:28.854Z
 image: /images/news/untitled-1-7-.jpg
-description: Last month in Guangzhou, China, the Brewers Association, an
+description: "Last month in Guangzhou, China, the Brewers Association, an
   organization representing over 5,300 U.S. craft beer breweries, hosted a
   reception for more than 50 representatives from high-end bars, restaurants and
   hotels, followed by a U.S. craft beer-themed pairing dinner for 20 food
   service managers and chefs from five-star hotels. The gathering took place at
   the American-run The River House restaurant. Participants learned about
   contemporary U.S. craft beer offerings and tasted firsthand how these beers
-  can be deliciously paired with Chinese cuisine.
+  can be deliciously paired with Chinese cuisine. "
 images:
   - /images/news/微信图片_202209051607362-large_0.jpeg
   - /images/news/2_4-large.jpeg
