@@ -16,6 +16,8 @@ images:
   - /images/news/wechatimg45-large.jpeg
   - /images/news/微信图片_202209051607362-large_0.jpeg
   - /images/news/img_43502-2-large.jpeg
+tags:
+  - Beer
 categories:
   - Marketing Activities
 ---
