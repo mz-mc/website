@@ -12,11 +12,11 @@ description: "Last month in Guangzhou, China, the Brewers Association, an
   contemporary U.S. craft beer offerings and tasted firsthand how these beers
   can be deliciously paired with Chinese cuisine. "
 images:
-  - /images/news/微信图片_202209051607362-large_0.jpeg
   - /images/news/2_4-large.jpeg
   - /images/news/img_42202-large.jpeg
-  - /images/news/img_43502-2-large.jpeg
   - /images/news/wechatimg45-large.jpeg
+  - /images/news/微信图片_202209051607362-large_0.jpeg
+  - /images/news/img_43502-2-large.jpeg
 categories:
   - Marketing Activities
 ---
@@ -43,3 +43,13 @@ China’s rapidly growing market for craft beer has lifted it to now be the sixt
 As was shown at the Brewers Association dinner in Guangzhou, U.S. craft beer is very diverse. It is therefore usually possible to find a style that will pair perfectly with a particular Chinese dish. With the combination of great beer and great food opening a new door to cross-cultural understanding and appreciation, the continuing flow and fusion of flavors will keep creating new possibilities for U.S. craft beer in China.
 
 Images: Brewers Association and Brewers Association member websites
+
+![](/images/news/img_42202-large.jpeg)
+
+![](/images/news/img_43502-2-large.jpeg)
+
+![](/images/news/wechatimg45-large.jpeg)
+
+
+
+![](/images/news/2_4-large.jpeg)
