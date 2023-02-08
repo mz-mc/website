@@ -23,7 +23,7 @@ bio: Naropa Love is a social scientist turned entrepreneur in communications and
 cv: ""
 title: Naropa Love
 designation: Operations Consultant
-image: /images/team/naropa.png
+image: /images/team/naropa.jpg
 description: This is meta description
 weight: 40
 ---
