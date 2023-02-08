@@ -1,11 +1,7 @@
 ---
 bg_image: null
 vector: /images/vectors/avocado.svg
-title: Naropa Love
 date: 2018-09-29T14:41:38+06:00
-designation: Operations Consultant
-image: images/team/naropa_love.jpg
-description: This is meta description
 experience: 2006
 hometown: Philadelphia, USA
 fav_fruit:
@@ -25,5 +21,9 @@ bio: Naropa Love is a social scientist turned entrepreneur in communications and
   he earned a master’s degree in population, resources, and environmental
   economics from Chongqing University.
 cv: ""
+title: Naropa Love
+designation: Operations Consultant
+image: /images/team/naropa.png
+description: This is meta description
 weight: 40
 ---
