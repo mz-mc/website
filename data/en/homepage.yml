@@ -9,7 +9,7 @@ slider:
       #video : "images/slider/fruitmarket2.mp4"
       video: "images/slider/461265564.mp4"
       #bg_image : "images/slider/association-management.jpg"
-      bg_image : "images/slider/fruitmarket.jpg"
+      bg_image : "images/slider/fields.jpg"
       image : 
       image_position : 
       # slider navigator
