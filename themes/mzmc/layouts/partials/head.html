@@ -27,6 +27,7 @@
   {{ template "_internal/google_analytics.html" . }}
   {{ template "_internal/opengraph.html" . }}
 
+  {{ "<!-- Netlify Identity -->" | safeHTML }}
   <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 
   {{ "<!-- Google tag (gtag.js) -->" | safeHTML }}
@@ -37,5 +38,5 @@
     gtag('js', new Date());
     gtag('config', 'G-Q6FQYR0GFY');
   </script>
-  
+
 </head>
