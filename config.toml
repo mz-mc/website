@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "https://mzmc.netlify.app/"
+baseURL = "https://www.mzmc.com.cn/"
 title = "MZMC - China Food & Agriculture Market Development"
 theme = "mzmc"
 metaDataFormat = "yaml"
