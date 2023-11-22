@@ -5,6 +5,8 @@ image: /images/news/微信图片_20231122141456.jpg
 description: On Aug. 26, the United States blueberry sector and Joy Wing Mau
   Fruit Technologies Group jointly hosted the 2023 debut ceremony for US
   blueberries in Tianjin.
+tags:
+  - Marketing Activities
 ---
 <!--\[if gte mso 9]><xml><o:DocumentProperties><o:Revision>1</o:Revision><o:Pages>1</o:Pages><o:Lines>1</o:Lines><o:Paragraphs>1</o:Paragraphs></o:DocumentProperties></xml><!\[endif]-->
 
