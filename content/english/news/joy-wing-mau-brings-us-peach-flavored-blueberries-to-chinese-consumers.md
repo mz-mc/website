@@ -1,6 +1,6 @@
 ---
 title: Joy Wing Mau Brings US Peach-flavored Blueberries to Chinese Consumers
-date: 2023-11-22T06:01:37.405Z
+date: 2023-08-31T06:01:37.405Z
 image: /images/news/微信图片_20231122140158.jpg
 description: On Aug. 26, the United States blueberry sector and Joy Wing Mau
   Fruit Technologies Group jointly hosted the 2023 debut ceremony for US
@@ -276,15 +276,9 @@ description: On Aug. 26, the United States blueberry sector and Joy Wing Mau
 
 On Aug. 26, the United States blueberry sector and Joy Wing Mau Fruit Technologies Group jointly hosted the 2023 debut ceremony for US blueberries at Wanjia City in Tianjin, a high-end supermarket chain store owned by China Resources Vanguard. The guests present at the ceremony included Chris Frederick, Director of Agricultural Trade Office at Embassy of the United States of America in Beijing, Victoria Dokken, Deputy Director of Agricultural Trade Office at Embassy of the United States of America in Beijing, Liu Wen, Northern China Regional Manager of Modern Sales Channels at Joy Wing Mau, Huang Xin, General Manager for Beijing and Tianjin regions at China Resources Vanguard, and Zhang Di, head of Marketing Department for Beijing and Tianjin regions at China Resources Vanguard.
 
- 
-
 This year marks the first import of fresh US blueberries by Joy Wing Mau, with products from the initial shipment hitting upscale supermarkets in early August. As of now, around 1,140 cartons or 14,000 clamshells of US blueberries have been delivered to China. Fresh blueberries from the US didn’t arrive in China until 2021. Despite their limited visibility in the Chinese market, US blueberries have left a lasting impression on Chinese consumers due to their new cultivars and unique flavors.
-
  
-
 During the ceremony, the freshly available blueberries enticed numerous consumers to try and purchase them. Zhang Di noted that these newly arrived blueberries had undergone several stages of food safety and quality checks conducted by China Resources Vanguard. Additionally, a test for pesticide residues was also included in the assessment process.
-
- 
 
 In an interview, Liu Wen highlighted that the innovative variety, known as Peachy Blue, is a mid-season blueberry cultivar that has been authorized for commercial cultivation only in recent years. This variety boasts a crisp texture and plump flesh. What makes it really stand out is its exceptional flavor, which not only carries a rich blueberry aroma but also a hint of peach fragrance.
 
@@ -292,15 +286,9 @@ In an interview, Liu Wen highlighted that the innovative variety, known as Peach
 
 Regarding the market performance of blueberries in China, Liu Wen stated, “Numerous consumers are adopting a more professional approach to fruit assessment, emphasizing nutritional indicators. This trend has led to the emergence of novel fruit types, with blueberries taking the lead as the second-largest segment in the berry industry after strawberries. The exceptional taste and texture of US Peachy Blue blueberries align with the preferences of Chinese consumers, prompting Joy Wing Mau to introduce this new variety.”
 
- 
-
 This consignment of blueberries brought in by Joy Wing Mau were from orchards located in the state of Oregon. The blueberry harvesting season there lasts from late June to September each year. In 2020, Oregon yielded over 150 million pounds or approximately 68,000 metric tons of blueberries, representing nearly a quarter of the country’s overall production. Oregon’s blueberries are renowned for their exceptional quality and are exported to numerous countries, including France, Italy and Japan.
 
- 
-
 It is reported that US blueberries have already been available at Ole stores in Beijing, Guangzhou, Shenzhen, Xiamen, Haikou and Nanning, as well as at Wanjia CITY supermarkets in Tianjin and Hualian Supermarkets in Beijing. At present, the production of Peachy Blue blueberries is relatively low. With only a six-week supply window each year, this scarcity enhances the value of each individual berry.
-
- 
 
 According to data from the U.S. Highbush Blueberry Council, the US is projected to yield around 700 million pounds (approximately 318,000 metric tons) of blueberries this year, marking a new high in five years. This also holds the potential to set a new record for exports to the Chinese market.
 
