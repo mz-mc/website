@@ -1,6 +1,6 @@
 ---
 title: Joy Wing Mau Brings US Peach-flavored Blueberries to Chinese Consumers
-date: 2023-08-31T06:01:37.405Z
+date: 2023-08-29T06:01:37.405Z
 image: /images/news/微信图片_20231122141456.jpg
 description: On Aug. 26, the United States blueberry sector and Joy Wing Mau
   Fruit Technologies Group jointly hosted the 2023 debut ceremony for US
