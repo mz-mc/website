@@ -282,8 +282,6 @@ During the ceremony, the freshly available blueberries enticed numerous consumer
 
 In an interview, Liu Wen highlighted that the innovative variety, known as Peachy Blue, is a mid-season blueberry cultivar that has been authorized for commercial cultivation only in recent years. This variety boasts a crisp texture and plump flesh. What makes it really stand out is its exceptional flavor, which not only carries a rich blueberry aroma but also a hint of peach fragrance.
 
- 
-
 Regarding the market performance of blueberries in China, Liu Wen stated, “Numerous consumers are adopting a more professional approach to fruit assessment, emphasizing nutritional indicators. This trend has led to the emergence of novel fruit types, with blueberries taking the lead as the second-largest segment in the berry industry after strawberries. The exceptional taste and texture of US Peachy Blue blueberries align with the preferences of Chinese consumers, prompting Joy Wing Mau to introduce this new variety.”
 
 This consignment of blueberries brought in by Joy Wing Mau were from orchards located in the state of Oregon. The blueberry harvesting season there lasts from late June to September each year. In 2020, Oregon yielded over 150 million pounds or approximately 68,000 metric tons of blueberries, representing nearly a quarter of the country’s overall production. Oregon’s blueberries are renowned for their exceptional quality and are exported to numerous countries, including France, Italy and Japan.
