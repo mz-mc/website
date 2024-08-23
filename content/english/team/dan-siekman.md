@@ -2,7 +2,7 @@
 vector: /images/vectors/mangosteen.svg
 title: Dan Siekman
 date: 2018-09-29T14:41:38+06:00
-designation: Researcher & Operations Consultant
+designation: Director of Business Operations
 image: images/team/dan_siekman.jpg
 description: MZMC team profile for Dan Siekman
 experience: 2009
