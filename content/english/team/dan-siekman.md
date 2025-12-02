@@ -3,7 +3,7 @@ vector: /images/vectors/mangosteen.svg
 title: Dan Siekman
 date: 2018-09-29T14:41:38+06:00
 designation: Director of Business Operations
-image: images/team/dan_siekman.jpg
+image: /images/team/微信图片_20251202145459_391_328.jpg
 description: MZMC team profile for Dan Siekman
 experience: 2009
 hometown: Maine, USA
