@@ -2,7 +2,7 @@
 bg_image: null
 title: Naropa Love
 date: 2018-09-29T14:41:38+06:00
-designation: Operations Consultant
+designation: Analyst & Operations Consultant
 draft: false
 vector: /images/vectors/avocado.svg
 image: /images/team/003-copy.jpg
