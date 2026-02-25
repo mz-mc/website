@@ -136,6 +136,26 @@ jQuery(function ($) {
 	}
   */
 
+  const shouldLoadHeroVideo = window.matchMedia('(min-width: 768px)').matches;
+  var sliderVideos = $(".swiper-slide video");
+
+  if (shouldLoadHeroVideo) {
+    sliderVideos.each(function () {
+      var source = this.querySelector('source[data-src]');
+      if (source && !source.src) {
+        source.src = source.dataset.src;
+        this.load();
+      }
+    });
+  } else {
+    document.body.classList.add('reduce-hero-motion');
+    sliderVideos.each(function () {
+      this.removeAttribute('autoplay');
+      this.pause();
+      this.preload = 'none';
+    });
+  }
+
   const swiper = new Swiper('.swiper', {
     speed: 1000,
     effect: 'fade',
@@ -151,8 +171,8 @@ jQuery(function ($) {
     /* ON INIT AUTOPLAY THE FIRST VIDEO */
     on: {
       init: function () {
-        console.log('swiper initialized');
-        var currentVideo =  $("[data-swiper-slide-index=" + this.realIndex + "]").find("video");
+        if (!shouldLoadHeroVideo) return;
+        var currentVideo = $("[data-swiper-slide-index=" + this.realIndex + "]").find("video");
         currentVideo.trigger('play');
       },
     },
@@ -161,19 +181,17 @@ jQuery(function ($) {
 
 /* SWIPER SHOULD ONLY PLAY VIDEOS WHEN THEY COME INTO VIEW */  
 /* GET ALL VIDEOS */
-var sliderVideos = $(".swiper-slide video");
-
 /* SWIPER API - Event will be fired after animation to other slide (next or previous) */
 swiper.on('slideChange', function () {
-  console.log('slide changed');
+  if (!shouldLoadHeroVideo) return;
   /* stop all videos (currentTime buggy without this loop idea) */
-  sliderVideos.each(function( index ) {
+  sliderVideos.each(function () {
     this.currentTime = 0;
   });
 
   /* SWIPER GET CURRENT AND PREV SLIDE (AND VIDEO INSIDE) */
-  var prevVideo =  $("[data-swiper-slide-index=" + this.previousIndex + "]").find("video");
-  var currentVideo =  $("[data-swiper-slide-index=" + this.realIndex + "]").find("video");
+  var prevVideo = $("[data-swiper-slide-index=" + this.previousIndex + "]").find("video");
+  var currentVideo = $("[data-swiper-slide-index=" + this.realIndex + "]").find("video");
   currentVideo.trigger('play');
   prevVideo.trigger('stop');
 });

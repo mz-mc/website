@@ -15,8 +15,8 @@
             <div class="bg-video-wrapper">
               <div class="overlay">
               {{ if .video }}
-              <video id="slider-video" autoplay loop muted playsinline>
-                <source src="{{ .video | absURL }}" type="video/mp4"></source>
+              <video id="slider-video" autoplay loop muted playsinline preload="metadata" poster="{{ .bg_image | absURL }}" aria-hidden="true">
+                <source data-src="{{ .video | absURL }}" type="video/mp4"></source>
                 Your browser does not support the video tag.
               </video>
               <img class="slider-bg-image vid-alt" src="{{ .bg_image | absURL }}" alt="slider">
@@ -32,7 +32,11 @@
                 </div>
               {{ end }}
               <div class="{{if .image}}cd-half-width{{else}}cd-full-width{{end}}">
+                {{ if eq $index 0 }}
+                <h1>{{ .title | markdownify }}</h1>
+                {{ else }}
                 <h2>{{ .title | markdownify }}</h2>
+                {{ end }}
                 <h3>{{ .subtitle | markdownify }}</h3>
                 {{ with .small_line }}
                 <div class="hero-meta">{{ . }}</div>
@@ -49,7 +53,11 @@
                 </div>
               {{ end }}
               <div class="{{if .image}}cd-half-width{{else}}cd-full-width{{end}}">
+                {{ if eq $index 0 }}
+                <h1>{{ .title | markdownify }}</h1>
+                {{ else }}
                 <h2>{{ .title | markdownify }}</h2>
+                {{ end }}
                 <h3>{{ .subtitle | markdownify }}</h3>
                 {{ with .small_line }}
                 <div class="hero-meta">{{ . }}</div>
@@ -61,7 +69,11 @@
             {{ else }}
               <div class="cd-full-width overlay">
                 <div class="container slide-content">
+                {{ if eq $index 0 }}
+                <h1>{{ .title | markdownify }}</h1>
+                {{ else }}
                 <h2>{{ .title | markdownify }}</h2>
+                {{ end }}
                 <h3>{{ .subtitle | markdownify }}</h3>
                 {{ with .small_line }}
                 <div class="hero-meta">{{ . }}</div>

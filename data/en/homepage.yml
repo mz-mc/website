@@ -243,7 +243,7 @@ feature:
     - name : "Consumer Marketing"
       icon : "fa-regular fa-lightbulb" # fontawesome icon pack 6.1.2
       content : "Multichannel demand-creation programs that convert awareness into sales"
-      link: "/services/consumer-trade-marketing"
+      link: "/services/consumer-marketing"
       
     # feature item loop
     - name : "Association Management"

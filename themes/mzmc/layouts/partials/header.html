@@ -17,9 +17,6 @@
 
       <div class="collapse navbar-collapse text-center" id="navigation">
         <ul class="navbar-nav mx-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="{{ site.BaseURL | relLangURL }}">{{ site.Params.Home }}</a>
-          </li>
           {{ range .Site.Menus.main }}
           {{ if .HasChildren }}
           <li class="nav-item dropdown">
@@ -35,7 +32,7 @@
           </li>
           {{ else }}
           <li class="nav-item">
-            <a class="nav-link" href="{{ .URL | relLangURL }}">{{ .Name }}</a></a>
+            <a class="nav-link" href="{{ .URL | relLangURL }}">{{ .Name }}</a>
           </li>
           {{ end }}
           {{ end }}
