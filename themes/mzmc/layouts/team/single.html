@@ -29,7 +29,7 @@
             <div class="py-3 border-bottom-not-last">
               <p class="d-inline-block font-primary m-0">
                 <i class="mr-2 fa-solid fa-leaf"></i>Favorite fruit</p>
-              <span class="font-weight-bold text-dark float-right"><a href="{{ .Params.Fav_fruit.link }}" target="_blank">{{ .Params.Fav_fruit.name }}</a></span>
+              <span class="font-weight-bold text-dark float-right"><a href="{{ .Params.Fav_fruit.link }}" target="_blank" rel="noopener noreferrer">{{ .Params.Fav_fruit.name }}</a></span>
             </div>
           </div>
         </div>
@@ -58,7 +58,7 @@
             <ul class="list-inline">
               {{ range .Params.Social }}
               <li class="list-inline-item mr-2">
-                <a class="team-social-icon social-icon-lg bg-gray text-dark" href="{{ .link | safeURL }}" target="_blank"><i class="{{ .icon }}"></i></a>
+                <a class="team-social-icon social-icon-lg bg-gray text-dark" href="{{ .link | safeURL }}" target="_blank" rel="noopener noreferrer"><i class="{{ .icon }}"></i></a>
               </li>
               {{ end }}
             </ul>

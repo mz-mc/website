@@ -136,75 +136,72 @@ jQuery(function ($) {
 	}
   */
 
-  const shouldLoadHeroVideo = window.matchMedia('(min-width: 768px)').matches;
-  var sliderVideos = $(".swiper-slide video");
+  if (typeof Swiper !== 'undefined' && $('.swiper').length) {
+    const shouldLoadHeroVideo = window.matchMedia('(min-width: 768px)').matches;
+    var sliderVideos = $(".swiper-slide video");
 
-  if (shouldLoadHeroVideo) {
-    sliderVideos.each(function () {
-      var source = this.querySelector('source[data-src]');
-      if (source && !source.src) {
-        source.src = source.dataset.src;
-        this.load();
-      }
+    if (shouldLoadHeroVideo) {
+      sliderVideos.each(function () {
+        var source = this.querySelector('source[data-src]');
+        if (source && !source.src) {
+          source.src = source.dataset.src;
+          this.load();
+        }
+      });
+    } else {
+      document.body.classList.add('reduce-hero-motion');
+      sliderVideos.each(function () {
+        this.removeAttribute('autoplay');
+        this.pause();
+        this.preload = 'none';
+      });
+    }
+
+    const swiper = new Swiper('.swiper', {
+      speed: 1000,
+      effect: 'fade',
+      autoplay: {
+        delay: 7000, /*set to longest video duration minus transition speed*/
+        disableOnInteraction: false,
+      },
+      pagination: {
+        el: '.swiper-pagination',
+        type: 'bullets',
+        clickable: true,
+      },
+      on: {
+        init: function () {
+          if (!shouldLoadHeroVideo) return;
+          var currentVideo = $("[data-swiper-slide-index=" + this.realIndex + "]").find("video");
+          currentVideo.trigger('play');
+        },
+      },
     });
-  } else {
-    document.body.classList.add('reduce-hero-motion');
-    sliderVideos.each(function () {
-      this.removeAttribute('autoplay');
-      this.pause();
-      this.preload = 'none';
+
+    swiper.on('slideChange', function () {
+      if (!shouldLoadHeroVideo) return;
+      sliderVideos.each(function () {
+        this.currentTime = 0;
+      });
+
+      var prevVideo = $("[data-swiper-slide-index=" + this.previousIndex + "]").find("video");
+      var currentVideo = $("[data-swiper-slide-index=" + this.realIndex + "]").find("video");
+      currentVideo.trigger('play');
+      prevVideo.trigger('stop');
     });
   }
-
-  const swiper = new Swiper('.swiper', {
-    speed: 1000,
-    effect: 'fade',
-    autoplay: {
-      delay: 7000, /*set to longest video duration minus transition speed*/
-      disableOnInteraction: false,
-    },
-    pagination: {
-      el: '.swiper-pagination',
-      type: 'bullets',
-      clickable: true,
-    },
-    /* ON INIT AUTOPLAY THE FIRST VIDEO */
-    on: {
-      init: function () {
-        if (!shouldLoadHeroVideo) return;
-        var currentVideo = $("[data-swiper-slide-index=" + this.realIndex + "]").find("video");
-        currentVideo.trigger('play');
-      },
-    },
-  });
-
-
-/* SWIPER SHOULD ONLY PLAY VIDEOS WHEN THEY COME INTO VIEW */  
-/* GET ALL VIDEOS */
-/* SWIPER API - Event will be fired after animation to other slide (next or previous) */
-swiper.on('slideChange', function () {
-  if (!shouldLoadHeroVideo) return;
-  /* stop all videos (currentTime buggy without this loop idea) */
-  sliderVideos.each(function () {
-    this.currentTime = 0;
-  });
-
-  /* SWIPER GET CURRENT AND PREV SLIDE (AND VIDEO INSIDE) */
-  var prevVideo = $("[data-swiper-slide-index=" + this.previousIndex + "]").find("video");
-  var currentVideo = $("[data-swiper-slide-index=" + this.realIndex + "]").find("video");
-  currentVideo.trigger('play');
-  prevVideo.trigger('stop');
-});
  
 
   /* ----------------------------------------------------------- */
   /*  Counter
   /* ----------------------------------------------------------- */
 
-  $('.counter').counterUp({
-    delay: 10,
-    time: 1000
-  });
+  if ($.fn.counterUp && $('.counter').length) {
+    $('.counter').counterUp({
+      delay: 10,
+      time: 1000
+    });
+  }
 
 
 
@@ -215,70 +212,69 @@ swiper.on('slideChange', function () {
 
   //Testimonial
 
-  $('#testimonial-carousel').owlCarousel({
+  if ($.fn.owlCarousel && $('#testimonial-carousel').length) {
+    $('#testimonial-carousel').owlCarousel({
+      navigation: false, // Show next and prev buttons
+      slideSpeed: 600,
+      pagination: true,
+      items: 1
+    });
 
-    navigation: false, // Show next and prev buttons
-    slideSpeed: 600,
-    pagination: true,
-    items: 1
+    var owl = $('#testimonial-carousel');
 
-  });
-
-  // Custom Navigation Events
-  var owl = $('#testimonial-carousel');
-
-
-  // Custom Navigation Events
-  $('.next').click(function () {
-    owl.trigger('owl.next');
-  });
-  $('.prev').click(function () {
-    owl.trigger('owl.prev');
-  });
-  $('.play').click(function () {
-    owl.trigger('owl.play', 1000); //owl.play event accept autoPlay speed as second parameter
-  });
-  $('.stop').click(function () {
-    owl.trigger('owl.stop');
-  });
+    $('.next').click(function () {
+      owl.trigger('owl.next');
+    });
+    $('.prev').click(function () {
+      owl.trigger('owl.prev');
+    });
+    $('.play').click(function () {
+      owl.trigger('owl.play', 1000); //owl.play event accept autoPlay speed as second parameter
+    });
+    $('.stop').click(function () {
+      owl.trigger('owl.stop');
+    });
+  }
 
 
   //Clients
 
-  $('#client-carousel').owlCarousel({
-
-    nav: false, // Show next and prev buttons
-    dots: false,  
-    loop: true,
-    items: 5,
-    responsive: {
-      0: {items:2},
-      576: {items:3},
-      768: {items:4},
-      992: {items:5},
-      1200: {items: 6},
-      1400: {items: 7}
-    },
-    autoplayHoverPause: false,
-    autoplay: true,
-    autoplaySpeed: 5000,
-    autoplayTimeout: 5000,
-    slideTransition: 'linear',
-    margin: 10
-  });
+  if ($.fn.owlCarousel && $('#client-carousel').length) {
+    $('#client-carousel').owlCarousel({
+      nav: false, // Show next and prev buttons
+      dots: false,
+      loop: true,
+      items: 5,
+      responsive: {
+        0: {items:2},
+        576: {items:3},
+        768: {items:4},
+        992: {items:5},
+        1200: {items: 6},
+        1400: {items: 7}
+      },
+      autoplayHoverPause: false,
+      autoplay: true,
+      autoplaySpeed: 5000,
+      autoplayTimeout: 5000,
+      slideTransition: 'linear',
+      margin: 10
+    });
+  }
 
   //App gallery
-  $('#app-gallery-carousel').owlCarousel({
-
-    navigation: false, // Show next and prev buttons
-    slideSpeed: 400,
-    pagination: true,
-    items: 4,
-    rewindNav: true,
-    itemsDesktop: [1199, 3],
-    itemsDesktopSmall: [979, 3],
-    stopOnHover: true
-  });
+  if ($.fn.owlCarousel && $('#app-gallery-carousel').length) {
+    $('#app-gallery-carousel').owlCarousel({
+      navigation: false, // Show next and prev buttons
+      slideSpeed: 400,
+      pagination: true,
+      items: 4,
+      rewindNav: true,
+      itemsDesktop: [1199, 3],
+      itemsDesktopSmall: [979, 3],
+      stopOnHover: true
+    });
+  }
 
 
 
@@ -287,25 +283,29 @@ swiper.on('slideChange', function () {
   /* ----------------------------------------------------------- */
 
   //Second item slider
-  $(window).load(function () {
-    $('.flexSlideshow').flexslider({
-      animation: 'fade',
-      controlNav: false,
-      directionNav: true,
-      slideshowSpeed: 8000
-    });
+  $(window).on('load', function () {
+    if ($.fn.flexslider && $('.flexSlideshow').length) {
+      $('.flexSlideshow').flexslider({
+        animation: 'fade',
+        controlNav: false,
+        directionNav: true,
+        slideshowSpeed: 8000
+      });
+    }
   });
 
 
   //Portfolio item slider
-  $(window).load(function () {
-    $('.flexportfolio').flexslider({
-      animation: 'slide',
-      controlNav: false,
-      directionNav: true,
-      slideshowSpeed: 8000,
-      controlNav: "thumbnails"
-    });
+  $(window).on('load', function () {
+    if ($.fn.flexslider && $('.flexportfolio').length) {
+      $('.flexportfolio').flexslider({
+        animation: 'slide',
+        controlNav: false,
+        directionNav: true,
+        slideshowSpeed: 8000,
+        controlNav: "thumbnails"
+      });
+    }
   });
 
 
@@ -313,14 +313,18 @@ swiper.on('slideChange', function () {
   /*  Animation
   /* ----------------------------------------------------------- */
   //Wow
-  new WOW().init();
+  if (typeof WOW !== 'undefined') {
+    new WOW().init();
+  }
 
 
   /* ----------------------------------------------------------- */
   /*  Prettyphoto
   /* ----------------------------------------------------------- */
 
-  $('a[data-rel^=\'prettyPhoto\']').prettyPhoto();
+  if ($.fn.prettyPhoto && $('a[data-rel^=\'prettyPhoto\']').length) {
+    $('a[data-rel^=\'prettyPhoto\']').prettyPhoto();
+  }
 
 
   /* ----------------------------------------------------------- */
@@ -398,46 +402,42 @@ swiper.on('slideChange', function () {
       https://greensock.com/forums/topic/11909-iconic-svginjector-preventing-gsap-animations/
   /* ----------------------------------------------------------- */
   
-  // Elements to inject
-  var mySVGsToInject = document.querySelectorAll('img.inject-me');
+  if (typeof SVGInjector !== 'undefined') {
+    var mySVGsToInject = document.querySelectorAll('img.inject-me');
 
-  // Options
-  var injectorOptions = {
-    evalScripts: 'once',
-    pngFallback: 'assets/png',
-    each: function (svg) {
-      // Callback after each SVG is injected
-      console.log('SVG injected: ' + svg.getAttribute('id'));
+    if (mySVGsToInject.length) {
+      var injectorOptions = {
+        evalScripts: 'once',
+        pngFallback: 'assets/png'
+      };
+
+      SVGInjector(mySVGsToInject, injectorOptions, function () {
+        if (typeof ScrollMagic === 'undefined' || typeof TimelineMax === 'undefined' || typeof TweenMax === 'undefined') {
+          return;
+        }
+
+        var $drawing = $("path#drawing");
+        if (!$drawing.length || !document.getElementById('trigger1')) {
+          return;
+        }
+
+        pathPrepare($drawing);
+
+        var controller = new ScrollMagic.Controller();
+        var tween = new TimelineMax()
+          .add(TweenMax.to($drawing, 0.9, {strokeDashoffset: 0, ease: Linear.easeNone}))
+          .add(TweenMax.to("path", 1, {stroke: "#33629c", ease: Linear.easeNone}), 0);
+
+        new ScrollMagic.Scene({triggerElement: "#trigger1", duration: 200, tweenChanges: true})
+          .setTween(tween)
+          .addTo(controller);
+
+        function pathPrepare($el) {
+          var lineLength = $el[0].getTotalLength();
+          $el.css("stroke-dasharray", lineLength);
+          $el.css("stroke-dashoffset", lineLength);
+        }
+      });
     }
-  };
-  
-  // Trigger the injection
-  SVGInjector(mySVGsToInject, injectorOptions, function (totalSVGsInjected) {
-    console.log('We injected ' + totalSVGsInjected + ' SVG(s)!');
-    // Animate with scrollmagic
-    var $drawing = $("path#drawing");
-
-	  // prepare SVG
-	  pathPrepare($drawing);
-
-	  // init controller
-	  var controller = new ScrollMagic.Controller();
-
-	  // build tween
-	  var tween = new TimelineMax()
-		.add(TweenMax.to($drawing, 0.9, {strokeDashoffset: 0, ease:Linear.easeNone})) // draw word for 0.9
-		.add(TweenMax.to("path", 1, {stroke: "#33629c", ease:Linear.easeNone}), 0);			// change color during the whole thing
-
-	  // build scene
-	  var scene = new ScrollMagic.Scene({triggerElement: "#trigger1", duration: 200, tweenChanges: true})
-					.setTween(tween)
-					//.addIndicators() // add indicators (requires plugin) remove for production
-					.addTo(controller);
-
-    function pathPrepare ($el) {
-      var lineLength = $el[0].getTotalLength();
-      $el.css("stroke-dasharray", lineLength);
-      $el.css("stroke-dashoffset", lineLength);
-    }
-  });
+  }
 	

@@ -54,8 +54,6 @@ link = "plugins/jQuery/jquery.min.js"
 [[params.plugins.js]]
 link = "plugins/bootstrap/bootstrap.min.js"
 [[params.plugins.js]]
-link = "plugins/style-switcher.js"
-[[params.plugins.js]]
 link = "plugins/owl/owl.carousel.js"
 [[params.plugins.js]]
 link = "plugins/jquery.prettyPhoto.js"
@@ -83,8 +81,6 @@ link = "plugins/scrollmagic/uncompressed/ScrollMagic.js"
 link = "plugins/scrollmagic/uncompressed/plugins/jquery.ScrollMagic.js"
 [[params.plugins.js]]
 link = "plugins/scrollmagic/uncompressed/plugins/animation.gsap.js"
-[[params.plugins.js]]
-link = "plugins/scrollmagic/uncompressed/plugins/debug.addIndicators.js"
 #[[params.plugins.js]]
 #link = "plugins/scrollmagic/uncompressed/plugins/animation.velocity.js"
 [[params.plugins.js]]
@@ -226,4 +222,3 @@ footer_content = ""
 copyright = "Copyright &copy; MZMC"
 
 ################################### Taxonomies #####################################
-

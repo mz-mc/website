@@ -102,7 +102,7 @@
 		</div><!-- Row end -->
 		<div class="row">
 			<div class="col-sm-12">
-				<div class="copyright-info text-center">{{ .Site.Params.copyright | markdownify }}. <a href="https://beian.miit.gov.cn/" target="_blank">沪ICP备17002158号-4</a></div>
+				<div class="copyright-info text-center">{{ .Site.Params.copyright | markdownify }}. <a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener noreferrer">沪ICP备17002158号-4</a></div>
 			</div>
 		</div>
 		<div id="back-to-top" data-spy="affix" data-offset-top="10" class="back-to-top affix position-fixed">
@@ -124,8 +124,28 @@
 {{ end }}
 
 {{ "<!-- JS Plugins -->" | safeHTML }}
+{{ $needsSwiper := .IsHome }}
+{{ $needsOwl := .IsHome }}
+{{ $needsFlexSlider := and .IsPage (or (eq .Section "clients") (eq .Section "portfolio")) }}
+{{ $needsPrettyPhoto := or (eq .Section "clients") (eq .Section "portfolio") }}
+{{ $needsIsotope := or (eq .Section "clients") (eq .Section "case-studies") (eq .Section "portfolio") }}
+{{ $needsCounter := or .IsHome (eq .Section "produce-report") }}
+{{ $needsVectorAnimation := or (eq .Section "about") (eq .Section "services") (eq .Section "team") (eq .Section "clients") }}
 {{ range .Site.Params.plugins.js}}
-<script src="{{ .link | absURL }}"></script>
+{{ $link := .link }}
+{{ $include := true }}
+{{ if in $link "plugins/style-switcher.js" }}{{ $include = false }}{{ end }}
+{{ if in $link "debug.addIndicators.js" }}{{ $include = false }}{{ end }}
+{{ if and (in $link "plugins/owl/") (not $needsOwl) }}{{ $include = false }}{{ end }}
+{{ if and (in $link "plugins/flex-slider/") (not $needsFlexSlider) }}{{ $include = false }}{{ end }}
+{{ if and (in $link "plugins/prettyPhoto") (not $needsPrettyPhoto) }}{{ $include = false }}{{ end }}
+{{ if and (or (in $link "plugins/isotope.js") (in $link "plugins/ini.isotope.js")) (not $needsIsotope) }}{{ $include = false }}{{ end }}
+{{ if and (or (in $link "plugins/jquery.counterup.min.js") (in $link "plugins/waypoints.min.js")) (not $needsCounter) }}{{ $include = false }}{{ end }}
+{{ if and (in $link "plugins/swiper/") (not $needsSwiper) }}{{ $include = false }}{{ end }}
+{{ if and (or (in $link "plugins/gsap/") (in $link "plugins/scrollmagic/") (in $link "plugins/svg-injector.min.js")) (not $needsVectorAnimation) }}{{ $include = false }}{{ end }}
+{{ if $include }}
+<script src="{{ $link | absURL }}"></script>
+{{ end }}
 {{ end }}
 
 {{ "<!-- Main Script -->" | safeHTML }}
@@ -136,4 +156,3 @@
 <!--
 <script src="https://cdn.skypack.dev/pin/@hotwired/turbo@v7.1.0-V83RMQBlYCPK9CvTqQoL/mode=imports,min/optimized/@hotwired/turbo.js" type="module"></script>
 -->
-

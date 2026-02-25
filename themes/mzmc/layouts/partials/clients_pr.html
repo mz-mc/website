@@ -41,7 +41,7 @@
       {{ $image := $image.Resize "600x" }}
       <div class="col-6 col-xs-6 col-sm-4 col-md-3 col-lg-2 {{ range .Params.region }}{{ . | urlize}} {{ end }} isotope-item">
         <div class="grid">
-          <a href="{{ .Params.link }}" target="_blank">
+          <a href="{{ .Params.link }}" target="_blank" rel="noopener noreferrer">
           <figure class="m-0 effect-oscar">
             <img src="{{ $image.RelPermalink }}" alt="client image">
             <!--

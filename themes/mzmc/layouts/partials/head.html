@@ -9,8 +9,21 @@
   {{ hugo.Generator }}
 
   {{ "<!-- plugins -->" | safeHTML }}
+  {{ $needsSwiper := .IsHome }}
+  {{ $needsOwl := .IsHome }}
+  {{ $needsFlexSlider := and .IsPage (or (eq .Section "clients") (eq .Section "portfolio")) }}
+  {{ $needsPrettyPhoto := or (eq .Section "clients") (eq .Section "portfolio") }}
   {{ range .Site.Params.plugins.css }}
-  <link rel="stylesheet" href="{{ .link | absURL }}">
+  {{ $link := .link }}
+  {{ $include := true }}
+  {{ if and (in $link "plugins/prettyPhoto.css") (not $needsPrettyPhoto) }}{{ $include = false }}{{ end }}
+  {{ if and (or (in $link "plugins/owl/owl.carousel.css") (in $link "plugins/owl/owl.theme.css")) (not $needsOwl) }}{{ $include = false }}{{ end }}
+  {{ if and (in $link "plugins/flex-slider/") (not $needsFlexSlider) }}{{ $include = false }}{{ end }}
+  {{ if and (in $link "plugins/swiper/") (not $needsSwiper) }}{{ $include = false }}{{ end }}
+  {{ if and (in $link "plugins/cd-hero/") (not $needsSwiper) }}{{ $include = false }}{{ end }}
+  {{ if $include }}
+  <link rel="stylesheet" href="{{ $link | absURL }}">
+  {{ end }}
   {{ end }}
 
   {{ "<!-- Main Stylesheet -->" | safeHTML }}
@@ -26,9 +39,6 @@
 
   {{ template "_internal/google_analytics.html" . }}
   {{ template "_internal/opengraph.html" . }}
-
-  {{ "<!-- Netlify Identity -->" | safeHTML }}
-  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 
   {{ "<!-- Google tag (gtag.js) -->" | safeHTML }}
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-Q6FQYR0GFY"></script>
