@@ -14,34 +14,38 @@ weight: 2
 draft: false
 ---
 
-### Knowledge is Power
+### Knowledge Is Power
 
-MZMC conducts in-depth research and intelligence reporting to support evidence-based marketing, track KPIs, and help clients optimize for impact.
+MZMC delivers in-depth research and market intelligence to support evidence-based strategy, KPI tracking, and performance optimization.
 
-We combine extensive knowledge of China’s food and agriculture markets with rigorous research methodologies and a passion to understand. The end result is better returns for our clients and strategies designed to ensure long-term success.
+We combine long-standing knowledge of China’s food and agriculture landscape with rigorous, field-tested research methodologies and a commitment to understanding how markets function in practice. The result is clearer decision-making, stronger returns on investment, and strategies built for long-term success.
 
 <div class="service-checklist">
 
-#### What we examine
+#### What We Examine
 
-<i class="fa fa-check"></i> Regulatory environment
+<i class="fa fa-check"></i> Regulatory frameworks and market access requirements
 
-<i class="fa fa-check"></i> Supply chain bottlenecks and pain points
+<i class="fa fa-check"></i> Supply chain structure, bottlenecks, and points of friction
 
-<i class="fa fa-check"></i> Retail and consumer trends across regions and demographics  
+<i class="fa fa-check"></i> Retail, e-commerce, and consumer trends across regions and demographics
 
-<i class="fa fa-check"></i> Competing products and suppliers
+<i class="fa fa-check"></i> Competitive landscape, including products, suppliers, and channels
 
-<i class="fa fa-check"></i> Economic and price trends
+<i class="fa fa-check"></i> Macroeconomic conditions and price dynamics
 
-<i class="fa fa-check"></i> Labeling requirements and permissible claims
+<i class="fa fa-check"></i> Labeling standards and permissible claims
 
 </div>
 <br>
 
-#### How we do it
+#### How We Work
 
-Our market specialists employ quantitative and qualitative analyses informed by desk research, expert interviews, and field visits to critical points in the supply chain. We apply both manual searching and tech-enabled tools to extract metrics for products, prices, and sellers from popular e-commerce platforms. We identify and interview leading importers, distributors, retailers, industry associations, and government regulators. We conduct field visits to border ports, free-trade zones, logistics hubs, retailers, and foodservice outlets. We work with global leaders in consumer survey research to understand the habits and preferences of China’s consumers in relation to specific products.
+Our specialists integrate quantitative and qualitative analysis, combining structured desk research with expert interviews and on-the-ground fieldwork at critical points in the value chain.
+
+We extract product, pricing, and seller data from major e-commerce platforms using a hybrid methodology that blends manual validation with advanced analytical tools. We engage directly with importers, distributors, retailers, industry associations, and regulators to test assumptions and verify market realities.
+
+Our field research spans border ports, free-trade zones, logistics hubs, retail environments, and foodservice channels. In parallel, we collaborate with leading global consumer research firms to generate statistically robust insights into purchasing behavior and product perception in China.
 
 #### Recent reports
 
