@@ -3,8 +3,9 @@ slider:
   enable : true
   slider_item:
     ################# Slider item loop
-    - title : "Marketing, Research & Public Relations"
-      subtitle : "China market development and trade program execution to expand access, accelerate demand, and deliver commercial results"
+    - title : "China Market Development, Delivered"
+      subtitle : "Strategy, execution, and in-market representation for international partners building long-term success in China"
+      small_line : "Since 2005 · Shanghai"
       #video : "images/slider/vid1.mp4"
       #video : "images/slider/fruitmarket2.mp4"
       video: "images/slider/461265564.mp4"
@@ -223,55 +224,55 @@ feature:
     # feature item loop
     - name : "Market Development"
       icon : "fa-solid fa-arrow-up-right-dots" # fontawesome icon pack 6.1.2
-      content : "Full-service solutions for associations, agencies, and corporate entities in China"
+      content : "End-to-end market development for associations, government programs, and companies in China"
       link: "/services/market-development"
       
     # feature item loop
     - name : "Research & Intelligence"
       icon : "fa-solid fa-magnifying-glass-chart" # fontawesome icon pack 6.1.2
-      content : "Market research and intelligence reporting for informed, evidence-based strategies"
+      content : "Market intelligence that drives informed, evidence-based strategy"
       link: "/services/research-intelligence"
       
     # feature item loop
     - name : "Public Relations"
       icon : "fa-solid fa-bullhorn" # fontawesome icon pack 6.1.2
-      content : "Communication strategies to build and maintain brands synonymous with excellence"
+      content : "Reputation and communications programs that build lasting market leadership"
       link: "/services/public-relations"
       
     # feature item loop
     - name : "Consumer Marketing"
       icon : "fa-regular fa-lightbulb" # fontawesome icon pack 6.1.2
-      content : "Creative, multichannel campaigns that achieve results"
+      content : "Multichannel demand-creation programs that convert awareness into sales"
       link: "/services/consumer-trade-marketing"
       
     # feature item loop
     - name : "Association Management"
       icon : "fa-solid fa-cubes" # fontawesome icon pack 6.1.2
-      content : "Establish and build your organization’s presence in China"
+      content : "Establish and grow high-impact industry platforms in China"
       link: "/services/association-management"
       
     # feature item loop
     - name : "Event Management"
       icon : "fa-solid fa-list-check" # fontawesome icon pack 6.1.2
-      content : "Uncompromising attention to detail to achieve immediate and lasting impact"
+      content : "High-impact industry events that create momentum and lasting value"
       link: "/services/event-management"
       
     # feature item loop
     - name : "IP & TM Consulting"
       icon : "fa-solid fa-scale-balanced" # fontawesome icon pack 6.1.2
-      content : "Protect your intellectual property and brand assets from unauthorized use"
+      content : "Secure and defend your intellectual property for long-term market success"
       link: "/services/ip-trademark-consulting"
       
     # feature item loop
     - name : "Procurement"
       icon : "fa-solid fa-money-check-dollar" # fontawesome icon pack 6.1.2
-      content : "Transparency and accountability for when it matters most"
+      content : "Transparent, protocol-compliant procurement for publicly funded programs"
       link: "/services/procurement"
       
     # feature item loop
     - name : "Government Relations"
       icon : "fa-solid fa-landmark-flag" # fontawesome icon pack 6.1.2
-      content : "Harmonize standards and cut through regulatory red tape"
+      content : "Regulatory alignment and market access through sustained government engagement"
       link: "/services/government-relations"
 
 
@@ -282,22 +283,22 @@ about:
   title : "Get to know our"
   subtitle : "Agri-food experts"
   bg_image : "images/site/home-about.jpg"
-  content : "MZMC is the China market development partner trusted by leading agri-food producers, globally recognized brands, and governmental trade agencies"
+  content : "MZMC is the China market development partner trusted by leading agri-food producers, global brands, and government trade agencies"
   about_item:
     # about item loop
-    - name : "Food and beverage"
+    - name : "Food & Agriculture"
       icon : "fa-check" # fontawesome icon pack 6.1.2
-      content : "Exclusive focus on optimizing growth strategies for each specific product and market"
+      content : "Product- and market-specific growth strategies across the food and agriculture value chain"
       
     # about item loop
-    - name : "Fresh produce"
+    - name : "Fresh Produce"
       icon : "fa-check" # fontawesome icon pack 6.1.2
-      content : "Unparalleled expertise in fresh produce supply chains, regulatory issues, and marketing tools"
+      content : "Deep expertise in fresh produce supply chains, regulatory frameworks, and demand creation"
       
     # about item loop
     - name : "Multidisciplinary"
       icon : "fa-check" # fontawesome icon pack 6.1.2
-      content : "Uniquely creative and evidence-based approach by a multitalented international team"
+      content : "A multidisciplinary, international team combining creativity with evidence-based strategy"
 
 
 ############################### team ####################################
