@@ -141,6 +141,11 @@ name = "Clients"
 URL = "clients"
 weight = 10
 
+[[Languages.en.menu.main]]
+name = "Case Studies"
+URL = "case-studies"
+weight = 15
+
 # [[Languages.en.menu.main]]
 # name = "Media"
 # URL = "produce-report"
@@ -221,5 +226,4 @@ footer_content = ""
 copyright = "Copyright &copy; MZMC"
 
 ################################### Taxonomies #####################################
-
 

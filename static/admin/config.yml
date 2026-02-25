@@ -83,6 +83,64 @@ collections:
       - label: "Categories"
         name: "categories"
         widget: "list"
+  ########## case studies
+  - name: "case_studies"
+    media_folder: "/assets/images/case-studies"
+    public_folder: "/images/case-studies"
+    label: "Case Studies"
+    label_singular: "Case Study"
+    folder: "content/english/case-studies"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime", required: false}
+      - {label: "Summary", name: "summary", widget: "text"}
+      - {label: "Timeline", name: "timeline", widget: "string", hint: "Example: 2021 - present"}
+      - label: "Clients"
+        name: "client_refs"
+        widget: "relation"
+        collection: "clients"
+        search_fields: ["title"]
+        value_field: "{{slug}}"
+        display_fields: ["title"]
+        multiple: true
+        required: false
+        hint: "Select one or more existing clients to automatically show their logos."
+      - label: "Additional Client Names"
+        name: "client_names"
+        widget: "list"
+        required: false
+        hint: "Use when a client does not exist in the Clients collection."
+        field: {label: "Client Name", name: "name", widget: "string"}
+      - {label: "Client Name (manual fallback)", name: "client_name", widget: "string", required: false}
+      - {label: "Client Description", name: "client_description", widget: "text", required: false}
+      - label: "Additional logos"
+        name: "additional_logos"
+        widget: "list"
+        required: false
+        summary: '{{fields.image}}'
+        field: {label: "Logo", name: "image", widget: "image"}
+      - label: "Service lines"
+        name: "service_lines"
+        widget: "select"
+        multiple: true
+        required: false
+        options:
+          - "Market Development"
+          - "Research & Intelligence"
+          - "Public Relations"
+          - "Consumer Marketing"
+          - "Association Management"
+          - "Government Relations"
+          - "Event Management"
+          - "IP & Trademark Consulting"
+          - "Procurement"
+      - {label: "Scope of Work", name: "scope_of_work", widget: "markdown"}
+      - {label: "Work Product and Outcomes", name: "work_products_outcomes", widget: "markdown"}
+      - {label: "Additional Content", name: "body", widget: "markdown", required: false}
+      - {label: "Weight", name: "weight", widget: "number", required: false}
+      - {label: "Draft", name: "draft", widget: "boolean", default: false, required: false}
   ########## team
   - name: "team"
     media_folder: "/assets/images/team"

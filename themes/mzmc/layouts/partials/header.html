@@ -16,7 +16,7 @@
       </button>
 
       <div class="collapse navbar-collapse text-center" id="navigation">
-        <ul class="navbar-nav ml-auto">
+        <ul class="navbar-nav mx-auto">
           <li class="nav-item">
             <a class="nav-link" href="{{ site.BaseURL | relLangURL }}">{{ site.Params.Home }}</a>
           </li>
@@ -39,34 +39,35 @@
           </li>
           {{ end }}
           {{ end }}
-          {{ with $data.produce_report.enzh_intro }}
-          <li class="nav-item">
-            <a class="nav-link" href="/produce-report"><span class="pr-logo-menu"><img src="{{ .en_image | absURL }}" alt="Produce Report logo (en)"></span></a>
-          </li>
-          {{ end }}
         </ul>
-        
-        <!-- Language List -->
-        {{ if .IsTranslated }}
-        <select class="m-2 border-0" id="select-language" onchange="location = this.value;">
-          {{ $siteLanguages := site.Languages}}
-          {{ $pageLang := .Page.Lang}}
-          {{ range .Page.AllTranslations }}
-          {{ $translation := .}}
-          {{ range $siteLanguages }}
-          {{ if eq $translation.Lang .Lang }}
-          {{ $selected := false }}
-          {{ if eq $pageLang .Lang}}
-          <option id="{{ $translation.Language }}" value="{{ $translation.RelPermalink }}" selected>{{ .LanguageName }}
-          </option>
-          {{ else }}
-          <option id="{{ $translation.Language }}" value="{{ $translation.RelPermalink }}">{{ .LanguageName }}</option>
+
+        <div class="nav-tools">
+          {{ with $data.produce_report.enzh_intro }}
+          <a class="pr-logo-link" href="/produce-report"><span class="pr-logo-menu"><img src="{{ .en_image | absURL }}" alt="Produce Report logo (en)"></span></a>
           {{ end }}
+
+          <!-- Language List -->
+          {{ if .IsTranslated }}
+          <select class="m-2 border-0" id="select-language" onchange="location = this.value;">
+            {{ $siteLanguages := site.Languages}}
+            {{ $pageLang := .Page.Lang}}
+            {{ range .Page.AllTranslations }}
+            {{ $translation := .}}
+            {{ range $siteLanguages }}
+            {{ if eq $translation.Lang .Lang }}
+            {{ $selected := false }}
+            {{ if eq $pageLang .Lang}}
+            <option id="{{ $translation.Language }}" value="{{ $translation.RelPermalink }}" selected>{{ .LanguageName }}
+            </option>
+            {{ else }}
+            <option id="{{ $translation.Language }}" value="{{ $translation.RelPermalink }}">{{ .LanguageName }}</option>
+            {{ end }}
+            {{ end }}
+            {{ end }}
+            {{ end }}
+          </select>
           {{ end }}
-          {{ end }}
-          {{ end }}
-        </select>
-        {{ end }}
+        </div>
       </div>
     </nav>
   </div>

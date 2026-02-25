@@ -1,0 +1,137 @@
+{{ define "main" }}
+
+{{ $allClients := where site.RegularPages "Section" "clients" }}
+{{ $clientPages := slice }}
+{{ with .Params.client_refs }}
+{{ range . }}
+{{ $ref := . }}
+{{ $matches := where $allClients "File.ContentBaseName" $ref }}
+{{ if eq (len $matches) 0 }}
+{{ $matches = where $allClients "Title" $ref }}
+{{ end }}
+{{ if gt (len $matches) 0 }}
+{{ $clientPages = $clientPages | append (index $matches 0) }}
+{{ end }}
+{{ end }}
+{{ end }}
+
+{{ $clientNames := slice }}
+{{ range $clientPages }}
+{{ $clientNames = $clientNames | append .Title }}
+{{ end }}
+{{ $manualClientNames := slice }}
+{{ with .Params.client_names }}
+{{ range . }}
+{{ $manualName := . }}
+{{ if reflect.IsMap . }}
+{{ $manualName = .name }}
+{{ end }}
+{{ $manualClientNames = $manualClientNames | append $manualName }}
+{{ end }}
+{{ end }}
+{{ with .Params.client_name }}
+{{ $manualClientNames = $manualClientNames | append . }}
+{{ end }}
+{{ $displayClientNames := $clientNames }}
+{{ range $manualClientNames }}
+{{ $displayClientNames = $displayClientNames | append . }}
+{{ end }}
+{{ $displayClientNames = $displayClientNames | uniq }}
+
+<section class="section case-study-single">
+  <div class="container">
+    <div class="row">
+      <aside class="col-lg-4 mb-5 mb-lg-0">
+        <div class="bg-gray rounded p-4 case-study-sidebar">
+          {{ if or (gt (len $clientPages) 0) .Params.additional_logos }}
+          <div class="case-study-logos case-study-logos-sidebar">
+            {{ range $clientPages }}
+            {{ with resources.Get .Params.image }}
+            {{ $logo := .Resize "500x" }}
+            <img class="case-study-logo" src="{{ $logo.RelPermalink }}" alt="{{ $.Title }} logo">
+            {{ end }}
+            {{ end }}
+            {{ with .Params.additional_logos }}
+            {{ range . }}
+            {{ $logoPath := . }}
+            {{ if reflect.IsMap . }}
+            {{ $logoPath = .image }}
+            {{ end }}
+            {{ with resources.Get $logoPath }}
+            {{ $logo := .Resize "500x" }}
+            <img class="case-study-logo" src="{{ $logo.RelPermalink }}" alt="{{ $.Title }} logo">
+            {{ end }}
+            {{ end }}
+            {{ end }}
+          </div>
+          {{ end }}
+
+          {{ if gt (len $displayClientNames) 0 }}
+          <div class="case-study-meta-item">
+            <p class="case-study-meta-label">Client</p>
+            <p class="mb-0">
+              {{ delimit $displayClientNames ", " }}
+            </p>
+          </div>
+          {{ end }}
+
+          {{ with .Params.client_description }}
+          <div class="case-study-meta-item">
+            <p class="case-study-meta-label">Client Description</p>
+            <p class="mb-0">{{ . }}</p>
+          </div>
+          {{ end }}
+
+          {{ with .Params.timeline }}
+          <div class="case-study-meta-item">
+            <p class="case-study-meta-label">Timeline</p>
+            <p class="mb-0">{{ . }}</p>
+          </div>
+          {{ end }}
+
+          {{ with .Params.service_lines }}
+          <div class="case-study-meta-item mb-0">
+            <p class="case-study-meta-label">Service Lines</p>
+            <ul class="list-inline mb-0">
+              {{ range . }}
+              <li class="list-inline-item case-study-tag">{{ . }}</li>
+              {{ end }}
+            </ul>
+          </div>
+          {{ end }}
+        </div>
+      </aside>
+
+      <div class="col-lg-8">
+        <h2>{{ .Title }}</h2>
+        {{ with .Params.summary }}
+        <p class="lead mb-4">{{ . }}</p>
+        {{ end }}
+
+        {{ with .Params.scope_of_work }}
+        <div class="case-study-section">
+          <h3>Scope of Work</h3>
+          <div class="post-content">{{ . | markdownify }}</div>
+        </div>
+        {{ end }}
+
+        {{ with .Params.work_products_outcomes }}
+        <div class="case-study-section">
+          <h3>Work Product and Outcomes</h3>
+          <div class="post-content">{{ . | markdownify }}</div>
+        </div>
+        {{ end }}
+
+        {{ with .Content }}
+        <div class="case-study-section">
+          <div class="post-content">{{ . }}</div>
+        </div>
+        {{ end }}
+
+        <a href="{{ `case-studies/` | relLangURL }}" class="btn btn-primary mt-3">Back to Case Studies</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+{{ end }}

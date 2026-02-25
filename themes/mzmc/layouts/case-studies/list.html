@@ -1,0 +1,138 @@
+{{ define "main" }}
+
+<section class="section case-studies-list">
+  <div class="container">
+    {{ $headingTitle := .Params.heading_title | default .Title }}
+    <div class="row">
+      <div class="col-md-12 heading">
+        {{ with .Params.title_icon }} <span class="title-icon float-left"><i class="fa {{ . }}"></i></span> {{ end }}
+        <h2 class="title">{{ $headingTitle | markdownify }}{{ with .Params.subtitle }} <span class="title-desc">{{ . | markdownify }}</span>{{ end }}</h2>
+      </div>
+    </div>
+
+    {{ $serviceLines := slice }}
+    {{ range .Pages }}
+    {{ range .Params.service_lines }}
+    {{ $serviceLines = $serviceLines | append . }}
+    {{ end }}
+    {{ end }}
+    {{ $serviceLines = $serviceLines | uniq }}
+
+    {{ if gt (len $serviceLines) 0 }}
+    <div class="row text-right">
+      <div class="col-12">
+        <div class="isotope-nav" data-isotope-nav="case-studies-grid">
+          <ul>
+            <li><a href="#" class="active" data-filter="*">All</a></li>
+            {{ range $serviceLines }}
+            <li><a href="#" data-filter=".{{ . | urlize }}">{{ . }}</a></li>
+            {{ end }}
+          </ul>
+        </div>
+      </div>
+    </div>
+    {{ end }}
+
+    <div class="row isotope" id="case-studies-grid">
+      {{ range .Pages.ByWeight }}
+      {{ $case := . }}
+      {{ $allClients := where site.RegularPages "Section" "clients" }}
+      {{ $clientPages := slice }}
+      {{ with .Params.client_refs }}
+      {{ range . }}
+      {{ $ref := . }}
+      {{ $matches := where $allClients "File.ContentBaseName" $ref }}
+      {{ if eq (len $matches) 0 }}
+      {{ $matches = where $allClients "Title" $ref }}
+      {{ end }}
+      {{ if gt (len $matches) 0 }}
+      {{ $clientPages = $clientPages | append (index $matches 0) }}
+      {{ end }}
+      {{ end }}
+      {{ end }}
+
+      {{ $clientNames := slice }}
+      {{ range $clientPages }}
+      {{ $clientNames = $clientNames | append .Title }}
+      {{ end }}
+      {{ $manualClientNames := slice }}
+      {{ with .Params.client_names }}
+      {{ range . }}
+      {{ $manualName := . }}
+      {{ if reflect.IsMap . }}
+      {{ $manualName = .name }}
+      {{ end }}
+      {{ $manualClientNames = $manualClientNames | append $manualName }}
+      {{ end }}
+      {{ end }}
+      {{ with .Params.client_name }}
+      {{ $manualClientNames = $manualClientNames | append . }}
+      {{ end }}
+      {{ $displayClientNames := $clientNames }}
+      {{ range $manualClientNames }}
+      {{ $displayClientNames = $displayClientNames | append . }}
+      {{ end }}
+      {{ $displayClientNames = $displayClientNames | uniq }}
+
+      <div class="col-lg-6 mb-4 {{ range .Params.service_lines }}{{ . | urlize }} {{ end }} isotope-item">
+        <article class="card h-100 case-study-card wow fadeInUp">
+          <div class="card-body">
+            {{ $hasLogos := false }}
+            {{ if gt (len $clientPages) 0 }}
+            {{ $hasLogos = true }}
+            {{ end }}
+            {{ if .Params.additional_logos }}
+            {{ $hasLogos = true }}
+            {{ end }}
+            <div class="case-study-logos {{ if not $hasLogos }}is-empty{{ end }}">
+              {{ if $hasLogos }}
+              {{ range $clientPages }}
+              {{ with resources.Get .Params.image }}
+              {{ $logo := .Resize "300x" }}
+              <img class="case-study-logo" src="{{ $logo.RelPermalink }}" alt="{{ $case.Title }} logo">
+              {{ end }}
+              {{ end }}
+              {{ with .Params.additional_logos }}
+              {{ range . }}
+              {{ $logoPath := . }}
+              {{ if reflect.IsMap . }}
+              {{ $logoPath = .image }}
+              {{ end }}
+              {{ with resources.Get $logoPath }}
+              {{ $logo := .Resize "300x" }}
+              <img class="case-study-logo" src="{{ $logo.RelPermalink }}" alt="{{ $case.Title }} logo">
+              {{ end }}
+              {{ end }}
+              {{ end }}
+              {{ end }}
+            </div>
+
+            <h3 class="case-study-card-title">
+              <a class="font-primary text-dark" href="{{ .RelPermalink }}">{{ .Title }}</a>
+            </h3>
+
+            {{ if gt (len $displayClientNames) 0 }}
+            <p class="case-study-client mb-1">
+              {{ delimit $displayClientNames ", " }}
+            </p>
+            {{ end }}
+
+            {{ with .Params.timeline }}
+            <p class="case-study-timeline mb-3">{{ . }}</p>
+            {{ end }}
+
+            {{ with .Params.summary }}
+            <p class="mb-0 case-study-summary">{{ . }}</p>
+            {{ end }}
+          </div>
+          <div class="card-footer border-0">
+            <a href="{{ .RelPermalink }}" class="btn btn-primary">View Case Study</a>
+          </div>
+        </article>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+
+{{ end }}

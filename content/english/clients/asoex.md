@@ -2,7 +2,7 @@
 _schema: default
 title: FDC
 date: 2022-10-15T11:50:09.942Z
-image: /images/clients/fdc.png
+image: /images/clients/logo.png
 link: https://www.asoex.cl/
 client_type:
   - MZMC
