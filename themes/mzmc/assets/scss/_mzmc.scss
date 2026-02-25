@@ -229,6 +229,16 @@
     font-size: 1.2rem;
 }
 
+.about .tab-content .post-content p,
+.about .tab-content .post-content li {
+    font-size: 1.2rem;
+    line-height: 1.7;
+}
+
+.about .tab-content .post-content ul {
+    margin-top: 0.8rem;
+}
+
 .about {
     padding-top: unset;
 }

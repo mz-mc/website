@@ -1,59 +1,64 @@
 ############################ Company Profile ########################
 company_profile:
   enable : true
-  title : "MZMC"
-  subtitle : "Who we are, what we do, and why we do it"
+  title : "About MZMC"
+  subtitle : "China market development since 2005"
   title_icon : "fa-solid fa-leaf" # fontawesome icon pack 6.1.2
   profile_tab:
 
     # profile tab item loop
     - name : "Our Company"
       icon : "fa-solid fa-briefcase" # fontawesome icon pack 6.1.2
-      title : "A boutique market development firm"
-      content : "Since 2005, we have been forging partnerships, building bridges, and facilitating growth.
-      <br><br>
-      MZMC is unique. We focus exclusively on food and agriculture, working at the intersection of the public, private, and nonprofit sectors. We combine cutting-edge marketing tools, rigorous research methodologies, journalism, diplomacy, and policy analysis⁠ — with a spark of creative inspiration — to do what others can’t. Our multitalented and multilingual team is what sets us apart and the secret to our success.
-      <br><br>
-      MZMC is also the only China market development firm of its kind with a media arm. Read about our industry-renowned digital publication, [*Produce Report*](/produce-report)."
+      title : "A Specialized Market Development Firm"
+      content : |-
+        Since 2005, MZMC has built partnerships that move markets.
+
+        MZMC is a China-focused market development firm with deep expertise in food and agriculture. Our work operates at the intersection of government, industry, and trade — where policy, commerce, and reputation converge.
+
+        We design and execute integrated market development strategies that expand access, stimulate demand, and deliver measurable commercial outcomes. Our capabilities span strategic marketing, applied research, public relations, trade program management, journalism, diplomatic engagement, and policy analysis.
+
+        What differentiates MZMC is not only sector expertise, but execution depth. Our multilingual, multidisciplinary team works fluently across cultural, commercial, and regulatory environments — ensuring strategy translates into results on the ground.
+
+        MZMC is also the only China market development firm of its kind with an integrated media platform: [Produce Report](/produce-report), our industry-recognized digital publication covering China’s fresh produce and agri-food sectors. This direct media capability strengthens our market intelligence, communications precision, and industry reach in ways traditional agencies cannot replicate.
+
+        Learn more about [our team](/team).
 
     # profile tab item loop
     - name : "Who We Are"
       icon : "fa-solid fa-people-group" # fontawesome icon pack 6.1.2
-      title : "More than the sum of our parts"
-      content : "MZMC is a diverse team of market development experts. We’re marketers, researchers, and journalists. We’re entrepreneurs, scientists, and artists. We’re also just good people who enjoy doing work we can feel proud of.
-      <br><br>
-      MZMC was founded by [Mabel Zhuang](/team/mabel-zhuang). After 13 years of working in trade promotion and association management — including serving for five years with the USDA Foreign Agricultural Service — she decided to use her skills and resources to build a company that would meet critical industry needs while reflecting her vision and values: using business as a platform to support a fairer, healthier, and more connected world. Originally MZ Marketing Communications, MZMC is now much more than a marketing communications firm. While our company headquarters remains in Shanghai, our global experts span Asia, Europe, and the Americas, with an extended network covering six continents.
-      <br><br>
-      Learn more about who’s on [our team](/team).
-      <br><br>
-      "
+      title : "Multidisciplinary by Design"
+      content : |-
+        MZMC is a diverse team of market development specialists — marketers, researchers, and journalists working alongside entrepreneurs, scientists, and artists. This breadth of perspective is intentional. It allows us to approach complex market challenges with both analytical rigor and creative range.
+
+        MZMC was founded by [Mabel Zhuang](/team/mabel-zhuang) after more than a decade in trade promotion and association management, including five years with the USDA Foreign Agricultural Service. She established the firm to meet critical industry needs while building an organization shaped by a clear set of values: using business as a platform to support a fairer, healthier, and more connected world.
+
+        Originally launched as MZ Marketing Communications, MZMC has evolved into a fully integrated market development firm. While our headquarters remain in Shanghai, our team now spans Asia, Europe, and the Americas, supported by an extended global network with reach across six continents.
+
+        Learn more about [our team](/team).
 
     # profile tab item loop
     - name : "What We Do"
-      icon : "fa-solid fa-seedling" # fontawesome icon pack 6.1.2
-      title : "Appetite for excellence"
-      content : "We help foreign food and beverage producers build long-term, sustainable businesses in China.
-      <br><br>
-      MZMC consults on all aspects of trade at the national association, government, and corporate levels. We carry out in-depth market research that takes us to the frontier to learn firsthand what’s happening on the ground, where there are bottlenecks, and where there are untapped opportunities. We organize events and lead trade delegations that set benchmarks for excellence and move markets. We design and execute marketing campaigns that win hearts, minds, and habits.
-      <br><br>
-      Over the years, MZMC has helped 
-      <ul>
-      <li>Introduce cranberries to Chinese consumers</li>
-      <li>Establish pecans in China’s bakery and snack food sectors</li>
-      <li>Promote Chile’s $1 billion cherry trade with China</li>
-      <li>Develop China’s awareness of and thirst for craft beer</li>
-      <li>Launch one of the leading global [fresh produce trade publications](/produce-report)</li>
-      <li>And so much more...</li>
-      </ul>
-      "
+      icon : "fa-solid fa-chart-line" # fontawesome icon pack 6.1.2
+      title : "How We Deliver Market Outcomes"
+      content : |-
+        We help international partners build long-term, sustainable businesses in China.
+
+        MZMC advises national associations, government agencies, and companies of all sizes, from SMEs to multinational industry leaders, across the full trade development cycle. Our market research is conducted on the ground, where policy, supply chains, and consumer behavior intersect — identifying bottlenecks, validating assumptions, and uncovering untapped opportunity.
+
+        We design and deliver trade initiatives that set industry benchmarks, from high-level delegations to flagship events that convene the right stakeholders and convert engagement into commercial momentum. Our marketing programs are built not only to raise visibility, but to shape preference, influence purchasing behavior, and establish enduring market presence.
+
+        See selected examples in our [Case Studies](/case-studies).
       
     # profile tab item loop
     - name : "Why We Do It"
-      icon : "fa-solid fa-heart" # fontawesome icon pack 6.1.2
-      title : "Because we care"
-      content : "We’re passionate about food and agriculture and believe in the possibility of a better world — one in which everyone can coexist in health and harmony.
-      <br><br>
-      In practice, that means building integrity, trust, and excellence into everything we do. We like to think of MZMC as a little oasis in the midst of a chaotic world of international business often characterized by distrust, short-term aims, and mismatched priorities. MZMC is different. We take pride in what we do and how well we do it. Our clients often become our friends. For us, business is a platform for cooperation with the potential to bring out our best — and that is how we approach all of our partnerships."
+      icon : "fa-solid fa-handshake-angle" # fontawesome icon pack 6.1.2
+      title : "Why This Work Matters"
+      content : |-
+        We believe that international trade, when built on trust and shared purpose, can contribute to a healthier, more connected world.
+
+        For us, this means embedding integrity, long-term thinking, and a commitment to excellence in every engagement. Cross-border business is often shaped by misaligned incentives, short time horizons, and information gaps. Our role is to align stakeholders, establish confidence, and create the conditions for durable cooperation and sustainable growth.
+
+        We measure success not only by commercial outcomes, but by the strength of the partnerships we help build. Many of our client relationships evolve into long-term collaborations grounded in mutual respect and shared achievement. We approach each engagement with the conviction that business, at its best, is a platform for meaningful cooperation — and for delivering results that endure.
       
     
 ############################### funfact ##################################
