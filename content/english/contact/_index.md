@@ -1,5 +1,5 @@
 ---
-title: "Contact Us"
+title: "Contact"
 # page header background image
 page_header_bg: "images/site/home-about.jpg"
 # meta description

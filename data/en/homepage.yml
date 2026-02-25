@@ -216,8 +216,8 @@ funfact:
 ############################### feature ##################################
 feature:
   enable : true
-  title : "What we do"
-  subtitle : "<a href='/services'>See all services</a>"
+  title : "Capabilities"
+  subtitle : "<a href='/services'>View all services</a>"
   title_icon : "" # fontawesome icon pack 6.1.2
   feature_item:
     # feature item loop
@@ -357,7 +357,7 @@ testimonial:
 clients_logo_slider:
   enable : true
   title : "Who we work with"
-  subtitle : "<a href='clients'>See all clients</a>"
+  subtitle : "<a href='clients'>View all clients</a>"
   title_icon : "" # fontawesome icon pack 6.1.2
   # below slider items not in use
   slider_item:

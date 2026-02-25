@@ -2,6 +2,7 @@
 company_profile:
   enable : true
   title : "MZMC"
+  subtitle : "Who we are, what we do, and why we do it"
   title_icon : "fa-solid fa-leaf" # fontawesome icon pack 6.1.2
   profile_tab:
 

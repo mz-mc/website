@@ -477,8 +477,8 @@
 .case-studies-list .isotope-nav ul {
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-end;
-    gap: 0.6rem 0.65rem;
+    justify-content: center;
+    gap: 0.8rem 0.65rem;
     margin: 0;
     padding: 0;
 }
@@ -496,13 +496,41 @@
 
 .case-studies-list .isotope-nav ul a.active:after,
 .case-studies-list .isotope-nav ul a:hover:after {
-    display: none;
+    bottom: -10px;
+    border-width: 6px;
 }
 
-@media (max-width: 767px) {
-    .case-studies-list .isotope-nav ul {
-        justify-content: flex-start;
-    }
+.clients_list .isotope-nav {
+    float: none;
+    display: block;
+    margin: 0 0 2rem 0;
+    padding-bottom: 0;
+}
+
+.clients_list .isotope-nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.8rem 0.65rem;
+    margin: 0;
+    padding: 0;
+}
+
+.clients_list .isotope-nav ul li {
+    float: none;
+    margin: 0;
+}
+
+.clients_list .isotope-nav ul li a {
+    display: inline-block;
+    line-height: 1.25;
+    padding: 0.45rem 0.85rem 0.5rem;
+}
+
+.clients_list .isotope-nav ul a.active:after,
+.clients_list .isotope-nav ul a:hover:after {
+    bottom: -10px;
+    border-width: 6px;
 }
 
 .pr-logo img {
