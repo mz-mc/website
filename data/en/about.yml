@@ -21,8 +21,6 @@ company_profile:
 
         MZMC is also the only China market development firm of its kind with an integrated media platform: [Produce Report](/produce-report), our industry-recognized digital publication covering China’s fresh produce and agri-food sectors. This direct media capability strengthens our market intelligence, communications precision, and industry reach in ways traditional agencies cannot replicate.
 
-        Learn more about [our team](/team).
-
     # profile tab item loop
     - name : "Who We Are"
       icon : "fa-solid fa-people-group" # fontawesome icon pack 6.1.2
