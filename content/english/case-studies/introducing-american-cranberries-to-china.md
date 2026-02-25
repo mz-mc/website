@@ -12,9 +12,15 @@ service_lines:
   - Consumer Marketing
   - Public Relations
 scope_of_work: |-
-  Served as the China representative for the Committee until its dissolution in 2024; led the introduction of U.S. cranberries to the China market; conducted pre-market research to establish baseline metrics for consumer awareness, consumption, and industry utilization; and developed and implemented creative, evidence-based educational and promotional campaigns targeting both consumers and industry stakeholders.
+  - Served as the China representative for the Committee until its dissolution in 2024.
+  - Led the introduction of U.S. cranberries to the China market.
+  - Conducted pre-market research to establish baseline metrics for consumer awareness, consumption, and industry utilization.
+  - Developed and implemented creative, evidence-based educational and promotional campaigns targeting both consumers and industry stakeholders.
 work_products_outcomes: |-
-  Increased awareness of cranberries among urban Chinese consumers from under 4% in 2013 to 55% in 2015, with continued growth to 74% by 2024; managed a USD 2 million marketing budget; established a high-profile partnership with Hey Tea, a premium Chinese tea chain; and supported significant growth in cranberry applications across bakery, beverage, snack products, and home cooking, contributing to increased U.S. exports.
+  - Increased awareness of cranberries among urban Chinese consumers from under 4% in 2013 to 55% in 2015, with continued growth to 74% by 2024.
+  - Managed a USD 2 million marketing budget.
+  - Established a high-profile partnership with Hey Tea, a premium Chinese tea chain.
+  - Supported significant growth in cranberry applications across bakery, beverage, snack products, and home cooking, contributing to increased U.S. exports.
 weight: 32
 draft: false
 ---

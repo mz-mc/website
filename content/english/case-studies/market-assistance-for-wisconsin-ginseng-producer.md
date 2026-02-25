@@ -13,19 +13,16 @@ service_lines:
   - Market Development
   - Research & Intelligence
   - Government Relations
-scope_of_work: Monitor and analyze relevant tariff and trade policies affecting
-  U.S. ginseng exports to China to inform market entry and export strategy;
-  facilitate introductions and meetings with potential trade leads; support the
-  establishment of Heil Ginseng's Chinese social media presence; assist the
-  appointed distributor in identifying potential sales channels; and support
-  outreach to two to three prospective direct buyers in China as part of
-  early-stage market development efforts.
-work_products_outcomes: Initiated market entry activities and trade outreach for
-  Heil Ginseng in China; facilitated a connection with a potential buyer through
-  the USDA Agricultural Trade Office (ATO) in Guangzhou, CZL, a supplier of
-  packaged Wisconsin ginseng to Sam's Club; and established an initial pipeline
-  of trade contacts to support future distributor-led sales and market
-  expansion.
+scope_of_work: |-
+  - Monitor and analyze relevant tariff and trade policies affecting U.S. ginseng exports to China to inform market entry and export strategy.
+  - Facilitate introductions and meetings with potential trade leads.
+  - Support the establishment of Heil Ginseng's Chinese social media presence.
+  - Assist the appointed distributor in identifying potential sales channels.
+  - Support outreach to two to three prospective direct buyers in China as part of early-stage market development efforts.
+work_products_outcomes: |-
+  - Initiated market entry activities and trade outreach for Heil Ginseng in China.
+  - Facilitated a connection with a potential buyer through the USDA Agricultural Trade Office (ATO) in Guangzhou, CZL, a supplier of packaged Wisconsin ginseng to Sam's Club.
+  - Established an initial pipeline of trade contacts to support future distributor-led sales and market expansion.
 weight: 37
 draft: false
 ---

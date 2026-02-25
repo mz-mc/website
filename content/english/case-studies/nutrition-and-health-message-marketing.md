@@ -17,26 +17,19 @@ service_lines:
   - Public Relations
   - Consumer Marketing
   - Market Development
-scope_of_work: Localize international nutrition and health research for the
-  China market in collaboration with nutritionists, translating findings into
-  compliant consumer-facing key messages aligned with Chinese health trends;
-  compile research into brochures and articles for dissemination through trade
-  conferences, industry media, and social platforms; promote WMO and SAPPA
-  through the MZMC-owned Dried Fruit and Nuts Report (DFN) social media account;
-  conduct local laboratory testing to validate nutrient profiles for FDC and
-  SAPPA; develop nutrition toolkits used by Chilean exporters and major fruit
-  retailers for marketing materials and in-store promotion; work with health and
-  lifestyle KOLs and academic experts to support conferences, workshops,
-  webinars, and social media outreach; and coordinate legal review to ensure
-  compliance with Chinese advertising regulations.
-work_products_outcomes: Established accurate, locally validated nutrient tables
-  and key nutritional strengths for Chilean cherries and South African pecans;
-  achieved broad trade exposure for compliant health messages through industry
-  media and conferences, with over two thousand brochures distributed and three
-  thousand impressions generated; extended consumer reach through nutrition and
-  lifestyle KOL amplification, generating eight million impressions and strong
-  engagement; and enabled exporters and Chinese trade partners to apply these
-  health messages in their own marketing to support consumption growth.
+scope_of_work: |-
+  - Localize international nutrition and health research for the China market in collaboration with nutritionists, translating findings into compliant consumer-facing key messages aligned with Chinese health trends.
+  - Compile research into brochures and articles for dissemination through trade conferences, industry media, and social platforms.
+  - Promote WMO and SAPPA through the MZMC-owned Dried Fruit and Nuts Report (DFN) social media account.
+  - Conduct local laboratory testing to validate nutrient profiles for FDC and SAPPA.
+  - Develop nutrition toolkits used by Chilean exporters and major fruit retailers for marketing materials and in-store promotion.
+  - Work with health and lifestyle KOLs and academic experts to support conferences, workshops, webinars, and social media outreach.
+  - Coordinate legal review to ensure compliance with Chinese advertising regulations.
+work_products_outcomes: |-
+  - Established accurate, locally validated nutrient tables and key nutritional strengths for Chilean cherries and South African pecans.
+  - Achieved broad trade exposure for compliant health messages through industry media and conferences, with over two thousand brochures distributed and three thousand impressions generated.
+  - Extended consumer reach through nutrition and lifestyle KOL amplification, generating eight million impressions and strong engagement.
+  - Enabled exporters and Chinese trade partners to apply these health messages in their own marketing to support consumption growth.
 weight: 38
 draft: false
 ---
