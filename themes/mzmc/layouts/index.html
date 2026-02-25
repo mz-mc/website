@@ -35,7 +35,7 @@
                 <h2>{{ .title | markdownify }}</h2>
                 <h3>{{ .subtitle | markdownify }}</h3>
                 {{ with .small_line }}
-                <p class="hero-meta">{{ . | markdownify }}</p>
+                <div class="hero-meta">{{ . }}</div>
                 {{ end }}
                 {{ range .buttons }}
                   <a href="{{ .link | relLangURL }}" class="btn btn-primary {{.style}} cd-btn">{{ .label }}</a>
@@ -52,7 +52,7 @@
                 <h2>{{ .title | markdownify }}</h2>
                 <h3>{{ .subtitle | markdownify }}</h3>
                 {{ with .small_line }}
-                <p class="hero-meta">{{ . | markdownify }}</p>
+                <div class="hero-meta">{{ . }}</div>
                 {{ end }}
                 {{ range .buttons }}
                   <a href="{{ .link | relLangURL }}" class="btn btn-primary {{.style}} cd-btn">{{ .label }}</a>
@@ -64,7 +64,7 @@
                 <h2>{{ .title | markdownify }}</h2>
                 <h3>{{ .subtitle | markdownify }}</h3>
                 {{ with .small_line }}
-                <p class="hero-meta">{{ . | markdownify }}</p>
+                <div class="hero-meta">{{ . }}</div>
                 {{ end }}
                 {{ range .buttons }}
                   <a href="{{ .link | relLangURL }}" class="btn btn-primary {{.style}} cd-btn">{{ .label }}</a>
