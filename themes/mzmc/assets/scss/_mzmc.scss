@@ -89,6 +89,14 @@
     text-transform: none;
 }
 
+.cd-hero-slider .slide-content h3 {
+    max-width: 48ch;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.35;
+    text-wrap: balance;
+}
+
 .overlay {
     position: absolute;
     width: 100%;
@@ -746,6 +754,9 @@ figure.effect-oscar figcaption {
         max-width: 66%;
         text-align: center;
     }
+    .cd-hero-slider .slide-content h3 {
+        max-width: 54ch;
+    }
     .cd-hero-slider h2 {
         margin-left: auto;
     }
@@ -754,5 +765,20 @@ figure.effect-oscar figcaption {
     }
     .nav-item .nav-link {
         margin: auto;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .slide-content {
+        max-width: 78%;
+    }
+    .cd-hero-slider .slide-content h2 {
+        max-width: 32ch;
+        margin-left: auto;
+        margin-right: auto;
+        text-wrap: balance;
+    }
+    .cd-hero-slider .slide-content h3 {
+        max-width: 58ch;
     }
 }

@@ -3,8 +3,8 @@ slider:
   enable : true
   slider_item:
     ################# Slider item loop
-    - title : "Marketing, Research, and Public Relations"
-      subtitle : "MZMC is the China market development partner for global food and agriculture leaders"
+    - title : "Marketing, Research & Public Relations"
+      subtitle : "China market development and trade program execution to expand access, accelerate demand, and deliver commercial results"
       #video : "images/slider/vid1.mp4"
       #video : "images/slider/fruitmarket2.mp4"
       video: "images/slider/461265564.mp4"
@@ -295,7 +295,7 @@ about:
       content : "Unparalleled expertise in fresh produce supply chains, regulatory issues, and marketing tools"
       
     # about item loop
-    - name : "Multidisiplinary"
+    - name : "Multidisciplinary"
       icon : "fa-check" # fontawesome icon pack 6.1.2
       content : "Uniquely creative and evidence-based approach by a multitalented international team"
 
@@ -308,8 +308,8 @@ team:
 ############################ Call to action #############################
 call_to_action:
   enable : true
-  title : "Let's talk"
-  subtitle : "Get in touch with our market development team"
+  title : "Let's Talk"
+  subtitle : "Tell us your goals for growth in China"
   bg_image : "images/site/footer-cta.jpg"
   buttons:
     # button loop

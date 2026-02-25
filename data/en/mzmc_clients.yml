@@ -1,7 +1,7 @@
 clients:
   enable: true
   title: Our Clients
-  subtitle: Who we have worked with
+  subtitle: Organizations we serve across the global food and agriculture value chain
   title_icon: fa-suitcase
 testimonial:
   enable: true

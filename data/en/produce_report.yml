@@ -15,8 +15,8 @@ funfact:
       count: 8800
 about:
   enable: true
-  title: We Know
-  subtitle: Fresh Produce
+  title: Trusted Intelligence
+  subtitle: For Fresh Produce Professionals
   bg_image: images/site/prcapture.jpg
   content: MZMC is the owner and operator of *Produce Report*, the leading digital trade publication for fresh produce professionals from around the world — with a focus on China
   about_item:
@@ -59,7 +59,7 @@ feature:
     - name: Organics
       icon: fa-solid fa-arrows-spin
       content: ""
-    - name: Wholsale Markets
+    - name: Wholesale Markets
       icon: fa-solid fa-maximize
       content: ""
 enzh_intro:
@@ -75,5 +75,5 @@ enzh_intro:
 clients:
   enable: true
   title: Our Clients
-  subtitle: International brands leverage *Produce Report*’s industry leadership<br> to grow their business with ad placements, sponsored articles, press releases, and market and product updates.
+  subtitle: International brands partner with *Produce Report* to reach decision-makers across the fresh produce supply chain
   title_icon: fa-suitcase
