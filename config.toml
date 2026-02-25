@@ -4,13 +4,15 @@ title = "MZMC - China Food & Agriculture Market Development"
 theme = "mzmc"
 metaDataFormat = "yaml"
 # post pagination
-paginate = "6"
+[pagination]
+pagerSize = 6
 # post excerpt
 summaryLength = "10"
 # google analytics
 googleAnalytics = "" # example : UA-123-45
 # disqus short name
-disqusShortname = "" # get your shortname form here : https://disqus.com
+[services.disqus]
+shortname = ""
 
 
 ############################# Outputs ##############################
@@ -211,6 +213,8 @@ languageName = "En"
 languageCode = "en-us"
 contentDir = "content/english"
 weight = 1
+
+[Languages.en.params]
 # footer content
 footer_content = ""
 # copyright

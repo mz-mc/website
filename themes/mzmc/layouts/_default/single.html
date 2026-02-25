@@ -33,7 +33,7 @@
           <div class="gap-30"></div>
 
           <!-- comments -->
-          {{ if .Site.DisqusShortname }}
+          {{ if .Site.Config.Services.Disqus.Shortname }}
           {{ template "_internal/disqus.html" . }}
           {{ end }}
         </div><!-- News post end -->
