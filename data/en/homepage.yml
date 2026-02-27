@@ -3,8 +3,8 @@ slider:
   enable : true
   slider_item:
     ################# Slider item loop
-    - title : "China Market Development, Delivered"
-      subtitle : "Strategy, execution, and in-market representation for international partners building long-term success in China"
+    - title : "China Market Development"
+      subtitle : "Strategy, execution, and in-market representation for long-term growth"
       small_line : "Since 2005 · Shanghai"
       #video : "images/slider/vid1.mp4"
       #video : "images/slider/fruitmarket2.mp4"
