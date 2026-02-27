@@ -9,21 +9,21 @@ introboxes:
       link : "services"
       image : "images/pages/services.jpg"
       icon : "fa-solid fa-globe" # fontawesome icon pack 6.1.2
-      content : "End-to-end market development to establish and grow your presence in China"
+      content : "End-to-end strategies and programs to establish and grow your business in China"
       
     # service item loop
     - name : "Company"
       link : "about"
       image : "images/pages/about1.jpg"
       icon : "fa-solid fa-address-card" # fontawesome icon pack 6.1.2
-      content : "The strategy, execution, and partnerships behind our market development work"
+      content : "Our track record, methodology, and partnerships — built over two decades"
       
     # service item loop
     - name : "Digital Media"
       link : "produce-report"
       image : "images/pages/media.jpg"
       icon : "fa-solid fa-diagram-project" # fontawesome icon pack 6.1.2
-      content : "Our media platform: agenda-setting insight for the global fresh produce industry"
+      content : "An agenda-setting media platform for the global fresh produce industry"
 
 
 ############################### testimonial ####################################
