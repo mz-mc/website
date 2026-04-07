@@ -1,7 +1,7 @@
 ---
 title: MACFRUT
 date: 2022-11-02T06:01:39.783Z
-image: /images/clients/macfrut.png
+image: /images/clients/macfrut-fiera.png
 link: https://www.macfrut.com/en/
 client_type:
   - Produce Report
