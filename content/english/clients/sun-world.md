@@ -1,7 +1,7 @@
 ---
 title: Sun World
 image: /images/clients/sw.png
-link: https://mp.weixin.qq.com/s/Fov4S1M4oKSVIid5GvvKIQ
+link: https://www.sun-world.com/
 client_type:
   - Produce Report
   - MZMC
