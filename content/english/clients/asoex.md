@@ -2,8 +2,8 @@
 _schema: default
 title: FDC
 date: 2022-10-15T11:50:09.942Z
-image: /images/clients/logo.png
-link: https://www.asoex.cl/
+image: /images/clients/fdc.png
+link: https://fruitsfromchile.cn/
 client_type:
   - MZMC
   - Produce Report
