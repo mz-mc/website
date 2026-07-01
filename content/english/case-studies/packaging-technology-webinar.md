@@ -29,7 +29,7 @@ work_products_outcomes: >-
 
   * Achieved brand recognition for Stepac among China trade.
 
-  * Facilitated new distributor engagement, with more than 20 trade contacts added to StePac's Chinese distributor network.
+  * · Facilitated new distributor engagement, with more than 20 trade contacts added to StePac’s Chinese distributor network.
 
   * Delivered a well-attended educational webinar with over 90 participants.
 weight: 35
